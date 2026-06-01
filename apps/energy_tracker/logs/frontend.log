@@ -1,0 +1,4999 @@
+    "temp_correlation",
+    "total_records"
+  ]
+}
+[2026-04-15T12:20:52.147Z] [manual_1355559] [LOG] [FETCH_RESPONSE] {
+  "status": 200,
+  "contentType": "application/json"
+}
+[2026-04-15T12:20:52.148Z] [manual_1355559] [LOG] [PARSE_SUCCESS] {
+  "keys": [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12",
+    "13",
+    "14",
+    "15",
+    "16",
+    "17",
+    "18",
+    "19",
+    "20",
+    "21",
+    "22",
+    "23",
+    "24",
+    "25",
+    "26",
+    "27",
+    "28",
+    "29"
+  ]
+}
+[2026-04-15T12:22:34.291Z] [manual_1355559] [LOG] [FETCH_START] {
+  "func": "predict_energy",
+  "module": "apps.energy_tracker.backend.main"
+}
+[2026-04-15T12:22:38.881Z] [manual_1355559] [LOG] [FETCH_RESPONSE] {
+  "status": 200,
+  "contentType": "application/json"
+}
+[2026-04-15T12:22:38.883Z] [manual_1355559] [LOG] [PARSE_SUCCESS] {
+  "keys": [
+    "date",
+    "predicted_energy",
+    "unit"
+  ]
+}
+[2026-04-15T12:22:41.284Z] [manual_1355559] [LOG] [CACHE_HIT] {
+  "func": "get_stats",
+  "module": "apps.energy_tracker.backend.main"
+}
+[2026-04-15T12:22:41.286Z] [manual_1355559] [LOG] [CACHE_HIT] {
+  "func": "get_historical_data",
+  "module": "apps.energy_tracker.backend.main"
+}
+[2026-04-15T12:22:46.800Z] [manual_1355559] [LOG] [FETCH_RESPONSE] {
+  "status": 200,
+  "contentType": "application/json"
+}
+[2026-04-15T12:22:46.804Z] [manual_1355559] [LOG] [PARSE_SUCCESS] {
+  "keys": [
+    "avg_consumption",
+    "peak_consumption",
+    "temp_correlation",
+    "total_records"
+  ]
+}
+[2026-04-15T12:22:47.267Z] [manual_1355559] [LOG] [FETCH_RESPONSE] {
+  "status": 200,
+  "contentType": "application/json"
+}
+[2026-04-15T12:22:47.269Z] [manual_1355559] [LOG] [PARSE_SUCCESS] {
+  "keys": [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12",
+    "13",
+    "14",
+    "15",
+    "16",
+    "17",
+    "18",
+    "19",
+    "20",
+    "21",
+    "22",
+    "23",
+    "24",
+    "25",
+    "26",
+    "27",
+    "28",
+    "29"
+  ]
+}
+[2026-04-15T12:39:16.234Z] [manual_1355559] [LOG] [FETCH_START] {
+  "func": "get_historical_data",
+  "module": "apps.energy_tracker.backend.main"
+}
+[2026-04-15T12:39:17.525Z] [manual_1355559] [LOG] [CACHE_HIT] {
+  "func": "predict_energy",
+  "module": "apps.energy_tracker.backend.main"
+}
+[2026-04-15T12:39:23.269Z] [manual_1355559] [LOG] [FETCH_RESPONSE] {
+  "status": 200,
+  "contentType": "application/json"
+}
+[2026-04-15T12:39:23.286Z] [manual_1355559] [LOG] [PARSE_SUCCESS] {
+  "keys": [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12",
+    "13",
+    "14",
+    "15",
+    "16",
+    "17",
+    "18",
+    "19",
+    "20",
+    "21",
+    "22",
+    "23",
+    "24",
+    "25",
+    "26",
+    "27",
+    "28",
+    "29",
+    "30",
+    "31",
+    "32",
+    "33",
+    "34",
+    "35",
+    "36",
+    "37",
+    "38",
+    "39",
+    "40",
+    "41",
+    "42",
+    "43",
+    "44",
+    "45",
+    "46",
+    "47",
+    "48",
+    "49",
+    "50",
+    "51",
+    "52",
+    "53",
+    "54",
+    "55",
+    "56",
+    "57",
+    "58",
+    "59",
+    "60",
+    "61",
+    "62",
+    "63",
+    "64",
+    "65",
+    "66",
+    "67",
+    "68",
+    "69",
+    "70",
+    "71",
+    "72",
+    "73",
+    "74",
+    "75",
+    "76",
+    "77",
+    "78",
+    "79",
+    "80",
+    "81",
+    "82",
+    "83",
+    "84",
+    "85",
+    "86",
+    "87",
+    "88",
+    "89",
+    "90",
+    "91",
+    "92",
+    "93",
+    "94",
+    "95",
+    "96",
+    "97",
+    "98",
+    "99"
+  ]
+}
+[2026-04-15T12:39:26.407Z] [manual_1355559] [LOG] [FETCH_RESPONSE] {
+  "status": 200,
+  "contentType": "application/json"
+}
+[2026-04-15T12:39:26.425Z] [manual_1355559] [LOG] [PARSE_SUCCESS] {
+  "keys": [
+    "date",
+    "predicted_energy",
+    "unit"
+  ]
+}
+[2026-04-16T01:55:21.251Z] [manual_1404457] [LOG] [FETCH_START] {
+  "func": "get_stats",
+  "module": "apps.energy_tracker.backend.main"
+}
+[2026-04-16T01:55:21.257Z] [manual_1404457] [LOG] [FETCH_START] {
+  "func": "get_historical_data",
+  "module": "apps.energy_tracker.backend.main"
+}
+[2026-04-16T01:55:21.260Z] [manual_1404457] [LOG] RENDER_SUCCESS
+[2026-04-16T01:55:28.322Z] [manual_1404457] [LOG] [FETCH_RESPONSE] {
+  "status": 200,
+  "contentType": "application/json"
+}
+[2026-04-16T01:55:28.324Z] [manual_1404457] [LOG] [FETCH_RESPONSE] {
+  "status": 200,
+  "contentType": "application/json"
+}
+[2026-04-16T01:55:28.330Z] [manual_1404457] [LOG] [PARSE_SUCCESS] {
+  "keys": [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12",
+    "13",
+    "14",
+    "15",
+    "16",
+    "17",
+    "18",
+    "19",
+    "20",
+    "21",
+    "22",
+    "23",
+    "24",
+    "25",
+    "26",
+    "27",
+    "28",
+    "29"
+  ]
+}
+[2026-04-16T01:55:28.331Z] [manual_1404457] [LOG] [PARSE_SUCCESS] {
+  "keys": [
+    "avg_consumption",
+    "peak_consumption",
+    "temp_correlation",
+    "total_records"
+  ]
+}
+[2026-04-16T17:03:35.316Z] [manual_1458951] [LOG] [FETCH_START] {
+  "func": "get_stats",
+  "module": "apps.energy_tracker.backend.main"
+}
+[2026-04-16T17:03:35.320Z] [manual_1458951] [LOG] [FETCH_START] {
+  "func": "get_historical_data",
+  "module": "apps.energy_tracker.backend.main"
+}
+[2026-04-16T17:03:35.321Z] [manual_1458951] [LOG] RENDER_SUCCESS
+[2026-04-16T17:03:48.490Z] [manual_1458951] [LOG] [FETCH_RESPONSE] {
+  "status": 200,
+  "contentType": "application/json"
+}
+[2026-04-16T17:03:48.493Z] [manual_1458951] [LOG] [PARSE_SUCCESS] {
+  "keys": [
+    "avg_consumption",
+    "peak_consumption",
+    "temp_correlation",
+    "total_records"
+  ]
+}
+[2026-04-16T17:03:48.970Z] [manual_1458951] [LOG] [FETCH_RESPONSE] {
+  "status": 200,
+  "contentType": "application/json"
+}
+[2026-04-16T17:03:48.972Z] [manual_1458951] [LOG] [PARSE_SUCCESS] {
+  "keys": [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12",
+    "13",
+    "14",
+    "15",
+    "16",
+    "17",
+    "18",
+    "19",
+    "20",
+    "21",
+    "22",
+    "23",
+    "24",
+    "25",
+    "26",
+    "27",
+    "28",
+    "29"
+  ]
+}
+[2026-04-16T17:03:36.376Z] [manual_1458953] [LOG] [FETCH_START] {
+  "func": "get_stats",
+  "module": "apps.energy_tracker.backend.main"
+}
+[2026-04-16T17:03:36.377Z] [manual_1458953] [LOG] [FETCH_START] {
+  "func": "get_historical_data",
+  "module": "apps.energy_tracker.backend.main"
+}
+[2026-04-16T17:03:36.378Z] [manual_1458953] [LOG] RENDER_SUCCESS
+[2026-04-16T17:03:36.386Z] [manual_1458953] [LOG] [FETCH_RESPONSE] {
+  "status": 200,
+  "contentType": "application/json"
+}
+[2026-04-16T17:03:36.387Z] [manual_1458953] [LOG] [PARSE_SUCCESS] {
+  "keys": [
+    "avg_consumption",
+    "peak_consumption",
+    "temp_correlation",
+    "total_records"
+  ]
+}
+[2026-04-16T17:03:36.396Z] [manual_1458953] [LOG] [FETCH_RESPONSE] {
+  "status": 200,
+  "contentType": "application/json"
+}
+[2026-04-16T17:03:36.397Z] [manual_1458953] [LOG] [PARSE_SUCCESS] {
+  "keys": [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12",
+    "13",
+    "14",
+    "15",
+    "16",
+    "17",
+    "18",
+    "19",
+    "20",
+    "21",
+    "22",
+    "23",
+    "24",
+    "25",
+    "26",
+    "27",
+    "28",
+    "29"
+  ]
+}
+[2026-04-16T17:04:00.626Z] [manual_1458951] [LOG] [FETCH_START] {
+  "func": "predict_energy",
+  "module": "apps.energy_tracker.backend.main"
+}
+[2026-04-16T17:04:05.138Z] [manual_1458951] [LOG] [FETCH_RESPONSE] {
+  "status": 200,
+  "contentType": "application/json"
+}
+[2026-04-16T17:04:05.145Z] [manual_1458951] [LOG] [PARSE_SUCCESS] {
+  "keys": [
+    "date",
+    "predicted_energy",
+    "unit"
+  ]
+}
+[2026-04-17T05:05:02.963Z] [manual_1502238] [LOG] [FETCH_START] {
+  "func": "get_stats",
+  "module": "apps.energy_tracker.backend.main"
+}
+[2026-04-17T05:05:02.965Z] [manual_1502238] [LOG] [FETCH_START] {
+  "func": "get_historical_data",
+  "module": "apps.energy_tracker.backend.main"
+}
+[2026-04-17T05:05:02.965Z] [manual_1502238] [LOG] RENDER_SUCCESS
+[2026-04-17T05:05:10.421Z] [manual_1502238] [LOG] [FETCH_RESPONSE] {
+  "status": 200,
+  "contentType": "application/json"
+}
+[2026-04-17T05:05:10.425Z] [manual_1502238] [LOG] [FETCH_RESPONSE] {
+  "status": 200,
+  "contentType": "application/json"
+}
+[2026-04-17T05:05:10.430Z] [manual_1502238] [LOG] [PARSE_SUCCESS] {
+  "keys": [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12",
+    "13",
+    "14",
+    "15",
+    "16",
+    "17",
+    "18",
+    "19",
+    "20",
+    "21",
+    "22",
+    "23",
+    "24",
+    "25",
+    "26",
+    "27",
+    "28",
+    "29"
+  ]
+}
+[2026-04-17T05:05:10.433Z] [manual_1502238] [LOG] [PARSE_SUCCESS] {
+  "keys": [
+    "avg_consumption",
+    "peak_consumption",
+    "temp_correlation",
+    "total_records"
+  ]
+}
+[2026-04-17T05:05:45.124Z] [manual_1502238] [LOG] [FETCH_START] {
+  "func": "predict_energy",
+  "module": "apps.energy_tracker.backend.main"
+}
+[2026-04-17T05:05:50.889Z] [manual_1502238] [LOG] [FETCH_RESPONSE] {
+  "status": 200,
+  "contentType": "application/json"
+}
+[2026-04-17T05:05:50.892Z] [manual_1502238] [LOG] [PARSE_SUCCESS] {
+  "keys": [
+    "date",
+    "predicted_energy",
+    "unit"
+  ]
+}
+[2026-04-17T07:43:36.740Z] [manual_1511751] [LOG] [FETCH_START] {
+  "func": "get_stats",
+  "module": "apps.energy_tracker.backend.main"
+}
+[2026-04-17T07:43:36.741Z] [manual_1511751] [LOG] [FETCH_START] {
+  "func": "get_historical_data",
+  "module": "apps.energy_tracker.backend.main"
+}
+[2026-04-17T07:43:36.742Z] [manual_1511751] [LOG] RENDER_SUCCESS
+[2026-04-17T12:43:31.656Z] [manual_1529747] [LOG] [FETCH_START] {
+  "func": "get_stats",
+  "module": "apps.energy_tracker.backend.main"
+}
+[2026-04-17T12:43:31.668Z] [manual_1529747] [LOG] [FETCH_START] {
+  "func": "get_historical_data",
+  "module": "apps.energy_tracker.backend.main"
+}
+[2026-04-17T12:43:31.669Z] [manual_1529747] [LOG] RENDER_SUCCESS
+[2026-04-17T12:43:38.952Z] [manual_1529747] [LOG] [FETCH_RESPONSE] {
+  "status": 200,
+  "contentType": "application/json"
+}
+[2026-04-17T12:43:38.954Z] [manual_1529747] [LOG] [PARSE_SUCCESS] {
+  "keys": [
+    "avg_consumption",
+    "peak_consumption",
+    "temp_correlation",
+    "total_records"
+  ]
+}
+[2026-04-17T12:43:38.956Z] [manual_1529747] [LOG] [FETCH_RESPONSE] {
+  "status": 200,
+  "contentType": "application/json"
+}
+[2026-04-17T12:43:38.957Z] [manual_1529747] [LOG] [PARSE_SUCCESS] {
+  "keys": [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12",
+    "13",
+    "14",
+    "15",
+    "16",
+    "17",
+    "18",
+    "19",
+    "20",
+    "21",
+    "22",
+    "23",
+    "24",
+    "25",
+    "26",
+    "27",
+    "28",
+    "29"
+  ]
+}
+[2026-04-17T12:43:44.353Z] [manual_1529747] [LOG] [FETCH_START] {
+  "func": "predict_energy",
+  "module": "apps.energy_tracker.backend.main"
+}
+[2026-04-17T12:43:49.202Z] [manual_1529747] [LOG] [FETCH_RESPONSE] {
+  "status": 200,
+  "contentType": "application/json"
+}
+[2026-04-17T12:43:49.203Z] [manual_1529747] [LOG] [PARSE_SUCCESS] {
+  "keys": [
+    "date",
+    "predicted_energy",
+    "unit"
+  ]
+}
+[2026-04-19T05:12:51.346Z] [manual_1675507] [LOG] [FETCH_START] {
+  "func": "get_stats",
+  "module": "apps.energy_tracker.backend.main"
+}
+[2026-04-19T05:12:51.348Z] [manual_1675507] [LOG] [FETCH_START] {
+  "func": "get_historical_data",
+  "module": "apps.energy_tracker.backend.main"
+}
+[2026-04-19T05:12:51.348Z] [manual_1675507] [LOG] RENDER_SUCCESS
+[2026-04-19T05:12:58.987Z] [manual_1675507] [LOG] [FETCH_RESPONSE] {
+  "status": 200,
+  "contentType": "application/json"
+}
+[2026-04-19T05:12:58.988Z] [manual_1675507] [LOG] [FETCH_RESPONSE] {
+  "status": 200,
+  "contentType": "application/json"
+}
+[2026-04-19T05:12:58.989Z] [manual_1675507] [LOG] [PARSE_SUCCESS] {
+  "keys": [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12",
+    "13",
+    "14",
+    "15",
+    "16",
+    "17",
+    "18",
+    "19",
+    "20",
+    "21",
+    "22",
+    "23",
+    "24",
+    "25",
+    "26",
+    "27",
+    "28",
+    "29"
+  ]
+}
+[2026-04-19T05:12:58.990Z] [manual_1675507] [LOG] [PARSE_SUCCESS] {
+  "keys": [
+    "avg_consumption",
+    "peak_consumption",
+    "temp_correlation",
+    "total_records"
+  ]
+}
+[2026-04-19T05:13:38.904Z] [manual_1675507] [LOG] [FETCH_START] {
+  "func": "predict_energy",
+  "module": "apps.energy_tracker.backend.main"
+}
+[2026-04-19T05:13:43.941Z] [manual_1675507] [LOG] [FETCH_RESPONSE] {
+  "status": 200,
+  "contentType": "application/json"
+}
+[2026-04-19T05:13:43.943Z] [manual_1675507] [LOG] [PARSE_SUCCESS] {
+  "keys": [
+    "date",
+    "predicted_energy",
+    "unit"
+  ]
+}
+[2026-04-19T05:14:50.738Z] [manual_1675628] [LOG] [CACHE_HIT] {
+  "func": "get_stats",
+  "module": "apps.energy_tracker.backend.main"
+}
+[2026-04-19T05:14:50.739Z] [manual_1675628] [LOG] [CACHE_HIT] {
+  "func": "get_historical_data",
+  "module": "apps.energy_tracker.backend.main"
+}
+[2026-04-19T05:14:50.739Z] [manual_1675628] [LOG] RENDER_SUCCESS
+[2026-04-19T05:14:54.096Z] [manual_1675628] [LOG] [FETCH_RESPONSE] {
+  "status": 200,
+  "contentType": "application/json"
+}
+[2026-04-19T05:14:54.105Z] [manual_1675628] [LOG] [FETCH_RESPONSE] {
+  "status": 200,
+  "contentType": "application/json"
+}
+[2026-04-19T05:14:54.107Z] [manual_1675628] [LOG] [PARSE_SUCCESS] {
+  "keys": [
+    "avg_consumption",
+    "peak_consumption",
+    "temp_correlation",
+    "total_records"
+  ]
+}
+[2026-04-19T05:14:54.111Z] [manual_1675628] [LOG] [PARSE_SUCCESS] {
+  "keys": [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12",
+    "13",
+    "14",
+    "15",
+    "16",
+    "17",
+    "18",
+    "19",
+    "20",
+    "21",
+    "22",
+    "23",
+    "24",
+    "25",
+    "26",
+    "27",
+    "28",
+    "29"
+  ]
+}
+[2026-04-19T05:14:55.582Z] [manual_1675628] [LOG] [FETCH_START] {
+  "func": "get_historical_data",
+  "module": "apps.energy_tracker.backend.main"
+}
+[2026-04-19T05:14:57.784Z] [manual_1675628] [LOG] [FETCH_RESPONSE] {
+  "status": 200,
+  "contentType": "application/json"
+}
+[2026-04-19T05:14:57.785Z] [manual_1675628] [LOG] [PARSE_SUCCESS] {
+  "keys": [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12",
+    "13",
+    "14",
+    "15",
+    "16",
+    "17",
+    "18",
+    "19",
+    "20",
+    "21",
+    "22",
+    "23",
+    "24",
+    "25",
+    "26",
+    "27",
+    "28",
+    "29",
+    "30",
+    "31",
+    "32",
+    "33",
+    "34",
+    "35",
+    "36",
+    "37",
+    "38",
+    "39",
+    "40",
+    "41",
+    "42",
+    "43",
+    "44",
+    "45",
+    "46",
+    "47",
+    "48",
+    "49",
+    "50",
+    "51",
+    "52",
+    "53",
+    "54",
+    "55",
+    "56",
+    "57",
+    "58",
+    "59",
+    "60",
+    "61",
+    "62",
+    "63",
+    "64",
+    "65",
+    "66",
+    "67",
+    "68",
+    "69",
+    "70",
+    "71",
+    "72",
+    "73",
+    "74",
+    "75",
+    "76",
+    "77",
+    "78",
+    "79",
+    "80",
+    "81",
+    "82",
+    "83",
+    "84",
+    "85",
+    "86",
+    "87",
+    "88",
+    "89",
+    "90",
+    "91",
+    "92",
+    "93",
+    "94",
+    "95",
+    "96",
+    "97",
+    "98",
+    "99"
+  ]
+}
+[2026-04-19T05:15:02.189Z] [manual_1675628] [LOG] [CACHE_HIT] {
+  "func": "get_stats",
+  "module": "apps.energy_tracker.backend.main"
+}
+[2026-04-19T05:15:02.191Z] [manual_1675628] [LOG] [CACHE_HIT] {
+  "func": "get_historical_data",
+  "module": "apps.energy_tracker.backend.main"
+}
+[2026-04-19T05:15:05.274Z] [manual_1675628] [LOG] [FETCH_RESPONSE] {
+  "status": 200,
+  "contentType": "application/json"
+}
+[2026-04-19T05:15:05.276Z] [manual_1675628] [LOG] [PARSE_SUCCESS] {
+  "keys": [
+    "avg_consumption",
+    "peak_consumption",
+    "temp_correlation",
+    "total_records"
+  ]
+}
+[2026-04-19T05:15:05.842Z] [manual_1675628] [LOG] [FETCH_RESPONSE] {
+  "status": 200,
+  "contentType": "application/json"
+}
+[2026-04-19T05:15:05.843Z] [manual_1675628] [LOG] [PARSE_SUCCESS] {
+  "keys": [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12",
+    "13",
+    "14",
+    "15",
+    "16",
+    "17",
+    "18",
+    "19",
+    "20",
+    "21",
+    "22",
+    "23",
+    "24",
+    "25",
+    "26",
+    "27",
+    "28",
+    "29"
+  ]
+}
+[2026-04-19T05:15:13.400Z] [manual_1675651] [LOG] [CACHE_HIT] {
+  "func": "get_stats",
+  "module": "apps.energy_tracker.backend.main"
+}
+[2026-04-19T05:15:13.401Z] [manual_1675651] [LOG] [CACHE_HIT] {
+  "func": "get_historical_data",
+  "module": "apps.energy_tracker.backend.main"
+}
+[2026-04-19T05:15:13.402Z] [manual_1675651] [LOG] RENDER_SUCCESS
+[2026-04-19T05:15:16.726Z] [manual_1675651] [LOG] [FETCH_RESPONSE] {
+  "status": 200,
+  "contentType": "application/json"
+}
+[2026-04-19T05:15:16.728Z] [manual_1675651] [LOG] [FETCH_RESPONSE] {
+  "status": 200,
+  "contentType": "application/json"
+}
+[2026-04-19T05:15:16.731Z] [manual_1675651] [LOG] [PARSE_SUCCESS] {
+  "keys": [
+    "avg_consumption",
+    "peak_consumption",
+    "temp_correlation",
+    "total_records"
+  ]
+}
+[2026-04-19T05:15:16.733Z] [manual_1675651] [LOG] [PARSE_SUCCESS] {
+  "keys": [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12",
+    "13",
+    "14",
+    "15",
+    "16",
+    "17",
+    "18",
+    "19",
+    "20",
+    "21",
+    "22",
+    "23",
+    "24",
+    "25",
+    "26",
+    "27",
+    "28",
+    "29"
+  ]
+}
+[2026-04-19T05:49:48.238Z] [manual_1677720] [LOG] [FETCH_START] {
+  "func": "get_stats",
+  "module": "apps.energy_tracker.backend.main"
+}
+[2026-04-19T05:49:48.239Z] [manual_1677720] [LOG] [FETCH_START] {
+  "func": "get_historical_data",
+  "module": "apps.energy_tracker.backend.main"
+}
+[2026-04-19T05:49:48.240Z] [manual_1677720] [LOG] RENDER_SUCCESS
+[2026-04-19T05:49:55.962Z] [manual_1677720] [LOG] [FETCH_RESPONSE] {
+  "status": 200,
+  "contentType": "application/json"
+}
+[2026-04-19T05:49:55.967Z] [manual_1677720] [LOG] [PARSE_SUCCESS] {
+  "keys": [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12",
+    "13",
+    "14",
+    "15",
+    "16",
+    "17",
+    "18",
+    "19",
+    "20",
+    "21",
+    "22",
+    "23",
+    "24",
+    "25",
+    "26",
+    "27",
+    "28",
+    "29"
+  ]
+}
+[2026-04-19T05:49:56.069Z] [manual_1677720] [LOG] [FETCH_RESPONSE] {
+  "status": 200,
+  "contentType": "application/json"
+}
+[2026-04-19T05:49:56.070Z] [manual_1677720] [LOG] [PARSE_SUCCESS] {
+  "keys": [
+    "avg_consumption",
+    "peak_consumption",
+    "temp_correlation",
+    "total_records"
+  ]
+}
+[2026-04-19T10:41:53.134Z] [manual_1695251] [LOG] [FETCH_START] {
+  "func": "get_stats",
+  "module": "apps.energy_tracker.backend.main"
+}
+[2026-04-19T10:41:53.136Z] [manual_1695251] [LOG] [FETCH_START] {
+  "func": "get_historical_data",
+  "module": "apps.energy_tracker.backend.main"
+}
+[2026-04-19T10:41:53.137Z] [manual_1695251] [LOG] RENDER_SUCCESS
+[2026-04-19T10:42:00.286Z] [manual_1695251] [LOG] [FETCH_RESPONSE] {
+  "status": 200,
+  "contentType": "application/json"
+}
+[2026-04-19T10:42:00.287Z] [manual_1695251] [LOG] [PARSE_SUCCESS] {
+  "keys": [
+    "avg_consumption",
+    "peak_consumption",
+    "temp_correlation",
+    "total_records"
+  ]
+}
+[2026-04-19T10:42:00.648Z] [manual_1695251] [LOG] [FETCH_RESPONSE] {
+  "status": 200,
+  "contentType": "application/json"
+}
+[2026-04-19T10:42:00.652Z] [manual_1695251] [LOG] [PARSE_SUCCESS] {
+  "keys": [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12",
+    "13",
+    "14",
+    "15",
+    "16",
+    "17",
+    "18",
+    "19",
+    "20",
+    "21",
+    "22",
+    "23",
+    "24",
+    "25",
+    "26",
+    "27",
+    "28",
+    "29"
+  ]
+}
+[2026-04-19T10:51:57.803Z] [manual_1695853] [LOG] [FETCH_START] {
+  "func": "get_stats",
+  "module": "apps.energy_tracker.backend.main"
+}
+[2026-04-19T10:51:57.804Z] [manual_1695853] [LOG] [FETCH_START] {
+  "func": "get_historical_data",
+  "module": "apps.energy_tracker.backend.main"
+}
+[2026-04-19T10:51:57.805Z] [manual_1695853] [LOG] RENDER_SUCCESS
+[2026-04-19T10:52:01.866Z] [manual_1695853] [LOG] [FETCH_RESPONSE] {
+  "status": 200,
+  "contentType": "application/json"
+}
+[2026-04-19T10:52:01.875Z] [manual_1695853] [LOG] [FETCH_RESPONSE] {
+  "status": 200,
+  "contentType": "application/json"
+}
+[2026-04-19T10:52:01.879Z] [manual_1695853] [LOG] [PARSE_SUCCESS] {
+  "keys": [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12",
+    "13",
+    "14",
+    "15",
+    "16",
+    "17",
+    "18",
+    "19",
+    "20",
+    "21",
+    "22",
+    "23",
+    "24",
+    "25",
+    "26",
+    "27",
+    "28",
+    "29"
+  ]
+}
+[2026-04-19T10:52:01.880Z] [manual_1695853] [LOG] [PARSE_SUCCESS] {
+  "keys": [
+    "avg_consumption",
+    "peak_consumption",
+    "temp_correlation",
+    "total_records"
+  ]
+}
+[2026-04-19T10:52:06.328Z] [manual_1695861] [LOG] [FETCH_START] {
+  "func": "get_stats",
+  "module": "apps.energy_tracker.backend.main"
+}
+[2026-04-19T10:52:06.329Z] [manual_1695861] [LOG] [FETCH_START] {
+  "func": "get_historical_data",
+  "module": "apps.energy_tracker.backend.main"
+}
+[2026-04-19T10:52:06.329Z] [manual_1695861] [LOG] RENDER_SUCCESS
+[2026-04-19T10:52:11.417Z] [manual_1695861] [LOG] [FETCH_RESPONSE] {
+  "status": 200,
+  "contentType": "application/json"
+}
+[2026-04-19T10:52:11.417Z] [manual_1695861] [LOG] [FETCH_RESPONSE] {
+  "status": 200,
+  "contentType": "application/json"
+}
+[2026-04-19T10:52:11.417Z] [manual_1695861] [LOG] [PARSE_SUCCESS] {
+  "keys": [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12",
+    "13",
+    "14",
+    "15",
+    "16",
+    "17",
+    "18",
+    "19",
+    "20",
+    "21",
+    "22",
+    "23",
+    "24",
+    "25",
+    "26",
+    "27",
+    "28",
+    "29"
+  ]
+}
+[2026-04-19T10:52:11.418Z] [manual_1695861] [LOG] [PARSE_SUCCESS] {
+  "keys": [
+    "avg_consumption",
+    "peak_consumption",
+    "temp_correlation",
+    "total_records"
+  ]
+}
+[2026-04-19T11:01:17.321Z] [run_1776255489_g114] [LOG] [FETCH_START] {
+  "func": "get_stats",
+  "module": "apps.energy_tracker.backend.main"
+}
+[2026-04-19T11:01:17.323Z] [run_1776255489_g114] [LOG] [FETCH_START] {
+  "func": "get_historical_data",
+  "module": "apps.energy_tracker.backend.main"
+}
+[2026-04-19T11:01:17.324Z] [run_1776255489_g114] [LOG] RENDER_SUCCESS
+[2026-04-19T11:01:20.805Z] [run_1776255489_g114] [LOG] [FETCH_RESPONSE] {
+  "status": 200,
+  "contentType": "application/json"
+}
+[2026-04-19T11:01:20.806Z] [run_1776255489_g114] [LOG] [FETCH_RESPONSE] {
+  "status": 200,
+  "contentType": "application/json"
+}
+[2026-04-19T11:01:20.807Z] [run_1776255489_g114] [LOG] [PARSE_SUCCESS] {
+  "keys": [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12",
+    "13",
+    "14",
+    "15",
+    "16",
+    "17",
+    "18",
+    "19",
+    "20",
+    "21",
+    "22",
+    "23",
+    "24",
+    "25",
+    "26",
+    "27",
+    "28",
+    "29"
+  ]
+}
+[2026-04-19T11:01:20.808Z] [run_1776255489_g114] [LOG] [PARSE_SUCCESS] {
+  "keys": [
+    "avg_consumption",
+    "peak_consumption",
+    "temp_correlation",
+    "total_records"
+  ]
+}
+[2026-04-19T11:24:14.274Z] [manual_1697789] [LOG] [FETCH_START] {
+  "func": "get_stats",
+  "module": "apps.energy_tracker.backend.main"
+}
+[2026-04-19T11:24:14.278Z] [manual_1697789] [LOG] [FETCH_START] {
+  "func": "get_historical_data",
+  "module": "apps.energy_tracker.backend.main"
+}
+[2026-04-19T11:24:14.281Z] [manual_1697789] [LOG] RENDER_SUCCESS
+[2026-04-19T11:24:21.412Z] [manual_1697789] [LOG] [FETCH_RESPONSE] {
+  "status": 200,
+  "contentType": "application/json"
+}
+[2026-04-19T11:24:21.414Z] [manual_1697789] [LOG] [FETCH_RESPONSE] {
+  "status": 200,
+  "contentType": "application/json"
+}
+[2026-04-19T11:24:21.416Z] [manual_1697789] [LOG] [PARSE_SUCCESS] {
+  "keys": [
+    "avg_consumption",
+    "peak_consumption",
+    "temp_correlation",
+    "total_records"
+  ]
+}
+[2026-04-19T11:24:21.417Z] [manual_1697789] [LOG] [PARSE_SUCCESS] {
+  "keys": [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12",
+    "13",
+    "14",
+    "15",
+    "16",
+    "17",
+    "18",
+    "19",
+    "20",
+    "21",
+    "22",
+    "23",
+    "24",
+    "25",
+    "26",
+    "27",
+    "28",
+    "29"
+  ]
+}
+[2026-04-19T11:25:34.434Z] [manual_1697789] [LOG] [FETCH_START] {
+  "func": "get_historical_data",
+  "module": "apps.energy_tracker.backend.main"
+}
+[2026-04-19T11:25:36.667Z] [manual_1697789] [LOG] [FETCH_RESPONSE] {
+  "status": 200,
+  "contentType": "application/json"
+}
+[2026-04-19T11:25:36.678Z] [manual_1697789] [LOG] [PARSE_SUCCESS] {
+  "keys": [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12",
+    "13",
+    "14",
+    "15",
+    "16",
+    "17",
+    "18",
+    "19",
+    "20",
+    "21",
+    "22",
+    "23",
+    "24",
+    "25",
+    "26",
+    "27",
+    "28",
+    "29",
+    "30",
+    "31",
+    "32",
+    "33",
+    "34",
+    "35",
+    "36",
+    "37",
+    "38",
+    "39",
+    "40",
+    "41",
+    "42",
+    "43",
+    "44",
+    "45",
+    "46",
+    "47",
+    "48",
+    "49",
+    "50",
+    "51",
+    "52",
+    "53",
+    "54",
+    "55",
+    "56",
+    "57",
+    "58",
+    "59",
+    "60",
+    "61",
+    "62",
+    "63",
+    "64",
+    "65",
+    "66",
+    "67",
+    "68",
+    "69",
+    "70",
+    "71",
+    "72",
+    "73",
+    "74",
+    "75",
+    "76",
+    "77",
+    "78",
+    "79",
+    "80",
+    "81",
+    "82",
+    "83",
+    "84",
+    "85",
+    "86",
+    "87",
+    "88",
+    "89",
+    "90",
+    "91",
+    "92",
+    "93",
+    "94",
+    "95",
+    "96",
+    "97",
+    "98",
+    "99"
+  ]
+}
+[2026-04-19T11:26:10.430Z] [manual_1697789] [LOG] [CACHE_HIT] {
+  "func": "get_stats",
+  "module": "apps.energy_tracker.backend.main"
+}
+[2026-04-19T11:26:10.431Z] [manual_1697789] [LOG] [CACHE_HIT] {
+  "func": "get_historical_data",
+  "module": "apps.energy_tracker.backend.main"
+}
+[2026-04-19T11:26:14.275Z] [manual_1697789] [LOG] [FETCH_RESPONSE] {
+  "status": 200,
+  "contentType": "application/json"
+}
+[2026-04-19T11:26:14.277Z] [manual_1697789] [LOG] [FETCH_RESPONSE] {
+  "status": 200,
+  "contentType": "application/json"
+}
+[2026-04-19T11:26:14.278Z] [manual_1697789] [LOG] [PARSE_SUCCESS] {
+  "keys": [
+    "avg_consumption",
+    "peak_consumption",
+    "temp_correlation",
+    "total_records"
+  ]
+}
+[2026-04-19T11:26:14.280Z] [manual_1697789] [LOG] [PARSE_SUCCESS] {
+  "keys": [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12",
+    "13",
+    "14",
+    "15",
+    "16",
+    "17",
+    "18",
+    "19",
+    "20",
+    "21",
+    "22",
+    "23",
+    "24",
+    "25",
+    "26",
+    "27",
+    "28",
+    "29"
+  ]
+}
+[2026-04-19T11:26:16.123Z] [manual_1697789] [LOG] [CACHE_HIT] {
+  "func": "get_historical_data",
+  "module": "apps.energy_tracker.backend.main"
+}
+[2026-04-19T11:26:18.253Z] [manual_1697789] [LOG] [FETCH_RESPONSE] {
+  "status": 200,
+  "contentType": "application/json"
+}
+[2026-04-19T11:26:18.254Z] [manual_1697789] [LOG] [PARSE_SUCCESS] {
+  "keys": [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12",
+    "13",
+    "14",
+    "15",
+    "16",
+    "17",
+    "18",
+    "19",
+    "20",
+    "21",
+    "22",
+    "23",
+    "24",
+    "25",
+    "26",
+    "27",
+    "28",
+    "29",
+    "30",
+    "31",
+    "32",
+    "33",
+    "34",
+    "35",
+    "36",
+    "37",
+    "38",
+    "39",
+    "40",
+    "41",
+    "42",
+    "43",
+    "44",
+    "45",
+    "46",
+    "47",
+    "48",
+    "49",
+    "50",
+    "51",
+    "52",
+    "53",
+    "54",
+    "55",
+    "56",
+    "57",
+    "58",
+    "59",
+    "60",
+    "61",
+    "62",
+    "63",
+    "64",
+    "65",
+    "66",
+    "67",
+    "68",
+    "69",
+    "70",
+    "71",
+    "72",
+    "73",
+    "74",
+    "75",
+    "76",
+    "77",
+    "78",
+    "79",
+    "80",
+    "81",
+    "82",
+    "83",
+    "84",
+    "85",
+    "86",
+    "87",
+    "88",
+    "89",
+    "90",
+    "91",
+    "92",
+    "93",
+    "94",
+    "95",
+    "96",
+    "97",
+    "98",
+    "99"
+  ]
+}
+[2026-04-19T11:26:32.554Z] [manual_1697789] [LOG] [FETCH_START] {
+  "func": "add_manual_reading",
+  "module": "apps.energy_tracker.backend.main"
+}
+[2026-04-19T11:26:33.901Z] [manual_1697789] [LOG] [FETCH_START] {
+  "func": "add_manual_reading",
+  "module": "apps.energy_tracker.backend.main"
+}
+[2026-04-19T11:26:34.644Z] [manual_1697789] [LOG] [FETCH_RESPONSE] {
+  "status": 200,
+  "contentType": "application/json"
+}
+[2026-04-19T11:26:34.647Z] [manual_1697789] [LOG] [PARSE_SUCCESS] {
+  "keys": [
+    "id",
+    "date",
+    "energy_sum",
+    "temperature_max",
+    "created_at"
+  ]
+}
+[2026-04-19T11:26:34.655Z] [manual_1697789] [LOG] [CACHE_INVALIDATE] {
+  "funcs": [
+    "get_historical_data",
+    "get_stats"
+  ],
+  "cleared": 3
+}
+[2026-04-19T11:26:34.656Z] [manual_1697789] [LOG] [FETCH_START] {
+  "func": "get_historical_data",
+  "module": "apps.energy_tracker.backend.main"
+}
+[2026-04-19T11:26:37.198Z] [manual_1697789] [LOG] [FETCH_RESPONSE] {
+  "status": 200,
+  "contentType": "application/json"
+}
+[2026-04-19T11:26:37.201Z] [manual_1697789] [LOG] [PARSE_SUCCESS] {
+  "keys": [
+    "id",
+    "date",
+    "energy_sum",
+    "temperature_max",
+    "created_at"
+  ]
+}
+[2026-04-19T11:26:37.202Z] [manual_1697789] [LOG] [CACHE_INVALIDATE] {
+  "funcs": [
+    "get_historical_data",
+    "get_stats"
+  ],
+  "cleared": 0
+}
+[2026-04-19T11:26:37.203Z] [manual_1697789] [LOG] [FETCH_START] {
+  "func": "get_historical_data",
+  "module": "apps.energy_tracker.backend.main"
+}
+[2026-04-19T11:26:37.810Z] [manual_1697789] [LOG] [FETCH_RESPONSE] {
+  "status": 200,
+  "contentType": "application/json"
+}
+[2026-04-19T11:26:37.812Z] [manual_1697789] [LOG] [PARSE_SUCCESS] {
+  "keys": [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12",
+    "13",
+    "14",
+    "15",
+    "16",
+    "17",
+    "18",
+    "19",
+    "20",
+    "21",
+    "22",
+    "23",
+    "24",
+    "25",
+    "26",
+    "27",
+    "28",
+    "29",
+    "30",
+    "31",
+    "32",
+    "33",
+    "34",
+    "35",
+    "36",
+    "37",
+    "38",
+    "39",
+    "40",
+    "41",
+    "42",
+    "43",
+    "44",
+    "45",
+    "46",
+    "47",
+    "48",
+    "49",
+    "50",
+    "51",
+    "52",
+    "53",
+    "54",
+    "55",
+    "56",
+    "57",
+    "58",
+    "59",
+    "60",
+    "61",
+    "62",
+    "63",
+    "64",
+    "65",
+    "66",
+    "67",
+    "68",
+    "69",
+    "70",
+    "71",
+    "72",
+    "73",
+    "74",
+    "75",
+    "76",
+    "77",
+    "78",
+    "79",
+    "80",
+    "81",
+    "82",
+    "83",
+    "84",
+    "85",
+    "86",
+    "87",
+    "88",
+    "89",
+    "90",
+    "91",
+    "92",
+    "93",
+    "94",
+    "95",
+    "96",
+    "97",
+    "98",
+    "99"
+  ]
+}
+[2026-04-19T11:26:39.248Z] [manual_1697789] [LOG] [FETCH_RESPONSE] {
+  "status": 200,
+  "contentType": "application/json"
+}
+[2026-04-19T11:26:39.251Z] [manual_1697789] [LOG] [PARSE_SUCCESS] {
+  "keys": [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12",
+    "13",
+    "14",
+    "15",
+    "16",
+    "17",
+    "18",
+    "19",
+    "20",
+    "21",
+    "22",
+    "23",
+    "24",
+    "25",
+    "26",
+    "27",
+    "28",
+    "29",
+    "30",
+    "31",
+    "32",
+    "33",
+    "34",
+    "35",
+    "36",
+    "37",
+    "38",
+    "39",
+    "40",
+    "41",
+    "42",
+    "43",
+    "44",
+    "45",
+    "46",
+    "47",
+    "48",
+    "49",
+    "50",
+    "51",
+    "52",
+    "53",
+    "54",
+    "55",
+    "56",
+    "57",
+    "58",
+    "59",
+    "60",
+    "61",
+    "62",
+    "63",
+    "64",
+    "65",
+    "66",
+    "67",
+    "68",
+    "69",
+    "70",
+    "71",
+    "72",
+    "73",
+    "74",
+    "75",
+    "76",
+    "77",
+    "78",
+    "79",
+    "80",
+    "81",
+    "82",
+    "83",
+    "84",
+    "85",
+    "86",
+    "87",
+    "88",
+    "89",
+    "90",
+    "91",
+    "92",
+    "93",
+    "94",
+    "95",
+    "96",
+    "97",
+    "98",
+    "99"
+  ]
+}
+[2026-04-19T11:27:17.932Z] [manual_1697789] [LOG] [FETCH_START] {
+  "func": "predict_energy",
+  "module": "apps.energy_tracker.backend.main"
+}
+[2026-04-19T11:27:22.354Z] [manual_1697789] [LOG] [FETCH_RESPONSE] {
+  "status": 200,
+  "contentType": "application/json"
+}
+[2026-04-19T11:27:22.357Z] [manual_1697789] [LOG] [PARSE_SUCCESS] {
+  "keys": [
+    "date",
+    "predicted_energy",
+    "unit"
+  ]
+}
+[2026-04-19T11:27:28.455Z] [manual_1697789] [LOG] [FETCH_START] {
+  "func": "get_stats",
+  "module": "apps.energy_tracker.backend.main"
+}
+[2026-04-19T11:27:28.456Z] [manual_1697789] [LOG] [FETCH_START] {
+  "func": "get_historical_data",
+  "module": "apps.energy_tracker.backend.main"
+}
+[2026-04-19T11:27:31.672Z] [manual_1697789] [LOG] [FETCH_RESPONSE] {
+  "status": 200,
+  "contentType": "application/json"
+}
+[2026-04-19T11:27:31.674Z] [manual_1697789] [LOG] [PARSE_SUCCESS] {
+  "keys": [
+    "avg_consumption",
+    "peak_consumption",
+    "temp_correlation",
+    "total_records"
+  ]
+}
+[2026-04-19T11:27:31.683Z] [manual_1697789] [LOG] [FETCH_RESPONSE] {
+  "status": 200,
+  "contentType": "application/json"
+}
+[2026-04-19T11:27:31.685Z] [manual_1697789] [LOG] [PARSE_SUCCESS] {
+  "keys": [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12",
+    "13",
+    "14",
+    "15",
+    "16",
+    "17",
+    "18",
+    "19",
+    "20",
+    "21",
+    "22",
+    "23",
+    "24",
+    "25",
+    "26",
+    "27",
+    "28",
+    "29"
+  ]
+}
+[2026-04-19T11:27:35.985Z] [manual_1697789] [LOG] [CACHE_HIT] {
+  "func": "get_historical_data",
+  "module": "apps.energy_tracker.backend.main"
+}
+[2026-04-19T11:27:38.148Z] [manual_1697789] [LOG] [FETCH_RESPONSE] {
+  "status": 200,
+  "contentType": "application/json"
+}
+[2026-04-19T11:27:38.149Z] [manual_1697789] [LOG] [PARSE_SUCCESS] {
+  "keys": [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12",
+    "13",
+    "14",
+    "15",
+    "16",
+    "17",
+    "18",
+    "19",
+    "20",
+    "21",
+    "22",
+    "23",
+    "24",
+    "25",
+    "26",
+    "27",
+    "28",
+    "29",
+    "30",
+    "31",
+    "32",
+    "33",
+    "34",
+    "35",
+    "36",
+    "37",
+    "38",
+    "39",
+    "40",
+    "41",
+    "42",
+    "43",
+    "44",
+    "45",
+    "46",
+    "47",
+    "48",
+    "49",
+    "50",
+    "51",
+    "52",
+    "53",
+    "54",
+    "55",
+    "56",
+    "57",
+    "58",
+    "59",
+    "60",
+    "61",
+    "62",
+    "63",
+    "64",
+    "65",
+    "66",
+    "67",
+    "68",
+    "69",
+    "70",
+    "71",
+    "72",
+    "73",
+    "74",
+    "75",
+    "76",
+    "77",
+    "78",
+    "79",
+    "80",
+    "81",
+    "82",
+    "83",
+    "84",
+    "85",
+    "86",
+    "87",
+    "88",
+    "89",
+    "90",
+    "91",
+    "92",
+    "93",
+    "94",
+    "95",
+    "96",
+    "97",
+    "98",
+    "99"
+  ]
+}
+[2026-04-19T11:27:46.216Z] [manual_1697789] [LOG] [FETCH_START] {
+  "func": "add_manual_reading",
+  "module": "apps.energy_tracker.backend.main"
+}
+[2026-04-19T11:27:48.304Z] [manual_1697789] [LOG] [FETCH_START] {
+  "func": "add_manual_reading",
+  "module": "apps.energy_tracker.backend.main"
+}
+[2026-04-19T11:27:48.672Z] [manual_1697789] [LOG] [FETCH_RESPONSE] {
+  "status": 200,
+  "contentType": "application/json"
+}
+[2026-04-19T11:27:48.676Z] [manual_1697789] [LOG] [PARSE_SUCCESS] {
+  "keys": [
+    "id",
+    "date",
+    "energy_sum",
+    "temperature_max",
+    "created_at"
+  ]
+}
+[2026-04-19T11:27:48.680Z] [manual_1697789] [LOG] [CACHE_INVALIDATE] {
+  "funcs": [
+    "get_historical_data",
+    "get_stats"
+  ],
+  "cleared": 3
+}
+[2026-04-19T11:27:48.681Z] [manual_1697789] [LOG] [FETCH_START] {
+  "func": "get_historical_data",
+  "module": "apps.energy_tracker.backend.main"
+}
+[2026-04-19T11:27:51.334Z] [manual_1697789] [LOG] [FETCH_RESPONSE] {
+  "status": 200,
+  "contentType": "application/json"
+}
+[2026-04-19T11:27:51.336Z] [manual_1697789] [LOG] [PARSE_SUCCESS] {
+  "keys": [
+    "id",
+    "date",
+    "energy_sum",
+    "temperature_max",
+    "created_at"
+  ]
+}
+[2026-04-19T11:27:51.338Z] [manual_1697789] [LOG] [CACHE_INVALIDATE] {
+  "funcs": [
+    "get_historical_data",
+    "get_stats"
+  ],
+  "cleared": 0
+}
+[2026-04-19T11:27:51.338Z] [manual_1697789] [LOG] [FETCH_START] {
+  "func": "get_historical_data",
+  "module": "apps.energy_tracker.backend.main"
+}
+[2026-04-19T11:27:51.743Z] [manual_1697789] [LOG] [FETCH_RESPONSE] {
+  "status": 200,
+  "contentType": "application/json"
+}
+[2026-04-19T11:27:51.745Z] [manual_1697789] [LOG] [PARSE_SUCCESS] {
+  "keys": [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12",
+    "13",
+    "14",
+    "15",
+    "16",
+    "17",
+    "18",
+    "19",
+    "20",
+    "21",
+    "22",
+    "23",
+    "24",
+    "25",
+    "26",
+    "27",
+    "28",
+    "29",
+    "30",
+    "31",
+    "32",
+    "33",
+    "34",
+    "35",
+    "36",
+    "37",
+    "38",
+    "39",
+    "40",
+    "41",
+    "42",
+    "43",
+    "44",
+    "45",
+    "46",
+    "47",
+    "48",
+    "49",
+    "50",
+    "51",
+    "52",
+    "53",
+    "54",
+    "55",
+    "56",
+    "57",
+    "58",
+    "59",
+    "60",
+    "61",
+    "62",
+    "63",
+    "64",
+    "65",
+    "66",
+    "67",
+    "68",
+    "69",
+    "70",
+    "71",
+    "72",
+    "73",
+    "74",
+    "75",
+    "76",
+    "77",
+    "78",
+    "79",
+    "80",
+    "81",
+    "82",
+    "83",
+    "84",
+    "85",
+    "86",
+    "87",
+    "88",
+    "89",
+    "90",
+    "91",
+    "92",
+    "93",
+    "94",
+    "95",
+    "96",
+    "97",
+    "98",
+    "99"
+  ]
+}
+[2026-04-19T11:27:53.384Z] [manual_1697789] [LOG] [FETCH_RESPONSE] {
+  "status": 200,
+  "contentType": "application/json"
+}
+[2026-04-19T11:27:53.385Z] [manual_1697789] [LOG] [PARSE_SUCCESS] {
+  "keys": [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12",
+    "13",
+    "14",
+    "15",
+    "16",
+    "17",
+    "18",
+    "19",
+    "20",
+    "21",
+    "22",
+    "23",
+    "24",
+    "25",
+    "26",
+    "27",
+    "28",
+    "29",
+    "30",
+    "31",
+    "32",
+    "33",
+    "34",
+    "35",
+    "36",
+    "37",
+    "38",
+    "39",
+    "40",
+    "41",
+    "42",
+    "43",
+    "44",
+    "45",
+    "46",
+    "47",
+    "48",
+    "49",
+    "50",
+    "51",
+    "52",
+    "53",
+    "54",
+    "55",
+    "56",
+    "57",
+    "58",
+    "59",
+    "60",
+    "61",
+    "62",
+    "63",
+    "64",
+    "65",
+    "66",
+    "67",
+    "68",
+    "69",
+    "70",
+    "71",
+    "72",
+    "73",
+    "74",
+    "75",
+    "76",
+    "77",
+    "78",
+    "79",
+    "80",
+    "81",
+    "82",
+    "83",
+    "84",
+    "85",
+    "86",
+    "87",
+    "88",
+    "89",
+    "90",
+    "91",
+    "92",
+    "93",
+    "94",
+    "95",
+    "96",
+    "97",
+    "98",
+    "99"
+  ]
+}
+[2026-04-19T11:28:07.151Z] [manual_1697789] [LOG] [FETCH_START] {
+  "func": "get_stats",
+  "module": "apps.energy_tracker.backend.main"
+}
+[2026-04-19T11:28:07.152Z] [manual_1697789] [LOG] [FETCH_START] {
+  "func": "get_historical_data",
+  "module": "apps.energy_tracker.backend.main"
+}
+[2026-04-19T11:28:10.277Z] [manual_1697789] [LOG] [FETCH_RESPONSE] {
+  "status": 200,
+  "contentType": "application/json"
+}
+[2026-04-19T11:28:10.281Z] [manual_1697789] [LOG] [FETCH_RESPONSE] {
+  "status": 200,
+  "contentType": "application/json"
+}
+[2026-04-19T11:28:10.281Z] [manual_1697789] [LOG] [PARSE_SUCCESS] {
+  "keys": [
+    "avg_consumption",
+    "peak_consumption",
+    "temp_correlation",
+    "total_records"
+  ]
+}
+[2026-04-19T11:28:10.283Z] [manual_1697789] [LOG] [PARSE_SUCCESS] {
+  "keys": [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12",
+    "13",
+    "14",
+    "15",
+    "16",
+    "17",
+    "18",
+    "19",
+    "20",
+    "21",
+    "22",
+    "23",
+    "24",
+    "25",
+    "26",
+    "27",
+    "28",
+    "29"
+  ]
+}
+[2026-04-19T11:32:48.222Z] [manual_1698306] [LOG] [FETCH_START] {
+  "func": "get_stats",
+  "module": "apps.energy_tracker.backend.main"
+}
+[2026-04-19T11:32:48.225Z] [manual_1698306] [LOG] [FETCH_START] {
+  "func": "get_historical_data",
+  "module": "apps.energy_tracker.backend.main"
+}
+[2026-04-19T11:32:48.227Z] [manual_1698306] [LOG] RENDER_SUCCESS
+[2026-04-19T11:32:51.538Z] [manual_1698306] [LOG] [FETCH_RESPONSE] {
+  "status": 200,
+  "contentType": "application/json"
+}
+[2026-04-19T11:32:51.541Z] [manual_1698306] [LOG] [FETCH_RESPONSE] {
+  "status": 200,
+  "contentType": "application/json"
+}
+[2026-04-19T11:32:51.542Z] [manual_1698306] [LOG] [PARSE_SUCCESS] {
+  "keys": [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12",
+    "13",
+    "14",
+    "15",
+    "16",
+    "17",
+    "18",
+    "19",
+    "20",
+    "21",
+    "22",
+    "23",
+    "24",
+    "25",
+    "26",
+    "27",
+    "28",
+    "29"
+  ]
+}
+[2026-04-19T11:32:51.543Z] [manual_1698306] [LOG] [PARSE_SUCCESS] {
+  "keys": [
+    "avg_consumption",
+    "peak_consumption",
+    "temp_correlation",
+    "total_records"
+  ]
+}
+[2026-04-19T11:33:05.846Z] [manual_1698323] [LOG] [CACHE_HIT] {
+  "func": "get_stats",
+  "module": "apps.energy_tracker.backend.main"
+}
+[2026-04-19T11:33:05.847Z] [manual_1698323] [LOG] [CACHE_HIT] {
+  "func": "get_historical_data",
+  "module": "apps.energy_tracker.backend.main"
+}
+[2026-04-19T11:33:05.847Z] [manual_1698323] [LOG] RENDER_SUCCESS
+[2026-04-19T11:33:08.916Z] [manual_1698323] [LOG] [FETCH_RESPONSE] {
+  "status": 200,
+  "contentType": "application/json"
+}
+[2026-04-19T11:33:08.920Z] [manual_1698323] [LOG] [PARSE_SUCCESS] {
+  "keys": [
+    "avg_consumption",
+    "peak_consumption",
+    "temp_correlation",
+    "total_records"
+  ]
+}
+[2026-04-19T11:33:09.298Z] [manual_1698323] [LOG] [FETCH_RESPONSE] {
+  "status": 200,
+  "contentType": "application/json"
+}
+[2026-04-19T11:33:09.299Z] [manual_1698323] [LOG] [PARSE_SUCCESS] {
+  "keys": [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12",
+    "13",
+    "14",
+    "15",
+    "16",
+    "17",
+    "18",
+    "19",
+    "20",
+    "21",
+    "22",
+    "23",
+    "24",
+    "25",
+    "26",
+    "27",
+    "28",
+    "29"
+  ]
+}
+[2026-04-19T11:40:56.667Z] [manual_1698788] [LOG] [FETCH_START] {
+  "func": "get_stats",
+  "module": "apps.energy_tracker.backend.main"
+}
+[2026-04-19T11:40:56.668Z] [manual_1698788] [LOG] [FETCH_START] {
+  "func": "get_historical_data",
+  "module": "apps.energy_tracker.backend.main"
+}
+[2026-04-19T11:40:56.669Z] [manual_1698788] [LOG] RENDER_SUCCESS
+[2026-04-19T11:41:00.701Z] [manual_1698788] [LOG] [FETCH_RESPONSE] {
+  "status": 200,
+  "contentType": "application/json"
+}
+[2026-04-19T11:41:00.702Z] [manual_1698788] [LOG] [FETCH_RESPONSE] {
+  "status": 200,
+  "contentType": "application/json"
+}
+[2026-04-19T11:41:00.705Z] [manual_1698788] [LOG] [PARSE_SUCCESS] {
+  "keys": [
+    "avg_consumption",
+    "peak_consumption",
+    "temp_correlation",
+    "total_records"
+  ]
+}
+[2026-04-19T11:41:00.706Z] [manual_1698788] [LOG] [PARSE_SUCCESS] {
+  "keys": [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12",
+    "13",
+    "14",
+    "15",
+    "16",
+    "17",
+    "18",
+    "19",
+    "20",
+    "21",
+    "22",
+    "23",
+    "24",
+    "25",
+    "26",
+    "27",
+    "28",
+    "29"
+  ]
+}
+[2026-04-19T11:41:13.878Z] [manual_1698788] [LOG] [CACHE_HIT] {
+  "func": "get_stats",
+  "module": "apps.energy_tracker.backend.main"
+}
+[2026-04-19T11:41:13.879Z] [manual_1698788] [LOG] [CACHE_HIT] {
+  "func": "get_historical_data",
+  "module": "apps.energy_tracker.backend.main"
+}
+[2026-04-19T11:41:17.812Z] [manual_1698788] [LOG] [FETCH_RESPONSE] {
+  "status": 200,
+  "contentType": "application/json"
+}
+[2026-04-19T11:41:17.812Z] [manual_1698788] [LOG] [FETCH_RESPONSE] {
+  "status": 200,
+  "contentType": "application/json"
+}
+[2026-04-19T11:41:17.813Z] [manual_1698788] [LOG] [PARSE_SUCCESS] {
+  "keys": [
+    "avg_consumption",
+    "peak_consumption",
+    "temp_correlation",
+    "total_records"
+  ]
+}
+[2026-04-19T11:41:17.813Z] [manual_1698788] [LOG] [PARSE_SUCCESS] {
+  "keys": [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12",
+    "13",
+    "14",
+    "15",
+    "16",
+    "17",
+    "18",
+    "19",
+    "20",
+    "21",
+    "22",
+    "23",
+    "24",
+    "25",
+    "26",
+    "27",
+    "28",
+    "29"
+  ]
+}
+[2026-04-19T11:41:21.340Z] [manual_1698788] [LOG] [FETCH_START] {
+  "func": "predict_energy",
+  "module": "apps.energy_tracker.backend.main"
+}
+[2026-04-19T11:41:26.534Z] [manual_1698788] [LOG] [FETCH_RESPONSE] {
+  "status": 200,
+  "contentType": "application/json"
+}
+[2026-04-19T11:41:26.535Z] [manual_1698788] [LOG] [PARSE_SUCCESS] {
+  "keys": [
+    "date",
+    "predicted_energy",
+    "unit"
+  ]
+}
+[2026-04-19T11:42:17.495Z] [manual_1698868] [LOG] [FETCH_START] {
+  "func": "get_stats",
+  "module": "apps.energy_tracker.backend.main"
+}
+[2026-04-19T11:42:17.497Z] [manual_1698868] [LOG] [FETCH_START] {
+  "func": "get_historical_data",
+  "module": "apps.energy_tracker.backend.main"
+}
+[2026-04-19T11:42:17.498Z] [manual_1698868] [LOG] RENDER_SUCCESS
+[2026-04-19T11:42:20.868Z] [manual_1698868] [LOG] [FETCH_RESPONSE] {
+  "status": 200,
+  "contentType": "application/json"
+}
+[2026-04-19T11:42:20.868Z] [manual_1698868] [LOG] [PARSE_SUCCESS] {
+  "keys": [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12",
+    "13",
+    "14",
+    "15",
+    "16",
+    "17",
+    "18",
+    "19",
+    "20",
+    "21",
+    "22",
+    "23",
+    "24",
+    "25",
+    "26",
+    "27",
+    "28",
+    "29"
+  ]
+}
+[2026-04-19T11:42:21.116Z] [manual_1698868] [LOG] [FETCH_RESPONSE] {
+  "status": 200,
+  "contentType": "application/json"
+}
+[2026-04-19T11:42:21.117Z] [manual_1698868] [LOG] [PARSE_SUCCESS] {
+  "keys": [
+    "avg_consumption",
+    "peak_consumption",
+    "temp_correlation",
+    "total_records"
+  ]
+}
+[2026-04-19T11:42:29.609Z] [manual_1698868] [LOG] [FETCH_START] {
+  "func": "predict_energy",
+  "module": "apps.energy_tracker.backend.main"
+}
+[2026-04-19T11:42:33.904Z] [manual_1698868] [LOG] [FETCH_RESPONSE] {
+  "status": 200,
+  "contentType": "application/json"
+}
+[2026-04-19T11:42:33.905Z] [manual_1698868] [LOG] [PARSE_SUCCESS] {
+  "keys": [
+    "date",
+    "predicted_energy",
+    "unit"
+  ]
+}
+[2026-04-19T11:42:32.713Z] [manual_1698788] [LOG] [CACHE_HIT] {
+  "func": "get_stats",
+  "module": "apps.energy_tracker.backend.main"
+}
+[2026-04-19T11:42:32.715Z] [manual_1698788] [LOG] [CACHE_HIT] {
+  "func": "get_historical_data",
+  "module": "apps.energy_tracker.backend.main"
+}
+[2026-04-19T11:42:36.686Z] [manual_1698868] [LOG] [FETCH_START] {
+  "func": "get_historical_data",
+  "module": "apps.energy_tracker.backend.main"
+}
+[2026-04-19T11:42:37.600Z] [manual_1698788] [LOG] [FETCH_RESPONSE] {
+  "status": 200,
+  "contentType": "application/json"
+}
+[2026-04-19T11:42:37.601Z] [manual_1698788] [LOG] [PARSE_SUCCESS] {
+  "keys": [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12",
+    "13",
+    "14",
+    "15",
+    "16",
+    "17",
+    "18",
+    "19",
+    "20",
+    "21",
+    "22",
+    "23",
+    "24",
+    "25",
+    "26",
+    "27",
+    "28",
+    "29"
+  ]
+}
+[2026-04-19T11:42:37.880Z] [manual_1698788] [LOG] [FETCH_RESPONSE] {
+  "status": 200,
+  "contentType": "application/json"
+}
+[2026-04-19T11:42:37.880Z] [manual_1698788] [LOG] [PARSE_SUCCESS] {
+  "keys": [
+    "avg_consumption",
+    "peak_consumption",
+    "temp_correlation",
+    "total_records"
+  ]
+}
+[2026-04-19T11:42:41.300Z] [manual_1698868] [LOG] [FETCH_RESPONSE] {
+  "status": 200,
+  "contentType": "application/json"
+}
+[2026-04-19T11:42:41.300Z] [manual_1698868] [LOG] [PARSE_SUCCESS] {
+  "keys": [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12",
+    "13",
+    "14",
+    "15",
+    "16",
+    "17",
+    "18",
+    "19",
+    "20",
+    "21",
+    "22",
+    "23",
+    "24",
+    "25",
+    "26",
+    "27",
+    "28",
+    "29",
+    "30",
+    "31",
+    "32",
+    "33",
+    "34",
+    "35",
+    "36",
+    "37",
+    "38",
+    "39",
+    "40",
+    "41",
+    "42",
+    "43",
+    "44",
+    "45",
+    "46",
+    "47",
+    "48",
+    "49",
+    "50",
+    "51",
+    "52",
+    "53",
+    "54",
+    "55",
+    "56",
+    "57",
+    "58",
+    "59",
+    "60",
+    "61",
+    "62",
+    "63",
+    "64",
+    "65",
+    "66",
+    "67",
+    "68",
+    "69",
+    "70",
+    "71",
+    "72",
+    "73",
+    "74",
+    "75",
+    "76",
+    "77",
+    "78",
+    "79",
+    "80",
+    "81",
+    "82",
+    "83",
+    "84",
+    "85",
+    "86",
+    "87",
+    "88",
+    "89",
+    "90",
+    "91",
+    "92",
+    "93",
+    "94",
+    "95",
+    "96",
+    "97",
+    "98",
+    "99"
+  ]
+}
+[2026-04-19T11:42:41.887Z] [manual_1698788] [LOG] [FETCH_START] {
+  "func": "get_historical_data",
+  "module": "apps.energy_tracker.backend.main"
+}
+[2026-04-19T11:42:44.013Z] [manual_1698788] [LOG] [FETCH_RESPONSE] {
+  "status": 200,
+  "contentType": "application/json"
+}
+[2026-04-19T11:42:44.014Z] [manual_1698788] [LOG] [PARSE_SUCCESS] {
+  "keys": [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12",
+    "13",
+    "14",
+    "15",
+    "16",
+    "17",
+    "18",
+    "19",
+    "20",
+    "21",
+    "22",
+    "23",
+    "24",
+    "25",
+    "26",
+    "27",
+    "28",
+    "29",
+    "30",
+    "31",
+    "32",
+    "33",
+    "34",
+    "35",
+    "36",
+    "37",
+    "38",
+    "39",
+    "40",
+    "41",
+    "42",
+    "43",
+    "44",
+    "45",
+    "46",
+    "47",
+    "48",
+    "49",
+    "50",
+    "51",
+    "52",
+    "53",
+    "54",
+    "55",
+    "56",
+    "57",
+    "58",
+    "59",
+    "60",
+    "61",
+    "62",
+    "63",
+    "64",
+    "65",
+    "66",
+    "67",
+    "68",
+    "69",
+    "70",
+    "71",
+    "72",
+    "73",
+    "74",
+    "75",
+    "76",
+    "77",
+    "78",
+    "79",
+    "80",
+    "81",
+    "82",
+    "83",
+    "84",
+    "85",
+    "86",
+    "87",
+    "88",
+    "89",
+    "90",
+    "91",
+    "92",
+    "93",
+    "94",
+    "95",
+    "96",
+    "97",
+    "98",
+    "99"
+  ]
+}
+[2026-04-19T11:42:56.546Z] [manual_1698788] [LOG] [CACHE_HIT] {
+  "func": "get_stats",
+  "module": "apps.energy_tracker.backend.main"
+}
+[2026-04-19T11:42:56.547Z] [manual_1698788] [LOG] [CACHE_HIT] {
+  "func": "get_historical_data",
+  "module": "apps.energy_tracker.backend.main"
+}
+[2026-04-19T11:42:59.890Z] [manual_1698788] [LOG] [FETCH_RESPONSE] {
+  "status": 200,
+  "contentType": "application/json"
+}
+[2026-04-19T11:42:59.890Z] [manual_1698788] [LOG] [FETCH_RESPONSE] {
+  "status": 200,
+  "contentType": "application/json"
+}
+[2026-04-19T11:42:59.891Z] [manual_1698788] [LOG] [PARSE_SUCCESS] {
+  "keys": [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12",
+    "13",
+    "14",
+    "15",
+    "16",
+    "17",
+    "18",
+    "19",
+    "20",
+    "21",
+    "22",
+    "23",
+    "24",
+    "25",
+    "26",
+    "27",
+    "28",
+    "29"
+  ]
+}
+[2026-04-19T11:42:59.891Z] [manual_1698788] [LOG] [PARSE_SUCCESS] {
+  "keys": [
+    "avg_consumption",
+    "peak_consumption",
+    "temp_correlation",
+    "total_records"
+  ]
+}
+[2026-04-19T11:43:34.810Z] [manual_1698788] [LOG] [CACHE_HIT] {
+  "func": "get_historical_data",
+  "module": "apps.energy_tracker.backend.main"
+}
+[2026-04-19T11:43:37.587Z] [manual_1698788] [LOG] [FETCH_RESPONSE] {
+  "status": 200,
+  "contentType": "application/json"
+}
+[2026-04-19T11:43:37.623Z] [manual_1698788] [LOG] [PARSE_SUCCESS] {
+  "keys": [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12",
+    "13",
+    "14",
+    "15",
+    "16",
+    "17",
+    "18",
+    "19",
+    "20",
+    "21",
+    "22",
+    "23",
+    "24",
+    "25",
+    "26",
+    "27",
+    "28",
+    "29",
+    "30",
+    "31",
+    "32",
+    "33",
+    "34",
+    "35",
+    "36",
+    "37",
+    "38",
+    "39",
+    "40",
+    "41",
+    "42",
+    "43",
+    "44",
+    "45",
+    "46",
+    "47",
+    "48",
+    "49",
+    "50",
+    "51",
+    "52",
+    "53",
+    "54",
+    "55",
+    "56",
+    "57",
+    "58",
+    "59",
+    "60",
+    "61",
+    "62",
+    "63",
+    "64",
+    "65",
+    "66",
+    "67",
+    "68",
+    "69",
+    "70",
+    "71",
+    "72",
+    "73",
+    "74",
+    "75",
+    "76",
+    "77",
+    "78",
+    "79",
+    "80",
+    "81",
+    "82",
+    "83",
+    "84",
+    "85",
+    "86",
+    "87",
+    "88",
+    "89",
+    "90",
+    "91",
+    "92",
+    "93",
+    "94",
+    "95",
+    "96",
+    "97",
+    "98",
+    "99"
+  ]
+}
+[2026-04-19T11:43:52.577Z] [manual_1698788] [LOG] [FETCH_START] {
+  "func": "add_manual_reading",
+  "module": "apps.energy_tracker.backend.main"
+}
+[2026-04-19T11:43:53.724Z] [manual_1698788] [LOG] [FETCH_START] {
+  "func": "add_manual_reading",
+  "module": "apps.energy_tracker.backend.main"
+}
+[2026-04-19T11:43:55.493Z] [manual_1698788] [LOG] [FETCH_RESPONSE] {
+  "status": 200,
+  "contentType": "application/json"
+}
+[2026-04-19T11:43:55.494Z] [manual_1698788] [LOG] [PARSE_SUCCESS] {
+  "keys": [
+    "id",
+    "date",
+    "energy_sum",
+    "temperature_max",
+    "created_at"
+  ]
+}
+[2026-04-19T11:43:55.499Z] [manual_1698788] [LOG] [CACHE_INVALIDATE] {
+  "funcs": [
+    "get_historical_data",
+    "get_stats"
+  ],
+  "cleared": 3
+}
+[2026-04-19T11:43:55.499Z] [manual_1698788] [LOG] [FETCH_START] {
+  "func": "get_historical_data",
+  "module": "apps.energy_tracker.backend.main"
+}
+[2026-04-19T11:43:56.710Z] [manual_1698788] [LOG] [FETCH_RESPONSE] {
+  "status": 200,
+  "contentType": "application/json"
+}
+[2026-04-19T11:43:56.711Z] [manual_1698788] [LOG] [PARSE_SUCCESS] {
+  "keys": [
+    "id",
+    "date",
+    "energy_sum",
+    "temperature_max",
+    "created_at"
+  ]
+}
+[2026-04-19T11:43:56.711Z] [manual_1698788] [LOG] [CACHE_INVALIDATE] {
+  "funcs": [
+    "get_historical_data",
+    "get_stats"
+  ],
+  "cleared": 0
+}
+[2026-04-19T11:43:56.712Z] [manual_1698788] [LOG] [FETCH_START] {
+  "func": "get_historical_data",
+  "module": "apps.energy_tracker.backend.main"
+}
+[2026-04-19T11:43:58.304Z] [manual_1698788] [LOG] [FETCH_RESPONSE] {
+  "status": 200,
+  "contentType": "application/json"
+}
+[2026-04-19T11:43:58.357Z] [manual_1698788] [LOG] [PARSE_SUCCESS] {
+  "keys": [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12",
+    "13",
+    "14",
+    "15",
+    "16",
+    "17",
+    "18",
+    "19",
+    "20",
+    "21",
+    "22",
+    "23",
+    "24",
+    "25",
+    "26",
+    "27",
+    "28",
+    "29",
+    "30",
+    "31",
+    "32",
+    "33",
+    "34",
+    "35",
+    "36",
+    "37",
+    "38",
+    "39",
+    "40",
+    "41",
+    "42",
+    "43",
+    "44",
+    "45",
+    "46",
+    "47",
+    "48",
+    "49",
+    "50",
+    "51",
+    "52",
+    "53",
+    "54",
+    "55",
+    "56",
+    "57",
+    "58",
+    "59",
+    "60",
+    "61",
+    "62",
+    "63",
+    "64",
+    "65",
+    "66",
+    "67",
+    "68",
+    "69",
+    "70",
+    "71",
+    "72",
+    "73",
+    "74",
+    "75",
+    "76",
+    "77",
+    "78",
+    "79",
+    "80",
+    "81",
+    "82",
+    "83",
+    "84",
+    "85",
+    "86",
+    "87",
+    "88",
+    "89",
+    "90",
+    "91",
+    "92",
+    "93",
+    "94",
+    "95",
+    "96",
+    "97",
+    "98",
+    "99"
+  ]
+}
+[2026-04-19T11:43:59.560Z] [manual_1698788] [LOG] [FETCH_RESPONSE] {
+  "status": 200,
+  "contentType": "application/json"
+}
+[2026-04-19T11:43:59.598Z] [manual_1698788] [LOG] [PARSE_SUCCESS] {
+  "keys": [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12",
+    "13",
+    "14",
+    "15",
+    "16",
+    "17",
+    "18",
+    "19",
+    "20",
+    "21",
+    "22",
+    "23",
+    "24",
+    "25",
+    "26",
+    "27",
+    "28",
+    "29",
+    "30",
+    "31",
+    "32",
+    "33",
+    "34",
+    "35",
+    "36",
+    "37",
+    "38",
+    "39",
+    "40",
+    "41",
+    "42",
+    "43",
+    "44",
+    "45",
+    "46",
+    "47",
+    "48",
+    "49",
+    "50",
+    "51",
+    "52",
+    "53",
+    "54",
+    "55",
+    "56",
+    "57",
+    "58",
+    "59",
+    "60",
+    "61",
+    "62",
+    "63",
+    "64",
+    "65",
+    "66",
+    "67",
+    "68",
+    "69",
+    "70",
+    "71",
+    "72",
+    "73",
+    "74",
+    "75",
+    "76",
+    "77",
+    "78",
+    "79",
+    "80",
+    "81",
+    "82",
+    "83",
+    "84",
+    "85",
+    "86",
+    "87",
+    "88",
+    "89",
+    "90",
+    "91",
+    "92",
+    "93",
+    "94",
+    "95",
+    "96",
+    "97",
+    "98",
+    "99"
+  ]
+}
+[2026-04-19T11:44:19.797Z] [run_1776255489_g114] [LOG] [FETCH_START] {
+  "func": "get_stats",
+  "module": "apps.energy_tracker.backend.main"
+}
+[2026-04-19T11:44:19.798Z] [run_1776255489_g114] [LOG] [FETCH_START] {
+  "func": "get_historical_data",
+  "module": "apps.energy_tracker.backend.main"
+}
+[2026-04-19T11:44:19.799Z] [run_1776255489_g114] [LOG] RENDER_SUCCESS
+[2026-04-19T11:44:23.989Z] [run_1776255489_g114] [LOG] [FETCH_RESPONSE] {
+  "status": 200,
+  "contentType": "application/json"
+}
+[2026-04-19T11:44:23.990Z] [run_1776255489_g114] [LOG] [PARSE_SUCCESS] {
+  "keys": [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12",
+    "13",
+    "14",
+    "15",
+    "16",
+    "17",
+    "18",
+    "19",
+    "20",
+    "21",
+    "22",
+    "23",
+    "24",
+    "25",
+    "26",
+    "27",
+    "28",
+    "29"
+  ]
+}
+[2026-04-19T11:44:23.993Z] [run_1776255489_g114] [LOG] [FETCH_RESPONSE] {
+  "status": 200,
+  "contentType": "application/json"
+}
+[2026-04-19T11:44:23.993Z] [run_1776255489_g114] [LOG] [PARSE_SUCCESS] {
+  "keys": [
+    "avg_consumption",
+    "peak_consumption",
+    "temp_correlation",
+    "total_records"
+  ]
+}
+[2026-04-19T11:45:45.069Z] [run_1776599143_iwg3] [LOG] [CACHE_HIT] {
+  "func": "get_stats",
+  "module": "apps.energy_tracker.backend.main"
+}
+[2026-04-19T11:45:45.070Z] [run_1776599143_iwg3] [LOG] [CACHE_HIT] {
+  "func": "get_historical_data",
+  "module": "apps.energy_tracker.backend.main"
+}
+[2026-04-19T11:45:45.071Z] [run_1776599143_iwg3] [LOG] RENDER_SUCCESS
+[2026-04-19T11:45:48.774Z] [run_1776599143_iwg3] [LOG] [FETCH_RESPONSE] {
+  "status": 200,
+  "contentType": "application/json"
+}
+[2026-04-19T11:45:48.779Z] [run_1776599143_iwg3] [LOG] [PARSE_SUCCESS] {
+  "keys": [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12",
+    "13",
+    "14",
+    "15",
+    "16",
+    "17",
+    "18",
+    "19",
+    "20",
+    "21",
+    "22",
+    "23",
+    "24",
+    "25",
+    "26",
+    "27",
+    "28",
+    "29"
+  ]
+}
+[2026-04-19T11:45:48.781Z] [run_1776599143_iwg3] [LOG] [FETCH_RESPONSE] {
+  "status": 200,
+  "contentType": "application/json"
+}
+[2026-04-19T11:45:48.782Z] [run_1776599143_iwg3] [LOG] [PARSE_SUCCESS] {
+  "keys": [
+    "avg_consumption",
+    "peak_consumption",
+    "temp_correlation",
+    "total_records"
+  ]
+}
+[2026-04-19T11:46:19.782Z] [manual_1698868] [LOG] [CACHE_HIT] {
+  "func": "get_stats",
+  "module": "apps.energy_tracker.backend.main"
+}
+[2026-04-19T11:46:19.783Z] [manual_1698868] [LOG] [CACHE_HIT] {
+  "func": "get_historical_data",
+  "module": "apps.energy_tracker.backend.main"
+}
+[2026-04-19T11:46:23.328Z] [manual_1698868] [LOG] [FETCH_RESPONSE] {
+  "status": 200,
+  "contentType": "application/json"
+}
+[2026-04-19T11:46:23.328Z] [manual_1698868] [LOG] [PARSE_SUCCESS] {
+  "keys": [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12",
+    "13",
+    "14",
+    "15",
+    "16",
+    "17",
+    "18",
+    "19",
+    "20",
+    "21",
+    "22",
+    "23",
+    "24",
+    "25",
+    "26",
+    "27",
+    "28",
+    "29"
+  ]
+}
+[2026-04-19T11:46:23.482Z] [manual_1698868] [LOG] [FETCH_RESPONSE] {
+  "status": 200,
+  "contentType": "application/json"
+}
+[2026-04-19T11:46:23.497Z] [manual_1698868] [LOG] [PARSE_SUCCESS] {
+  "keys": [
+    "avg_consumption",
+    "peak_consumption",
+    "temp_correlation",
+    "total_records"
+  ]
+}
+[2026-04-19T11:46:27.271Z] [manual_1699123] [LOG] [FETCH_START] {
+  "func": "get_stats",
+  "module": "apps.energy_tracker.backend.main"
+}
+[2026-04-19T11:46:27.272Z] [manual_1699123] [LOG] [FETCH_START] {
+  "func": "get_historical_data",
+  "module": "apps.energy_tracker.backend.main"
+}
+[2026-04-19T11:46:27.272Z] [manual_1699123] [LOG] RENDER_SUCCESS
+[2026-04-19T11:46:29.807Z] [manual_1699123] [LOG] [CACHE_HIT] {
+  "func": "get_historical_data",
+  "module": "apps.energy_tracker.backend.main"
+}
+[2026-04-19T11:46:31.010Z] [manual_1699123] [LOG] [FETCH_RESPONSE] {
+  "status": 200,
+  "contentType": "application/json"
+}
+[2026-04-19T11:46:31.012Z] [manual_1699123] [LOG] [PARSE_SUCCESS] {
+  "keys": [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12",
+    "13",
+    "14",
+    "15",
+    "16",
+    "17",
+    "18",
+    "19",
+    "20",
+    "21",
+    "22",
+    "23",
+    "24",
+    "25",
+    "26",
+    "27",
+    "28",
+    "29"
+  ]
+}
+[2026-04-19T11:46:31.390Z] [manual_1699123] [LOG] [FETCH_RESPONSE] {
+  "status": 200,
+  "contentType": "application/json"
+}
+[2026-04-19T11:46:31.391Z] [manual_1699123] [LOG] [PARSE_SUCCESS] {
+  "keys": [
+    "avg_consumption",
+    "peak_consumption",
+    "temp_correlation",
+    "total_records"
+  ]
+}
+[2026-04-19T11:46:32.713Z] [manual_1699123] [LOG] [FETCH_RESPONSE] {
+  "status": 200,
+  "contentType": "application/json"
+}
+[2026-04-19T11:46:32.721Z] [manual_1699123] [LOG] [PARSE_SUCCESS] {
+  "keys": [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12",
+    "13",
+    "14",
+    "15",
+    "16",
+    "17",
+    "18",
+    "19",
+    "20",
+    "21",
+    "22",
+    "23",
+    "24",
+    "25",
+    "26",
+    "27",
+    "28",
+    "29",
+    "30",
+    "31",
+    "32",
+    "33",
+    "34",
+    "35",
+    "36",
+    "37",
+    "38",
+    "39",
+    "40",
+    "41",
+    "42",
+    "43",
+    "44",
+    "45",
+    "46",
+    "47",
+    "48",
+    "49",
+    "50",
+    "51",
+    "52",
+    "53",
+    "54",
+    "55",
+    "56",
+    "57",
+    "58",
+    "59",
+    "60",
+    "61",
+    "62",
+    "63",
+    "64",
+    "65",
+    "66",
+    "67",
+    "68",
+    "69",
+    "70",
+    "71",
+    "72",
+    "73",
+    "74",
+    "75",
+    "76",
+    "77",
+    "78",
+    "79",
+    "80",
+    "81",
+    "82",
+    "83",
+    "84",
+    "85",
+    "86",
+    "87",
+    "88",
+    "89",
+    "90",
+    "91",
+    "92",
+    "93",
+    "94",
+    "95",
+    "96",
+    "97",
+    "98",
+    "99"
+  ]
+}
+[2026-04-19T11:46:39.108Z] [manual_1699123] [LOG] [CACHE_HIT] {
+  "func": "add_manual_reading",
+  "module": "apps.energy_tracker.backend.main"
+}
+[2026-04-19T11:46:39.110Z] [manual_1699123] [LOG] [CACHE_INVALIDATE] {
+  "funcs": [
+    "get_historical_data",
+    "get_stats"
+  ],
+  "cleared": 3
+}
+[2026-04-19T11:46:39.111Z] [manual_1699123] [LOG] [FETCH_START] {
+  "func": "get_historical_data",
+  "module": "apps.energy_tracker.backend.main"
+}
+[2026-04-19T11:46:42.524Z] [manual_1699123] [LOG] [FETCH_RESPONSE] {
+  "status": 200,
+  "contentType": "application/json"
+}
+[2026-04-19T11:46:42.525Z] [manual_1699123] [LOG] [PARSE_SUCCESS] {
+  "keys": [
+    "id",
+    "date",
+    "energy_sum",
+    "temperature_max",
+    "created_at"
+  ]
+}
+[2026-04-19T11:46:42.725Z] [manual_1699123] [LOG] [FETCH_RESPONSE] {
+  "status": 200,
+  "contentType": "application/json"
+}
+[2026-04-19T11:46:42.727Z] [manual_1699123] [LOG] [PARSE_SUCCESS] {
+  "keys": [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12",
+    "13",
+    "14",
+    "15",
+    "16",
+    "17",
+    "18",
+    "19",
+    "20",
+    "21",
+    "22",
+    "23",
+    "24",
+    "25",
+    "26",
+    "27",
+    "28",
+    "29",
+    "30",
+    "31",
+    "32",
+    "33",
+    "34",
+    "35",
+    "36",
+    "37",
+    "38",
+    "39",
+    "40",
+    "41",
+    "42",
+    "43",
+    "44",
+    "45",
+    "46",
+    "47",
+    "48",
+    "49",
+    "50",
+    "51",
+    "52",
+    "53",
+    "54",
+    "55",
+    "56",
+    "57",
+    "58",
+    "59",
+    "60",
+    "61",
+    "62",
+    "63",
+    "64",
+    "65",
+    "66",
+    "67",
+    "68",
+    "69",
+    "70",
+    "71",
+    "72",
+    "73",
+    "74",
+    "75",
+    "76",
+    "77",
+    "78",
+    "79",
+    "80",
+    "81",
+    "82",
+    "83",
+    "84",
+    "85",
+    "86",
+    "87",
+    "88",
+    "89",
+    "90",
+    "91",
+    "92",
+    "93",
+    "94",
+    "95",
+    "96",
+    "97",
+    "98",
+    "99"
+  ]
+}
+[2026-04-19T11:48:14.486Z] [manual_1699230] [LOG] [FETCH_START] {
+  "func": "get_stats",
+  "module": "apps.energy_tracker.backend.main"
+}
+[2026-04-19T11:48:14.486Z] [manual_1699230] [LOG] [FETCH_START] {
+  "func": "get_historical_data",
+  "module": "apps.energy_tracker.backend.main"
+}
+[2026-04-19T11:48:14.487Z] [manual_1699230] [LOG] RENDER_SUCCESS
+[2026-04-19T11:48:16.791Z] [manual_1699230] [LOG] [CACHE_HIT] {
+  "func": "get_historical_data",
+  "module": "apps.energy_tracker.backend.main"
+}
+[2026-04-19T11:48:18.173Z] [manual_1699230] [LOG] [FETCH_RESPONSE] {
+  "status": 200,
+  "contentType": "application/json"
+}
+[2026-04-19T11:48:18.173Z] [manual_1699230] [LOG] [PARSE_SUCCESS] {
+  "keys": [
+    "avg_consumption",
+    "peak_consumption",
+    "temp_correlation",
+    "total_records"
+  ]
+}
+[2026-04-19T11:48:18.309Z] [manual_1699230] [LOG] [FETCH_RESPONSE] {
+  "status": 200,
+  "contentType": "application/json"
+}
+[2026-04-19T11:48:18.309Z] [manual_1699230] [LOG] [PARSE_SUCCESS] {
+  "keys": [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12",
+    "13",
+    "14",
+    "15",
+    "16",
+    "17",
+    "18",
+    "19",
+    "20",
+    "21",
+    "22",
+    "23",
+    "24",
+    "25",
+    "26",
+    "27",
+    "28",
+    "29"
+  ]
+}
+[2026-04-19T11:48:19.550Z] [manual_1699230] [LOG] [FETCH_RESPONSE] {
+  "status": 200,
+  "contentType": "application/json"
+}
+[2026-04-19T11:48:19.563Z] [manual_1699230] [LOG] [PARSE_SUCCESS] {
+  "keys": [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12",
+    "13",
+    "14",
+    "15",
+    "16",
+    "17",
+    "18",
+    "19",
+    "20",
+    "21",
+    "22",
+    "23",
+    "24",
+    "25",
+    "26",
+    "27",
+    "28",
+    "29",
+    "30",
+    "31",
+    "32",
+    "33",
+    "34",
+    "35",
+    "36",
+    "37",
+    "38",
+    "39",
+    "40",
+    "41",
+    "42",
+    "43",
+    "44",
+    "45",
+    "46",
+    "47",
+    "48",
+    "49",
+    "50",
+    "51",
+    "52",
+    "53",
+    "54",
+    "55",
+    "56",
+    "57",
+    "58",
+    "59",
+    "60",
+    "61",
+    "62",
+    "63",
+    "64",
+    "65",
+    "66",
+    "67",
+    "68",
+    "69",
+    "70",
+    "71",
+    "72",
+    "73",
+    "74",
+    "75",
+    "76",
+    "77",
+    "78",
+    "79",
+    "80",
+    "81",
+    "82",
+    "83",
+    "84",
+    "85",
+    "86",
+    "87",
+    "88",
+    "89",
+    "90",
+    "91",
+    "92",
+    "93",
+    "94",
+    "95",
+    "96",
+    "97",
+    "98",
+    "99"
+  ]
+}
+[2026-04-19T11:48:26.135Z] [manual_1699230] [LOG] [CACHE_HIT] {
+  "func": "add_manual_reading",
+  "module": "apps.energy_tracker.backend.main"
+}
+[2026-04-19T11:48:26.137Z] [manual_1699230] [LOG] [CACHE_INVALIDATE] {
+  "funcs": [
+    "get_historical_data",
+    "get_stats"
+  ],
+  "cleared": 3
+}
+[2026-04-19T11:48:26.137Z] [manual_1699230] [LOG] [FETCH_START] {
+  "func": "get_historical_data",
+  "module": "apps.energy_tracker.backend.main"
+}
+[2026-04-19T11:48:29.412Z] [manual_1699230] [LOG] [FETCH_RESPONSE] {
+  "status": 200,
+  "contentType": "application/json"
+}
+[2026-04-19T11:48:29.413Z] [manual_1699230] [LOG] [PARSE_SUCCESS] {
+  "keys": [
+    "id",
+    "date",
+    "energy_sum",
+    "temperature_max",
+    "created_at"
+  ]
+}
+[2026-04-19T11:48:29.507Z] [manual_1699230] [LOG] [FETCH_RESPONSE] {
+  "status": 200,
+  "contentType": "application/json"
+}
+[2026-04-19T11:48:29.520Z] [manual_1699230] [LOG] [PARSE_SUCCESS] {
+  "keys": [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12",
+    "13",
+    "14",
+    "15",
+    "16",
+    "17",
+    "18",
+    "19",
+    "20",
+    "21",
+    "22",
+    "23",
+    "24",
+    "25",
+    "26",
+    "27",
+    "28",
+    "29",
+    "30",
+    "31",
+    "32",
+    "33",
+    "34",
+    "35",
+    "36",
+    "37",
+    "38",
+    "39",
+    "40",
+    "41",
+    "42",
+    "43",
+    "44",
+    "45",
+    "46",
+    "47",
+    "48",
+    "49",
+    "50",
+    "51",
+    "52",
+    "53",
+    "54",
+    "55",
+    "56",
+    "57",
+    "58",
+    "59",
+    "60",
+    "61",
+    "62",
+    "63",
+    "64",
+    "65",
+    "66",
+    "67",
+    "68",
+    "69",
+    "70",
+    "71",
+    "72",
+    "73",
+    "74",
+    "75",
+    "76",
+    "77",
+    "78",
+    "79",
+    "80",
+    "81",
+    "82",
+    "83",
+    "84",
+    "85",
+    "86",
+    "87",
+    "88",
+    "89",
+    "90",
+    "91",
+    "92",
+    "93",
+    "94",
+    "95",
+    "96",
+    "97",
+    "98",
+    "99"
+  ]
+}
+[2026-04-19T11:49:08.151Z] [manual_1698868] [LOG] [CACHE_HIT] {
+  "func": "get_historical_data",
+  "module": "apps.energy_tracker.backend.main"
+}
+[2026-04-19T11:49:10.792Z] [manual_1698868] [LOG] [FETCH_RESPONSE] {
+  "status": 200,
+  "contentType": "application/json"
+}
+[2026-04-19T11:49:10.792Z] [manual_1698868] [LOG] [PARSE_SUCCESS] {
+  "keys": [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12",
+    "13",
+    "14",
+    "15",
+    "16",
+    "17",
+    "18",
+    "19",
+    "20",
+    "21",
+    "22",
+    "23",
+    "24",
+    "25",
+    "26",
+    "27",
+    "28",
+    "29",
+    "30",
+    "31",
+    "32",
+    "33",
+    "34",
+    "35",
+    "36",
+    "37",
+    "38",
+    "39",
+    "40",
+    "41",
+    "42",
+    "43",
+    "44",
+    "45",
+    "46",
+    "47",
+    "48",
+    "49",
+    "50",
+    "51",
+    "52",
+    "53",
+    "54",
+    "55",
+    "56",
+    "57",
+    "58",
+    "59",
+    "60",
+    "61",
+    "62",
+    "63",
+    "64",
+    "65",
+    "66",
+    "67",
+    "68",
+    "69",
+    "70",
+    "71",
+    "72",
+    "73",
+    "74",
+    "75",
+    "76",
+    "77",
+    "78",
+    "79",
+    "80",
+    "81",
+    "82",
+    "83",
+    "84",
+    "85",
+    "86",
+    "87",
+    "88",
+    "89",
+    "90",
+    "91",
+    "92",
+    "93",
+    "94",
+    "95",
+    "96",
+    "97",
+    "98",
+    "99"
+  ]
+}
+[2026-04-19T11:49:14.914Z] [manual_1699285] [LOG] [CACHE_HIT] {
+  "func": "get_stats",
+  "module": "apps.energy_tracker.backend.main"
+}
+[2026-04-19T11:49:14.915Z] [manual_1699285] [LOG] [CACHE_HIT] {
+  "func": "get_historical_data",
+  "module": "apps.energy_tracker.backend.main"
+}
+[2026-04-19T11:49:14.916Z] [manual_1699285] [LOG] RENDER_SUCCESS
+[2026-04-19T11:49:17.730Z] [manual_1699285] [LOG] [CACHE_HIT] {
+  "func": "get_historical_data",
+  "module": "apps.energy_tracker.backend.main"
+}
+[2026-04-19T11:49:18.381Z] [manual_1699285] [LOG] [FETCH_RESPONSE] {
+  "status": 200,
+  "contentType": "application/json"
+}
+[2026-04-19T11:49:18.381Z] [manual_1699285] [LOG] [FETCH_RESPONSE] {
+  "status": 200,
+  "contentType": "application/json"
+}
+[2026-04-19T11:49:18.382Z] [manual_1699285] [LOG] [PARSE_SUCCESS] {
+  "keys": [
+    "avg_consumption",
+    "peak_consumption",
+    "temp_correlation",
+    "total_records"
+  ]
+}
+[2026-04-19T11:49:18.382Z] [manual_1699285] [LOG] [PARSE_SUCCESS] {
+  "keys": [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12",
+    "13",
+    "14",
+    "15",
+    "16",
+    "17",
+    "18",
+    "19",
+    "20",
+    "21",
+    "22",
+    "23",
+    "24",
+    "25",
+    "26",
+    "27",
+    "28",
+    "29"
+  ]
+}
+[2026-04-19T11:49:20.109Z] [manual_1699285] [LOG] [FETCH_RESPONSE] {
+  "status": 200,
+  "contentType": "application/json"
+}
+[2026-04-19T11:49:20.109Z] [manual_1699285] [LOG] [PARSE_SUCCESS] {
+  "keys": [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12",
+    "13",
+    "14",
+    "15",
+    "16",
+    "17",
+    "18",
+    "19",
+    "20",
+    "21",
+    "22",
+    "23",
+    "24",
+    "25",
+    "26",
+    "27",
+    "28",
+    "29",
+    "30",
+    "31",
+    "32",
+    "33",
+    "34",
+    "35",
+    "36",
+    "37",
+    "38",
+    "39",
+    "40",
+    "41",
+    "42",
+    "43",
+    "44",
+    "45",
+    "46",
+    "47",
+    "48",
+    "49",
+    "50",
+    "51",
+    "52",
+    "53",
+    "54",
+    "55",
+    "56",
+    "57",
+    "58",
+    "59",
+    "60",
+    "61",
+    "62",
+    "63",
+    "64",
+    "65",
+    "66",
+    "67",
+    "68",
+    "69",
+    "70",
+    "71",
+    "72",
+    "73",
+    "74",
+    "75",
+    "76",
+    "77",
+    "78",
+    "79",
+    "80",
+    "81",
+    "82",
+    "83",
+    "84",
+    "85",
+    "86",
+    "87",
+    "88",
+    "89",
+    "90",
+    "91",
+    "92",
+    "93",
+    "94",
+    "95",
+    "96",
+    "97",
+    "98",
+    "99"
+  ]
+}
+[2026-04-19T11:49:29.256Z] [manual_1699285] [LOG] [FETCH_START] {
+  "func": "add_manual_reading",
+  "module": "apps.energy_tracker.backend.main"
+}
+[2026-04-19T11:49:31.369Z] [manual_1699285] [LOG] [FETCH_START] {
+  "func": "add_manual_reading",
+  "module": "apps.energy_tracker.backend.main"
+}
+[2026-04-19T11:49:31.641Z] [manual_1699285] [LOG] [FETCH_RESPONSE] {
+  "status": 200,
+  "contentType": "application/json"
+}
+[2026-04-19T11:49:31.642Z] [manual_1699285] [LOG] [PARSE_SUCCESS] {
+  "keys": [
+    "id",
+    "date",
+    "energy_sum",
+    "temperature_max",
+    "created_at"
+  ]
+}
+[2026-04-19T11:49:31.643Z] [manual_1699285] [LOG] [CACHE_INVALIDATE] {
+  "funcs": [
+    "get_historical_data",
+    "get_stats"
+  ],
+  "cleared": 3
+}
+[2026-04-19T11:49:31.643Z] [manual_1699285] [LOG] [FETCH_START] {
+  "func": "get_historical_data",
+  "module": "apps.energy_tracker.backend.main"
+}
+[2026-04-19T11:49:34.582Z] [manual_1699285] [LOG] [FETCH_RESPONSE] {
+  "status": 200,
+  "contentType": "application/json"
+}
+[2026-04-19T11:49:34.582Z] [manual_1699285] [LOG] [PARSE_SUCCESS] {
+  "keys": [
+    "id",
+    "date",
+    "energy_sum",
+    "temperature_max",
+    "created_at"
+  ]
+}
+[2026-04-19T11:49:34.582Z] [manual_1699285] [LOG] [CACHE_INVALIDATE] {
+  "funcs": [
+    "get_historical_data",
+    "get_stats"
+  ],
+  "cleared": 0
+}
+[2026-04-19T11:49:34.583Z] [manual_1699285] [LOG] [FETCH_START] {
+  "func": "get_historical_data",
+  "module": "apps.energy_tracker.backend.main"
+}
+[2026-04-19T11:49:34.862Z] [manual_1699285] [LOG] [FETCH_RESPONSE] {
+  "status": 200,
+  "contentType": "application/json"
+}
+[2026-04-19T11:49:34.862Z] [manual_1699285] [LOG] [PARSE_SUCCESS] {
+  "keys": [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12",
+    "13",
+    "14",
+    "15",
+    "16",
+    "17",
+    "18",
+    "19",
+    "20",
+    "21",
+    "22",
+    "23",
+    "24",
+    "25",
+    "26",
+    "27",
+    "28",
+    "29",
+    "30",
+    "31",
+    "32",
+    "33",
+    "34",
+    "35",
+    "36",
+    "37",
+    "38",
+    "39",
+    "40",
+    "41",
+    "42",
+    "43",
+    "44",
+    "45",
+    "46",
+    "47",
+    "48",
+    "49",
+    "50",
+    "51",
+    "52",
+    "53",
+    "54",
+    "55",
+    "56",
+    "57",
+    "58",
+    "59",
+    "60",
+    "61",
+    "62",
+    "63",
+    "64",
+    "65",
+    "66",
+    "67",
+    "68",
+    "69",
+    "70",
+    "71",
+    "72",
+    "73",
+    "74",
+    "75",
+    "76",
+    "77",
+    "78",
+    "79",
+    "80",
+    "81",
+    "82",
+    "83",
+    "84",
+    "85",
+    "86",
+    "87",
+    "88",
+    "89",
+    "90",
+    "91",
+    "92",
+    "93",
+    "94",
+    "95",
+    "96",
+    "97",
+    "98",
+    "99"
+  ]
+}
+[2026-04-19T11:49:36.779Z] [manual_1699285] [LOG] [FETCH_RESPONSE] {
+  "status": 200,
+  "contentType": "application/json"
+}
+[2026-04-19T11:49:36.780Z] [manual_1699285] [LOG] [PARSE_SUCCESS] {
+  "keys": [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12",
+    "13",
+    "14",
+    "15",
+    "16",
+    "17",
+    "18",
+    "19",
+    "20",
+    "21",
+    "22",
+    "23",
+    "24",
+    "25",
+    "26",
+    "27",
+    "28",
+    "29",
+    "30",
+    "31",
+    "32",
+    "33",
+    "34",
+    "35",
+    "36",
+    "37",
+    "38",
+    "39",
+    "40",
+    "41",
+    "42",
+    "43",
+    "44",
+    "45",
+    "46",
+    "47",
+    "48",
+    "49",
+    "50",
+    "51",
+    "52",
+    "53",
+    "54",
+    "55",
+    "56",
+    "57",
+    "58",
+    "59",
+    "60",
+    "61",
+    "62",
+    "63",
+    "64",
+    "65",
+    "66",
+    "67",
+    "68",
+    "69",
+    "70",
+    "71",
+    "72",
+    "73",
+    "74",
+    "75",
+    "76",
+    "77",
+    "78",
+    "79",
+    "80",
+    "81",
+    "82",
+    "83",
+    "84",
+    "85",
+    "86",
+    "87",
+    "88",
+    "89",
+    "90",
+    "91",
+    "92",
+    "93",
+    "94",
+    "95",
+    "96",
+    "97",
+    "98",
+    "99"
+  ]
+}
+[2026-04-19T11:50:52.687Z] [run_1776599449_2rjw] [LOG] [CACHE_HIT] {
+  "func": "get_stats",
+  "module": "apps.energy_tracker.backend.main"
+}
+[2026-04-19T11:50:52.691Z] [run_1776599449_2rjw] [LOG] [CACHE_HIT] {
+  "func": "get_historical_data",
+  "module": "apps.energy_tracker.backend.main"
+}
+[2026-04-19T11:50:52.692Z] [run_1776599449_2rjw] [LOG] RENDER_SUCCESS
+[2026-04-19T11:50:56.117Z] [run_1776599449_2rjw] [LOG] [FETCH_RESPONSE] {
+  "status": 200,
+  "contentType": "application/json"
+}
+[2026-04-19T11:50:56.119Z] [run_1776599449_2rjw] [LOG] [PARSE_SUCCESS] {
+  "keys": [
+    "avg_consumption",
+    "peak_consumption",
+    "temp_correlation",
+    "total_records"
+  ]
+}
+[2026-04-19T11:50:56.208Z] [run_1776599449_2rjw] [LOG] [FETCH_RESPONSE] {
+  "status": 200,
+  "contentType": "application/json"
+}
+[2026-04-19T11:50:56.210Z] [run_1776599449_2rjw] [LOG] [PARSE_SUCCESS] {
+  "keys": [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12",
+    "13",
+    "14",
+    "15",
+    "16",
+    "17",
+    "18",
+    "19",
+    "20",
+    "21",
+    "22",
+    "23",
+    "24",
+    "25",
+    "26",
+    "27",
+    "28",
+    "29"
+  ]
+}
+[2026-04-19T11:51:27.894Z] [manual_1699422] [LOG] [FETCH_START] {
+  "func": "get_stats",
+  "module": "apps.energy_tracker.backend.main"
+}
+[2026-04-19T11:51:27.896Z] [manual_1699422] [LOG] [FETCH_START] {
+  "func": "get_historical_data",
+  "module": "apps.energy_tracker.backend.main"
+}
+[2026-04-19T11:51:27.896Z] [manual_1699422] [LOG] RENDER_SUCCESS
+[2026-04-19T11:51:29.302Z] [manual_1699422] [LOG] [CACHE_HIT] {
+  "func": "get_historical_data",
+  "module": "apps.energy_tracker.backend.main"
+}
+[2026-04-19T11:51:32.394Z] [manual_1699422] [LOG] [FETCH_RESPONSE] {
+  "status": 200,
+  "contentType": "application/json"
+}
+[2026-04-19T11:51:32.395Z] [manual_1699422] [LOG] [PARSE_SUCCESS] {
+  "keys": [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12",
+    "13",
+    "14",
+    "15",
+    "16",
+    "17",
+    "18",
+    "19",
+    "20",
+    "21",
+    "22",
+    "23",
+    "24",
+    "25",
+    "26",
+    "27",
+    "28",
+    "29"
+  ]
+}
+[2026-04-19T11:51:32.494Z] [manual_1699422] [LOG] [FETCH_RESPONSE] {
+  "status": 200,
+  "contentType": "application/json"
+}
+[2026-04-19T11:51:32.494Z] [manual_1699422] [LOG] [PARSE_SUCCESS] {
+  "keys": [
+    "avg_consumption",
+    "peak_consumption",
+    "temp_correlation",
+    "total_records"
+  ]
+}
+[2026-04-19T11:51:33.164Z] [manual_1699422] [LOG] [FETCH_RESPONSE] {
+  "status": 200,
+  "contentType": "application/json"
+}
+[2026-04-19T11:51:33.166Z] [manual_1699422] [LOG] [PARSE_SUCCESS] {
+  "keys": [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12",
+    "13",
+    "14",
+    "15",
+    "16",
+    "17",
+    "18",
+    "19",
+    "20",
+    "21",
+    "22",
+    "23",
+    "24",
+    "25",
+    "26",
+    "27",
+    "28",
+    "29",
+    "30",
+    "31",
+    "32",
+    "33",
+    "34",
+    "35",
+    "36",
+    "37",
+    "38",
+    "39",
+    "40",
+    "41",
+    "42",
+    "43",
+    "44",
+    "45",
+    "46",
+    "47",
+    "48",
+    "49",
+    "50",
+    "51",
+    "52",
+    "53",
+    "54",
+    "55",
+    "56",
+    "57",
+    "58",
+    "59",
+    "60",
+    "61",
+    "62",
+    "63",
+    "64",
+    "65",
+    "66",
+    "67",
+    "68",
+    "69",
+    "70",
+    "71",
+    "72",
+    "73",
+    "74",
+    "75",
+    "76",
+    "77",
+    "78",
+    "79",
+    "80",
+    "81",
+    "82",
+    "83",
+    "84",
+    "85",
+    "86",
+    "87",
+    "88",
+    "89",
+    "90",
+    "91",
+    "92",
+    "93",
+    "94",
+    "95",
+    "96",
+    "97",
+    "98",
+    "99"
+  ]
+}

@@ -1,0 +1,1144 @@
+[2026-04-13T16:58:30.189523] [cbf_1776099497_4j8e] [BACKEND] [BACKEND_START] add_manual_reading called for 2024-12-25
+[2026-04-13T16:58:30.226734] [cbf_1776099497_4j8e] [BACKEND] [BACKEND_SUCCESS] Manual reading added with ID 1
+[2026-04-13T16:58:30.789452] [cbf_1776099497_ch7r] [BACKEND] [BACKEND_START] predict_energy called for 2024-12-25
+[2026-04-13T16:58:31.005936] [cbf_1776099497_n0hj] [BACKEND] [BACKEND_START] get_stats called
+[2026-04-13T16:58:31.089660] [cbf_1776099497_6ljo] [BACKEND] [BACKEND_START] get_historical_data called with limit=5
+[2026-04-13T16:58:31.098261] [cbf_1776099497_n0hj] [BACKEND] [BACKEND_SUCCESS] Stats generated: {'avg_consumption': 12.11, 'peak_consumption': 18.16, 'temp_correlation': -0.9018, 'total_records': 731}
+[2026-04-13T16:58:31.189966] [cbf_1776099497_6ljo] [BACKEND] [BACKEND_SUCCESS] Returning 5 historical records
+[2026-04-13T16:58:33.807427] [cbf_1776099497_ch7r] [BACKEND] ERROR: /usr/local/lib/python3.13/site-packages/sklearn/utils/validation.py:2691: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+[2026-04-13T16:58:33.807637] [cbf_1776099497_ch7r] [BACKEND] ERROR:   warnings.warn(
+[2026-04-13T16:58:33.811442] [cbf_1776099497_ch7r] [BACKEND] [BACKEND_SUCCESS] Prediction complete: 13.8 kWh
+[2026-04-13T16:58:37.202126] [cbf_1776099515_sfhe] [BACKEND] [BACKEND_START] get_stats called
+[2026-04-13T16:58:37.221997] [cbf_1776099515_sfhe] [BACKEND] [BACKEND_SUCCESS] Stats generated: {'avg_consumption': 12.11, 'peak_consumption': 18.16, 'temp_correlation': -0.9018, 'total_records': 731}
+[2026-04-13T17:00:37.608170] [tool_1776099630_8bj0] [BACKEND] [BACKEND_START] get_stats called
+[2026-04-13T17:00:37.693130] [tool_1776099630_8bj0] [BACKEND] [BACKEND_START] get_historical_data called with limit=30
+[2026-04-13T17:00:37.694304] [tool_1776099630_8bj0] [BACKEND] [BACKEND_SUCCESS] Stats generated: {'avg_consumption': 12.11, 'peak_consumption': 18.16, 'temp_correlation': -0.9018, 'total_records': 730}
+[2026-04-13T17:00:37.726612] [tool_1776099630_8bj0] [BACKEND] [BACKEND_SUCCESS] Returning 30 historical records
+[2026-04-13T17:00:38.171689] SUCCESS: Function get_stats completed.
+[2026-04-13T17:00:38.275708] SUCCESS: Function get_historical_data completed. args={"limit": 30}
+[2026-04-13T17:00:49.107566] [run_1776099643_9aij] [BACKEND] [BACKEND_START] get_stats called
+[2026-04-13T17:00:49.123702] [run_1776099643_9aij] [BACKEND] [BACKEND_SUCCESS] Stats generated: {'avg_consumption': 12.11, 'peak_consumption': 18.16, 'temp_correlation': -0.9018, 'total_records': 730}
+[2026-04-13T17:00:49.384661] [run_1776099643_9aij] [BACKEND] [BACKEND_START] get_historical_data called with limit=30
+[2026-04-13T17:00:49.410075] [run_1776099643_9aij] [BACKEND] [BACKEND_SUCCESS] Returning 30 historical records
+[2026-04-13T17:00:49.578848] SUCCESS: Function get_stats completed.
+[2026-04-13T17:00:49.729486] SUCCESS: Function get_historical_data completed. args={"limit": 30}
+[2026-04-13T17:01:06.416519] [manual_1199598] [BACKEND] [BACKEND_START] get_historical_data called with limit=30
+[2026-04-13T17:01:06.506297] [manual_1199598] [BACKEND] [BACKEND_SUCCESS] Returning 30 historical records
+[2026-04-13T17:01:07.709015] [manual_1199598] [BACKEND] [BACKEND_START] get_stats called
+[2026-04-13T17:01:07.734469] [manual_1199598] [BACKEND] [BACKEND_SUCCESS] Stats generated: {'avg_consumption': 12.11, 'peak_consumption': 18.16, 'temp_correlation': -0.9018, 'total_records': 730}
+[2026-04-13T17:01:07.370328] SUCCESS: Function get_historical_data completed. args={"limit": 30}
+[2026-04-13T17:01:08.439200] SUCCESS: Function get_stats completed.
+[2026-04-13T17:01:53.102741] [manual_1199643] [BACKEND] [BACKEND_START] get_historical_data called with limit=30
+[2026-04-13T17:01:53.191691] [manual_1199643] [BACKEND] [BACKEND_START] get_stats called
+[2026-04-13T17:01:53.204928] [manual_1199643] [BACKEND] [BACKEND_SUCCESS] Returning 30 historical records
+[2026-04-13T17:01:53.302432] [manual_1199643] [BACKEND] [BACKEND_SUCCESS] Stats generated: {'avg_consumption': 12.11, 'peak_consumption': 18.16, 'temp_correlation': -0.9018, 'total_records': 730}
+[2026-04-13T17:01:54.124568] SUCCESS: Function get_stats completed.
+[2026-04-13T17:01:54.128208] SUCCESS: Function get_historical_data completed. args={"limit": 30}
+[2026-04-13T17:02:06.330829] [manual_1199658] [BACKEND] [BACKEND_START] get_historical_data called with limit=30
+[2026-04-13T17:02:06.403973] [manual_1199658] [BACKEND] [BACKEND_SUCCESS] Returning 30 historical records
+[2026-04-13T17:02:06.518938] [manual_1199658] [BACKEND] [BACKEND_START] get_stats called
+[2026-04-13T17:02:06.587781] [manual_1199658] [BACKEND] [BACKEND_SUCCESS] Stats generated: {'avg_consumption': 12.11, 'peak_consumption': 18.16, 'temp_correlation': -0.9018, 'total_records': 730}
+[2026-04-13T17:02:07.171035] SUCCESS: Function get_historical_data completed. args={"limit": 30}
+[2026-04-13T17:02:22.225725] [manual_1199598] [BACKEND] [BACKEND_START] predict_energy called for 2024-12-25
+[2026-04-13T17:02:27.213480] [manual_1199598] [BACKEND] ERROR: /usr/local/lib/python3.13/site-packages/sklearn/utils/validation.py:2691: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+[2026-04-13T17:02:27.213851] [manual_1199598] [BACKEND] ERROR:   warnings.warn(
+[2026-04-13T17:02:27.218935] [manual_1199598] [BACKEND] [BACKEND_SUCCESS] Prediction complete: 13.8 kWh
+[2026-04-13T17:02:28.152007] SUCCESS: Function predict_energy completed. args={"year": 2024, "month": 12, "day": 25}
+[2026-04-13T17:04:47.748332] [run_1776099643_9aij] [BACKEND] [BACKEND_START] predict_energy called for 2026-04-13
+[2026-04-13T17:04:50.140318] [run_1776099643_9aij] [BACKEND] ERROR: /usr/local/lib/python3.13/site-packages/sklearn/utils/validation.py:2691: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+[2026-04-13T17:04:50.140552] [run_1776099643_9aij] [BACKEND] ERROR:   warnings.warn(
+[2026-04-13T17:04:50.144108] [run_1776099643_9aij] [BACKEND] [BACKEND_SUCCESS] Prediction complete: 8.17 kWh
+[2026-04-13T17:04:50.668405] SUCCESS: Function predict_energy completed. args={"year": 2026, "month": 4, "day": 13}
+[2026-04-13T17:08:39.722173] [run_1776099643_9aij] [BACKEND] [BACKEND_START] get_historical_data called with limit=30
+[2026-04-13T17:08:39.801992] [run_1776099643_9aij] [BACKEND] [BACKEND_SUCCESS] Returning 30 historical records
+[2026-04-13T17:08:40.102616] [run_1776099643_9aij] [BACKEND] [BACKEND_START] get_stats called
+[2026-04-13T17:08:40.131579] [run_1776099643_9aij] [BACKEND] [BACKEND_SUCCESS] Stats generated: {'avg_consumption': 12.11, 'peak_consumption': 18.16, 'temp_correlation': -0.9018, 'total_records': 730}
+[2026-04-13T17:08:41.994947] SUCCESS: Function get_historical_data completed. args={"limit": 30}
+[2026-04-13T17:09:22.301004] [manual_1200096] [BACKEND] [BACKEND_START] get_stats called
+[2026-04-13T17:09:22.318363] [manual_1200096] [BACKEND] [BACKEND_SUCCESS] Stats generated: {'avg_consumption': 12.11, 'peak_consumption': 18.16, 'temp_correlation': -0.9018, 'total_records': 730}
+[2026-04-13T17:09:22.606261] [manual_1200096] [BACKEND] [BACKEND_START] get_historical_data called with limit=30
+[2026-04-13T17:09:22.631140] [manual_1200096] [BACKEND] [BACKEND_SUCCESS] Returning 30 historical records
+[2026-04-13T17:09:22.736280] SUCCESS: Function get_stats completed.
+[2026-04-13T17:09:22.931175] SUCCESS: Function get_historical_data completed. args={"limit": 30}
+[2026-04-13T17:09:51.932952] [manual_1200096] [BACKEND] [BACKEND_START] predict_energy called for 2026-04-13
+[2026-04-13T17:09:53.914852] [manual_1200096] [BACKEND] ERROR: /usr/local/lib/python3.13/site-packages/sklearn/utils/validation.py:2691: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+[2026-04-13T17:09:53.914986] [manual_1200096] [BACKEND] ERROR:   warnings.warn(
+[2026-04-13T17:09:53.918269] [manual_1200096] [BACKEND] [BACKEND_SUCCESS] Prediction complete: 8.17 kWh
+[2026-04-13T17:09:54.350056] SUCCESS: Function predict_energy completed. args={"year": 2026, "month": 4, "day": 13}
+[2026-04-13T17:25:56.732136] [run_1776101151_q5i4] [BACKEND] [BACKEND_START] get_stats called
+[2026-04-13T17:25:56.740648] [run_1776101151_q5i4] [BACKEND] [BACKEND_START] get_historical_data called with limit=30
+[2026-04-13T17:25:56.786246] [run_1776101151_q5i4] [BACKEND] [BACKEND_SUCCESS] Stats generated: {'avg_consumption': 12.11, 'peak_consumption': 18.16, 'temp_correlation': -0.9018, 'total_records': 730}
+[2026-04-13T17:25:56.839668] [run_1776101151_q5i4] [BACKEND] [BACKEND_SUCCESS] Returning 30 historical records
+[2026-04-13T17:25:57.162465] SUCCESS: Function get_stats completed.
+[2026-04-13T17:25:57.272905] SUCCESS: Function get_historical_data completed. args={"limit": 30}
+[2026-04-13T17:27:18.616533] [manual_1201172] [BACKEND] [BACKEND_START] get_stats called
+[2026-04-13T17:27:18.634414] [manual_1201172] [BACKEND] [BACKEND_SUCCESS] Stats generated: {'avg_consumption': 12.11, 'peak_consumption': 18.16, 'temp_correlation': -0.9018, 'total_records': 730}
+[2026-04-13T17:27:19.121190] [manual_1201172] [BACKEND] [BACKEND_START] get_historical_data called with limit=30
+[2026-04-13T17:27:19.144522] [manual_1201172] [BACKEND] [BACKEND_SUCCESS] Returning 30 historical records
+[2026-04-13T17:27:19.122988] SUCCESS: Function get_stats completed.
+[2026-04-13T17:27:19.517233] SUCCESS: Function get_historical_data completed. args={"limit": 30}
+[2026-04-13T17:27:48.908643] [manual_1201172] [BACKEND] [BACKEND_START] predict_energy called for 2026-04-13
+[2026-04-13T17:27:50.891282] [manual_1201172] [BACKEND] ERROR: /usr/local/lib/python3.13/site-packages/sklearn/utils/validation.py:2691: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+[2026-04-13T17:27:50.891473] [manual_1201172] [BACKEND] ERROR:   warnings.warn(
+[2026-04-13T17:27:50.896427] [manual_1201172] [BACKEND] [BACKEND_SUCCESS] Prediction complete: 8.17 kWh
+[2026-04-13T17:27:51.360738] SUCCESS: Function predict_energy completed. args={"year": 2026, "month": 4, "day": 13}
+[2026-04-13T17:27:55.085523] [manual_1201172] [BACKEND] [BACKEND_START] get_historical_data called with limit=30
+[2026-04-13T17:27:55.109550] [manual_1201172] [BACKEND] [BACKEND_START] get_stats called
+[2026-04-13T17:27:55.115292] [manual_1201172] [BACKEND] [BACKEND_SUCCESS] Returning 30 historical records
+[2026-04-13T17:27:55.124209] [manual_1201172] [BACKEND] [BACKEND_SUCCESS] Stats generated: {'avg_consumption': 12.11, 'peak_consumption': 18.16, 'temp_correlation': -0.9018, 'total_records': 730}
+[2026-04-13T17:27:55.578467] SUCCESS: Function get_historical_data completed. args={"limit": 30}
+[2026-04-13T17:32:26.135450] [run_1776101541_nils] [BACKEND] [BACKEND_START] get_stats called
+[2026-04-13T17:32:26.136000] [run_1776101541_nils] [BACKEND] [BACKEND_START] get_historical_data called with limit=30
+[2026-04-13T17:32:26.206735] [run_1776101541_nils] [BACKEND] [BACKEND_SUCCESS] Stats generated: {'avg_consumption': 12.11, 'peak_consumption': 18.16, 'temp_correlation': -0.9018, 'total_records': 730}
+[2026-04-13T17:32:26.212269] [run_1776101541_nils] [BACKEND] [BACKEND_SUCCESS] Returning 30 historical records
+[2026-04-13T17:32:26.659715] SUCCESS: Function get_historical_data completed. args={"limit": 30}
+[2026-04-13T17:32:26.660116] SUCCESS: Function get_stats completed.
+[2026-04-13T17:32:32.502490] [manual_1201486] [BACKEND] [BACKEND_START] get_historical_data called with limit=30
+[2026-04-13T17:32:32.527580] [manual_1201486] [BACKEND] [BACKEND_SUCCESS] Returning 30 historical records
+[2026-04-13T17:32:32.594643] [manual_1201486] [BACKEND] [BACKEND_START] get_stats called
+[2026-04-13T17:32:32.614235] [manual_1201486] [BACKEND] [BACKEND_SUCCESS] Stats generated: {'avg_consumption': 12.11, 'peak_consumption': 18.16, 'temp_correlation': -0.9018, 'total_records': 730}
+[2026-04-13T17:32:33.025877] SUCCESS: Function get_historical_data completed. args={"limit": 30}
+[2026-04-13T17:37:49.606851] [manual_1201486] [BACKEND] [BACKEND_START] predict_energy called for 2026-04-13
+[2026-04-13T17:37:51.963427] [manual_1201486] [BACKEND] ERROR: /usr/local/lib/python3.13/site-packages/sklearn/utils/validation.py:2691: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+[2026-04-13T17:37:51.963666] [manual_1201486] [BACKEND] ERROR:   warnings.warn(
+[2026-04-13T17:37:51.967516] [manual_1201486] [BACKEND] [BACKEND_SUCCESS] Prediction complete: 8.17 kWh
+[2026-04-13T17:37:52.428680] SUCCESS: Function predict_energy completed. args={"year": 2026, "month": 4, "day": 13}
+[2026-04-13T17:39:43.591828] [run_1776101978_svpg] [BACKEND] [BACKEND_START] get_historical_data called with limit=30
+[2026-04-13T17:39:43.632907] [run_1776101978_svpg] [BACKEND] [BACKEND_START] get_stats called
+[2026-04-13T17:39:43.635332] [run_1776101978_svpg] [BACKEND] [BACKEND_SUCCESS] Returning 30 historical records
+[2026-04-13T17:39:43.687927] [run_1776101978_svpg] [BACKEND] [BACKEND_SUCCESS] Stats generated: {'avg_consumption': 12.11, 'peak_consumption': 18.16, 'temp_correlation': -0.9018, 'total_records': 730}
+[2026-04-13T17:39:44.151887] SUCCESS: Function get_stats completed.
+[2026-04-13T17:39:44.151583] SUCCESS: Function get_historical_data completed. args={"limit": 30}
+[2026-04-13T17:40:40.100965] [manual_1201974] [BACKEND] [BACKEND_START] get_historical_data called with limit=30
+[2026-04-13T17:40:40.126091] [manual_1201974] [BACKEND] [BACKEND_START] get_stats called
+[2026-04-13T17:40:40.127036] [manual_1201974] [BACKEND] [BACKEND_SUCCESS] Returning 30 historical records
+[2026-04-13T17:40:40.185529] [manual_1201974] [BACKEND] [BACKEND_SUCCESS] Stats generated: {'avg_consumption': 12.11, 'peak_consumption': 18.16, 'temp_correlation': -0.9018, 'total_records': 730}
+[2026-04-13T17:40:40.572854] SUCCESS: Function get_historical_data completed. args={"limit": 30}
+[2026-04-13T17:40:40.573481] SUCCESS: Function get_stats completed.
+[2026-04-13T17:54:07.830960] [manual_1202778] [BACKEND] [BACKEND_START] get_stats called
+[2026-04-13T17:54:07.904343] [manual_1202778] [BACKEND] [BACKEND_SUCCESS] Stats generated: {'avg_consumption': 12.11, 'peak_consumption': 18.16, 'temp_correlation': -0.9018, 'total_records': 730}
+[2026-04-13T17:54:07.934025] [manual_1202778] [BACKEND] [BACKEND_START] get_historical_data called with limit=30
+[2026-04-13T17:54:08.016752] [manual_1202778] [BACKEND] [BACKEND_SUCCESS] Returning 30 historical records
+[2026-04-13T17:54:08.328167] SUCCESS: Function get_stats completed.
+[2026-04-13T17:54:08.421093] SUCCESS: Function get_historical_data completed. args={"limit": 30}
+[2026-04-13T17:55:52.040042] [manual_1202884] [BACKEND] [BACKEND_START] get_stats called
+[2026-04-13T17:55:52.112927] [manual_1202884] [BACKEND] [BACKEND_SUCCESS] Stats generated: {'avg_consumption': 12.11, 'peak_consumption': 18.16, 'temp_correlation': -0.9018, 'total_records': 730}
+[2026-04-13T17:55:52.454857] [manual_1202884] [BACKEND] [BACKEND_START] get_historical_data called with limit=30
+[2026-04-13T17:55:52.507598] [manual_1202884] [BACKEND] [BACKEND_SUCCESS] Returning 30 historical records
+[2026-04-13T17:55:52.550095] SUCCESS: Function get_stats completed.
+[2026-04-13T17:55:52.858250] SUCCESS: Function get_historical_data completed. args={"limit": 30}
+[2026-04-13T17:56:02.191752] [manual_1202884] [BACKEND] [BACKEND_START] predict_energy called for 2026-04-13
+[2026-04-13T17:56:04.357012] [manual_1202884] [BACKEND] ERROR: /usr/local/lib/python3.13/site-packages/sklearn/utils/validation.py:2691: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+[2026-04-13T17:56:04.357156] [manual_1202884] [BACKEND] ERROR:   warnings.warn(
+[2026-04-13T17:56:04.360849] [manual_1202884] [BACKEND] [BACKEND_SUCCESS] Prediction complete: 8.17 kWh
+[2026-04-13T17:56:04.788807] SUCCESS: Function predict_energy completed. args={"year": 2026, "month": 4, "day": 13}
+[2026-04-13T18:02:09.416394] [run_1776103324_c6y5] [BACKEND] [BACKEND_START] get_historical_data called with limit=30
+[2026-04-13T18:02:09.429519] [run_1776103324_c6y5] [BACKEND] [BACKEND_START] get_stats called
+[2026-04-13T18:02:09.491125] [run_1776103324_c6y5] [BACKEND] [BACKEND_SUCCESS] Returning 30 historical records
+[2026-04-13T18:02:09.491490] [run_1776103324_c6y5] [BACKEND] [BACKEND_SUCCESS] Stats generated: {'avg_consumption': 12.11, 'peak_consumption': 18.16, 'temp_correlation': -0.9018, 'total_records': 730}
+[2026-04-13T18:02:09.835561] SUCCESS: Function get_stats completed.
+[2026-04-13T18:02:24.718781] [manual_1203278] [BACKEND] [BACKEND_START] get_historical_data called with limit=30
+[2026-04-13T18:02:24.790676] [manual_1203278] [BACKEND] [BACKEND_SUCCESS] Returning 30 historical records
+[2026-04-13T18:02:24.932941] [manual_1203278] [BACKEND] [BACKEND_START] get_stats called
+[2026-04-13T18:02:24.995737] [manual_1203278] [BACKEND] [BACKEND_SUCCESS] Stats generated: {'avg_consumption': 12.11, 'peak_consumption': 18.16, 'temp_correlation': -0.9018, 'total_records': 730}
+[2026-04-13T18:02:25.141935] SUCCESS: Function get_historical_data completed. args={"limit": 30}
+[2026-04-13T18:02:25.350921] SUCCESS: Function get_stats completed.
+[2026-04-13T18:06:09.526707] [run_1776103565_rgeg] [BACKEND] [BACKEND_START] get_historical_data called with limit=30
+[2026-04-13T18:06:09.600976] [run_1776103565_rgeg] [BACKEND] [BACKEND_SUCCESS] Returning 30 historical records
+[2026-04-13T18:06:09.929925] [run_1776103565_rgeg] [BACKEND] [BACKEND_START] get_stats called
+[2026-04-13T18:06:09.947936] [run_1776103565_rgeg] [BACKEND] [BACKEND_SUCCESS] Stats generated: {'avg_consumption': 12.11, 'peak_consumption': 18.16, 'temp_correlation': -0.9018, 'total_records': 730}
+[2026-04-13T18:06:09.934304] SUCCESS: Function get_historical_data completed. args={"limit": 30}
+[2026-04-13T18:06:10.312256] SUCCESS: Function get_stats completed.
+[2026-04-13T18:06:27.395527] [manual_1203521] [BACKEND] [BACKEND_START] get_historical_data called with limit=30
+[2026-04-13T18:06:27.418140] [manual_1203521] [BACKEND] [BACKEND_SUCCESS] Returning 30 historical records
+[2026-04-13T18:06:27.902960] [manual_1203521] [BACKEND] [BACKEND_START] get_stats called
+[2026-04-13T18:06:27.917491] [manual_1203521] [BACKEND] [BACKEND_SUCCESS] Stats generated: {'avg_consumption': 12.11, 'peak_consumption': 18.16, 'temp_correlation': -0.9018, 'total_records': 730}
+[2026-04-13T18:06:27.832138] SUCCESS: Function get_historical_data completed. args={"limit": 30}
+[2026-04-13T18:06:28.228533] SUCCESS: Function get_stats completed.
+[2026-04-13T18:08:47.786106] [run_1776103722_3408] [BACKEND] [BACKEND_START] get_historical_data called with limit=30
+[2026-04-13T18:08:47.807122] [run_1776103722_3408] [BACKEND] [BACKEND_SUCCESS] Returning 30 historical records
+[2026-04-13T18:08:48.001418] [run_1776103722_3408] [BACKEND] [BACKEND_START] get_stats called
+[2026-04-13T18:08:48.016153] [run_1776103722_3408] [BACKEND] [BACKEND_SUCCESS] Stats generated: {'avg_consumption': 12.11, 'peak_consumption': 18.16, 'temp_correlation': -0.9018, 'total_records': 730}
+[2026-04-13T18:08:48.226068] SUCCESS: Function get_historical_data completed. args={"limit": 30}
+[2026-04-13T18:08:48.325756] SUCCESS: Function get_stats completed.
+[2026-04-13T18:08:56.201605] [manual_1203670] [BACKEND] [BACKEND_START] get_historical_data called with limit=30
+[2026-04-13T18:08:56.223157] [manual_1203670] [BACKEND] [BACKEND_SUCCESS] Returning 30 historical records
+[2026-04-13T18:08:56.604507] [manual_1203670] [BACKEND] [BACKEND_START] get_stats called
+[2026-04-13T18:08:56.619678] [manual_1203670] [BACKEND] [BACKEND_SUCCESS] Stats generated: {'avg_consumption': 12.11, 'peak_consumption': 18.16, 'temp_correlation': -0.9018, 'total_records': 730}
+[2026-04-13T18:08:56.628664] SUCCESS: Function get_historical_data completed. args={"limit": 30}
+[2026-04-13T18:08:56.943984] SUCCESS: Function get_stats completed.
+[2026-04-13T18:11:20.411770] [run_1776103875_yf9y] [BACKEND] [BACKEND_START] get_historical_data called with limit=30
+[2026-04-13T18:11:20.488968] [run_1776103875_yf9y] [BACKEND] [BACKEND_SUCCESS] Returning 30 historical records
+[2026-04-13T18:11:20.611729] [run_1776103875_yf9y] [BACKEND] [BACKEND_START] get_stats called
+[2026-04-13T18:11:20.639251] [run_1776103875_yf9y] [BACKEND] [BACKEND_SUCCESS] Stats generated: {'avg_consumption': 12.11, 'peak_consumption': 18.16, 'temp_correlation': -0.9018, 'total_records': 730}
+[2026-04-13T18:11:21.097632] SUCCESS: Function get_historical_data completed. args={"limit": 30}
+[2026-04-13T18:11:49.091116] [manual_1203843] [BACKEND] [BACKEND_START] get_historical_data called with limit=30
+[2026-04-13T18:11:49.117877] [manual_1203843] [BACKEND] [BACKEND_SUCCESS] Returning 30 historical records
+[2026-04-13T18:11:49.230402] [manual_1203843] [BACKEND] [BACKEND_START] get_stats called
+[2026-04-13T18:11:49.301024] [manual_1203843] [BACKEND] [BACKEND_SUCCESS] Stats generated: {'avg_consumption': 12.11, 'peak_consumption': 18.16, 'temp_correlation': -0.9018, 'total_records': 730}
+[2026-04-13T18:11:49.542211] SUCCESS: Function get_historical_data completed. args={"limit": 30}
+[2026-04-13T18:11:49.646683] SUCCESS: Function get_stats completed.
+[2026-04-13T18:12:00.506016] [manual_1203854] [BACKEND] [BACKEND_START] get_stats called
+[2026-04-13T18:12:00.520406] [manual_1203854] [BACKEND] [BACKEND_SUCCESS] Stats generated: {'avg_consumption': 12.11, 'peak_consumption': 18.16, 'temp_correlation': -0.9018, 'total_records': 730}
+[2026-04-13T18:12:00.528963] [manual_1203854] [BACKEND] [BACKEND_START] get_historical_data called with limit=30
+[2026-04-13T18:12:00.604878] [manual_1203854] [BACKEND] [BACKEND_SUCCESS] Returning 30 historical records
+[2026-04-13T18:12:00.924597] SUCCESS: Function get_stats completed.
+[2026-04-13T18:12:37.328231] [manual_1203854] [BACKEND] [BACKEND_START] get_historical_data called with limit=100
+[2026-04-13T18:12:37.348441] [manual_1203854] [BACKEND] [BACKEND_SUCCESS] Returning 100 historical records
+[2026-04-13T18:12:37.779498] SUCCESS: Function get_historical_data completed. args={"limit": 100}
+[2026-04-13T18:12:49.631920] [manual_1203854] [BACKEND] [BACKEND_START] get_stats called
+[2026-04-13T18:12:49.700574] [manual_1203854] [BACKEND] [BACKEND_SUCCESS] Stats generated: {'avg_consumption': 12.11, 'peak_consumption': 18.16, 'temp_correlation': -0.9018, 'total_records': 730}
+[2026-04-13T18:12:50.321526] [manual_1203854] [BACKEND] [BACKEND_START] get_historical_data called with limit=30
+[2026-04-13T18:12:50.395212] [manual_1203854] [BACKEND] [BACKEND_SUCCESS] Returning 30 historical records
+[2026-04-13T18:12:50.140592] SUCCESS: Function get_stats completed.
+[2026-04-13T18:12:50.691234] SUCCESS: Function get_historical_data completed. args={"limit": 30}
+[2026-04-13T18:15:30.629981] [run_1776104125_z6bo] [BACKEND] [BACKEND_START] get_historical_data called with limit=30
+[2026-04-13T18:15:30.629948] [run_1776104125_z6bo] [BACKEND] [BACKEND_START] get_stats called
+[2026-04-13T18:15:30.691382] [run_1776104125_z6bo] [BACKEND] [BACKEND_SUCCESS] Stats generated: {'avg_consumption': 12.11, 'peak_consumption': 18.16, 'temp_correlation': -0.9018, 'total_records': 730}
+[2026-04-13T18:15:30.707870] [run_1776104125_z6bo] [BACKEND] [BACKEND_SUCCESS] Returning 30 historical records
+[2026-04-13T18:15:31.045399] SUCCESS: Function get_stats completed.
+[2026-04-13T18:15:31.142213] SUCCESS: Function get_historical_data completed. args={"limit": 30}
+[2026-04-13T18:15:38.519540] [manual_1204072] [BACKEND] [BACKEND_START] get_historical_data called with limit=30
+[2026-04-13T18:15:38.591362] [manual_1204072] [BACKEND] [BACKEND_SUCCESS] Returning 30 historical records
+[2026-04-13T18:15:38.789382] [manual_1204072] [BACKEND] [BACKEND_START] get_stats called
+[2026-04-13T18:15:38.807669] [manual_1204072] [BACKEND] [BACKEND_SUCCESS] Stats generated: {'avg_consumption': 12.11, 'peak_consumption': 18.16, 'temp_correlation': -0.9018, 'total_records': 730}
+[2026-04-13T18:15:39.015244] SUCCESS: Function get_historical_data completed. args={"limit": 30}
+[2026-04-13T18:15:39.136483] SUCCESS: Function get_stats completed.
+[2026-04-13T18:17:34.086574] [run_1776104249_vxr8] [BACKEND] [BACKEND_START] get_historical_data called with limit=30
+[2026-04-13T18:17:34.107844] [run_1776104249_vxr8] [BACKEND] [BACKEND_SUCCESS] Returning 30 historical records
+[2026-04-13T18:17:34.295625] [run_1776104249_vxr8] [BACKEND] [BACKEND_START] get_stats called
+[2026-04-13T18:17:34.310819] [run_1776104249_vxr8] [BACKEND] [BACKEND_SUCCESS] Stats generated: {'avg_consumption': 12.11, 'peak_consumption': 18.16, 'temp_correlation': -0.9018, 'total_records': 730}
+[2026-04-13T18:17:34.522309] SUCCESS: Function get_historical_data completed. args={"limit": 30}
+[2026-04-13T18:17:34.661418] SUCCESS: Function get_stats completed.
+[2026-04-13T18:17:56.819279] [manual_1204211] [BACKEND] [BACKEND_START] get_stats called
+[2026-04-13T18:17:56.819573] [manual_1204211] [BACKEND] [BACKEND_START] get_historical_data called with limit=30
+[2026-04-13T18:17:56.835513] [manual_1204211] [BACKEND] [BACKEND_SUCCESS] Stats generated: {'avg_consumption': 12.11, 'peak_consumption': 18.16, 'temp_correlation': -0.9018, 'total_records': 730}
+[2026-04-13T18:17:56.891751] [manual_1204211] [BACKEND] [BACKEND_SUCCESS] Returning 30 historical records
+[2026-04-13T18:17:57.223229] SUCCESS: Function get_stats completed.
+[2026-04-13T18:19:23.493496] [run_1776104359_cj9t] [BACKEND] [BACKEND_START] get_historical_data called with limit=30
+[2026-04-13T18:19:23.517458] [run_1776104359_cj9t] [BACKEND] [BACKEND_SUCCESS] Returning 30 historical records
+[2026-04-13T18:19:23.824155] [run_1776104359_cj9t] [BACKEND] [BACKEND_START] get_stats called
+[2026-04-13T18:19:23.842398] [run_1776104359_cj9t] [BACKEND] [BACKEND_SUCCESS] Stats generated: {'avg_consumption': 12.11, 'peak_consumption': 18.16, 'temp_correlation': -0.9018, 'total_records': 730}
+[2026-04-13T18:19:23.931322] SUCCESS: Function get_historical_data completed. args={"limit": 30}
+[2026-04-13T18:19:24.296410] SUCCESS: Function get_stats completed.
+[2026-04-13T18:19:28.932065] [manual_1204303] [BACKEND] [BACKEND_START] get_historical_data called with limit=30
+[2026-04-13T18:19:29.005555] [manual_1204303] [BACKEND] [BACKEND_SUCCESS] Returning 30 historical records
+[2026-04-13T18:19:29.330597] [manual_1204303] [BACKEND] [BACKEND_START] get_stats called
+[2026-04-13T18:19:29.344120] [manual_1204303] [BACKEND] [BACKEND_SUCCESS] Stats generated: {'avg_consumption': 12.11, 'peak_consumption': 18.16, 'temp_correlation': -0.9018, 'total_records': 730}
+[2026-04-13T18:19:29.417299] SUCCESS: Function get_historical_data completed. args={"limit": 30}
+[2026-04-13T18:19:29.650982] SUCCESS: Function get_stats completed.
+[2026-04-13T18:19:39.570227] [manual_1204303] [BACKEND] [BACKEND_START] predict_energy called for 2026-04-13
+[2026-04-13T18:19:41.998271] [manual_1204303] [BACKEND] ERROR: /usr/local/lib/python3.13/site-packages/sklearn/utils/validation.py:2691: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+[2026-04-13T18:19:41.998433] [manual_1204303] [BACKEND] ERROR:   warnings.warn(
+[2026-04-13T18:19:42.004245] [manual_1204303] [BACKEND] [BACKEND_SUCCESS] Prediction complete: 8.17 kWh
+[2026-04-13T18:19:43.807925] SUCCESS: Function predict_energy completed. args={"year": 2026, "month": 4, "day": 13}
+[2026-04-13T18:19:44.820021] [manual_1204303] [BACKEND] [BACKEND_START] get_stats called
+[2026-04-13T18:19:44.887020] [manual_1204303] [BACKEND] [BACKEND_SUCCESS] Stats generated: {'avg_consumption': 12.11, 'peak_consumption': 18.16, 'temp_correlation': -0.9018, 'total_records': 730}
+[2026-04-13T18:19:45.000873] [manual_1204303] [BACKEND] [BACKEND_START] get_historical_data called with limit=30
+[2026-04-13T18:19:45.023816] [manual_1204303] [BACKEND] [BACKEND_SUCCESS] Returning 30 historical records
+[2026-04-13T18:19:45.240497] SUCCESS: Function get_stats completed.
+[2026-04-13T18:19:45.396270] SUCCESS: Function get_historical_data completed. args={"limit": 30}
+[2026-04-13T18:20:39.121143] [manual_1204371] [BACKEND] [BACKEND_START] get_stats called
+[2026-04-13T18:20:39.135480] [manual_1204371] [BACKEND] [BACKEND_SUCCESS] Stats generated: {'avg_consumption': 12.11, 'peak_consumption': 18.16, 'temp_correlation': -0.9018, 'total_records': 730}
+[2026-04-13T18:20:39.214717] [manual_1204371] [BACKEND] [BACKEND_START] get_historical_data called with limit=30
+[2026-04-13T18:20:39.236016] [manual_1204371] [BACKEND] [BACKEND_SUCCESS] Returning 30 historical records
+[2026-04-13T18:20:39.530550] SUCCESS: Function get_stats completed.
+[2026-04-13T18:20:39.606440] SUCCESS: Function get_historical_data completed. args={"limit": 30}
+[2026-04-13T18:21:49.402065] [manual_1204371] [BACKEND] [BACKEND_START] get_historical_data called with limit=30
+[2026-04-13T18:21:49.423146] [manual_1204371] [BACKEND] [BACKEND_SUCCESS] Returning 30 historical records
+[2026-04-13T18:21:50.030954] [manual_1204371] [BACKEND] [BACKEND_START] get_stats called
+[2026-04-13T18:21:50.094246] [manual_1204371] [BACKEND] [BACKEND_SUCCESS] Stats generated: {'avg_consumption': 12.11, 'peak_consumption': 18.16, 'temp_correlation': -0.9018, 'total_records': 730}
+[2026-04-13T18:21:49.833754] SUCCESS: Function get_historical_data completed. args={"limit": 30}
+[2026-04-13T18:21:50.366245] SUCCESS: Function get_stats completed.
+[2026-04-13T18:22:49.823850] [manual_1204371] [BACKEND] [BACKEND_START] get_historical_data called with limit=30
+[2026-04-13T18:22:49.892966] [manual_1204371] [BACKEND] [BACKEND_SUCCESS] Returning 30 historical records
+[2026-04-13T18:22:49.915821] [manual_1204371] [BACKEND] [BACKEND_START] get_stats called
+[2026-04-13T18:22:49.933264] [manual_1204371] [BACKEND] [BACKEND_SUCCESS] Stats generated: {'avg_consumption': 12.11, 'peak_consumption': 18.16, 'temp_correlation': -0.9018, 'total_records': 730}
+[2026-04-13T18:22:50.313965] SUCCESS: Function get_historical_data completed. args={"limit": 30}
+[2026-04-13T18:22:50.395013] SUCCESS: Function get_stats completed.
+[2026-04-13T18:23:00.600031] [manual_1204371] [BACKEND] [BACKEND_START] predict_energy called for 2026-04-13
+[2026-04-13T18:23:02.624844] [manual_1204371] [BACKEND] ERROR: /usr/local/lib/python3.13/site-packages/sklearn/utils/validation.py:2691: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+[2026-04-13T18:23:02.624997] [manual_1204371] [BACKEND] ERROR:   warnings.warn(
+[2026-04-13T18:23:02.628796] [manual_1204371] [BACKEND] [BACKEND_SUCCESS] Prediction complete: 8.17 kWh
+[2026-04-13T18:23:03.046217] SUCCESS: Function predict_energy completed. args={"year": 2026, "month": 4, "day": 13}
+[2026-04-13T18:24:15.098094] [run_1776104650_nivt] [BACKEND] [BACKEND_START] get_historical_data called with limit=30
+[2026-04-13T18:24:15.117684] [run_1776104650_nivt] [BACKEND] [BACKEND_SUCCESS] Returning 30 historical records
+[2026-04-13T18:24:15.130477] [run_1776104650_nivt] [BACKEND] [BACKEND_START] get_stats called
+[2026-04-13T18:24:15.193448] [run_1776104650_nivt] [BACKEND] [BACKEND_SUCCESS] Stats generated: {'avg_consumption': 12.11, 'peak_consumption': 18.16, 'temp_correlation': -0.9018, 'total_records': 730}
+[2026-04-13T18:24:15.528410] SUCCESS: Function get_stats completed.
+[2026-04-13T18:24:23.295214] [manual_1204596] [BACKEND] [BACKEND_START] get_stats called
+[2026-04-13T18:24:23.309965] [manual_1204596] [BACKEND] [BACKEND_SUCCESS] Stats generated: {'avg_consumption': 12.11, 'peak_consumption': 18.16, 'temp_correlation': -0.9018, 'total_records': 730}
+[2026-04-13T18:24:23.701262] [manual_1204596] [BACKEND] [BACKEND_START] get_historical_data called with limit=30
+[2026-04-13T18:24:23.721887] [manual_1204596] [BACKEND] [BACKEND_SUCCESS] Returning 30 historical records
+[2026-04-13T18:24:23.626037] SUCCESS: Function get_stats completed.
+[2026-04-13T18:24:24.024954] SUCCESS: Function get_historical_data completed. args={"limit": 30}
+[2026-04-13T18:24:30.787253] [manual_1204596] [BACKEND] [BACKEND_START] predict_energy called for 2026-04-13
+[2026-04-13T18:24:32.827759] [manual_1204596] [BACKEND] ERROR: /usr/local/lib/python3.13/site-packages/sklearn/utils/validation.py:2691: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+[2026-04-13T18:24:32.827903] [manual_1204596] [BACKEND] ERROR:   warnings.warn(
+[2026-04-13T18:24:32.831419] [manual_1204596] [BACKEND] [BACKEND_SUCCESS] Prediction complete: 8.17 kWh
+[2026-04-13T18:24:33.248772] SUCCESS: Function predict_energy completed. args={"year": 2026, "month": 4, "day": 13}
+[2026-04-13T18:24:41.526291] [manual_1204596] [BACKEND] [BACKEND_START] get_stats called
+[2026-04-13T18:24:41.590328] [manual_1204596] [BACKEND] [BACKEND_SUCCESS] Stats generated: {'avg_consumption': 12.11, 'peak_consumption': 18.16, 'temp_correlation': -0.9018, 'total_records': 730}
+[2026-04-13T18:24:41.789248] [manual_1204596] [BACKEND] [BACKEND_START] get_historical_data called with limit=30
+[2026-04-13T18:24:41.809515] [manual_1204596] [BACKEND] [BACKEND_SUCCESS] Returning 30 historical records
+[2026-04-13T18:24:41.926360] SUCCESS: Function get_stats completed.
+[2026-04-13T18:24:42.126867] SUCCESS: Function get_historical_data completed. args={"limit": 30}
+[2026-04-13T18:26:09.008510] [run_1776104765_wu75] [BACKEND] [BACKEND_START] get_historical_data called with limit=30
+[2026-04-13T18:26:09.008754] [run_1776104765_wu75] [BACKEND] [BACKEND_START] get_stats called
+[2026-04-13T18:26:09.023318] [run_1776104765_wu75] [BACKEND] [BACKEND_SUCCESS] Stats generated: {'avg_consumption': 12.11, 'peak_consumption': 18.16, 'temp_correlation': -0.9018, 'total_records': 730}
+[2026-04-13T18:26:09.031152] [run_1776104765_wu75] [BACKEND] [BACKEND_SUCCESS] Returning 30 historical records
+[2026-04-13T18:26:09.397856] SUCCESS: Function get_stats completed.
+[2026-04-13T18:26:20.627587] [manual_1204713] [BACKEND] [BACKEND_START] get_historical_data called with limit=30
+[2026-04-13T18:26:20.696035] [manual_1204713] [BACKEND] [BACKEND_SUCCESS] Returning 30 historical records
+[2026-04-13T18:26:20.800298] [manual_1204713] [BACKEND] [BACKEND_START] get_stats called
+[2026-04-13T18:26:20.814087] [manual_1204713] [BACKEND] [BACKEND_SUCCESS] Stats generated: {'avg_consumption': 12.11, 'peak_consumption': 18.16, 'temp_correlation': -0.9018, 'total_records': 730}
+[2026-04-13T18:26:21.023689] SUCCESS: Function get_historical_data completed. args={"limit": 30}
+[2026-04-13T18:26:21.131084] SUCCESS: Function get_stats completed.
+[2026-04-13T18:26:29.296649] [manual_1204713] [BACKEND] [BACKEND_START] predict_energy called for 2026-04-13
+[2026-04-13T18:26:31.187294] [manual_1204713] [BACKEND] ERROR: /usr/local/lib/python3.13/site-packages/sklearn/utils/validation.py:2691: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+[2026-04-13T18:26:31.187426] [manual_1204713] [BACKEND] ERROR:   warnings.warn(
+[2026-04-13T18:26:31.191020] [manual_1204713] [BACKEND] [BACKEND_SUCCESS] Prediction complete: 8.17 kWh
+[2026-04-13T18:26:31.596555] SUCCESS: Function predict_energy completed. args={"year": 2026, "month": 4, "day": 13}
+[2026-04-13T18:26:38.685628] [manual_1204713] [BACKEND] [BACKEND_START] get_historical_data called with limit=30
+[2026-04-13T18:26:38.708854] [manual_1204713] [BACKEND] [BACKEND_SUCCESS] Returning 30 historical records
+[2026-04-13T18:26:38.900871] [manual_1204713] [BACKEND] [BACKEND_START] get_stats called
+[2026-04-13T18:26:38.915172] [manual_1204713] [BACKEND] [BACKEND_SUCCESS] Stats generated: {'avg_consumption': 12.11, 'peak_consumption': 18.16, 'temp_correlation': -0.9018, 'total_records': 730}
+[2026-04-13T18:26:39.113419] SUCCESS: Function get_historical_data completed. args={"limit": 30}
+[2026-04-13T18:26:39.234191] SUCCESS: Function get_stats completed.
+[2026-04-13T18:27:33.699527] [manual_1204788] [BACKEND] [BACKEND_START] get_historical_data called with limit=30
+[2026-04-13T18:27:33.718248] [manual_1204788] [BACKEND] [BACKEND_SUCCESS] Returning 30 historical records
+[2026-04-13T18:27:33.798003] [manual_1204788] [BACKEND] [BACKEND_START] get_stats called
+[2026-04-13T18:27:33.812186] [manual_1204788] [BACKEND] [BACKEND_SUCCESS] Stats generated: {'avg_consumption': 12.11, 'peak_consumption': 18.16, 'temp_correlation': -0.9018, 'total_records': 730}
+[2026-04-13T18:27:34.116436] SUCCESS: Function get_historical_data completed. args={"limit": 30}
+[2026-04-13T18:28:25.427185] [manual_1204788] [BACKEND] [BACKEND_START] get_stats called
+[2026-04-13T18:28:25.488241] [manual_1204788] [BACKEND] [BACKEND_SUCCESS] Stats generated: {'avg_consumption': 12.11, 'peak_consumption': 18.16, 'temp_correlation': -0.9018, 'total_records': 730}
+[2026-04-13T18:28:25.791280] [manual_1204788] [BACKEND] [BACKEND_START] get_historical_data called with limit=30
+[2026-04-13T18:28:25.816241] [manual_1204788] [BACKEND] [BACKEND_SUCCESS] Returning 30 historical records
+[2026-04-13T18:28:25.831689] SUCCESS: Function get_stats completed.
+[2026-04-13T18:28:26.138795] SUCCESS: Function get_historical_data completed. args={"limit": 30}
+[2026-04-14T05:27:11.155710] [manual_1244354] [BACKEND] [BACKEND_START] get_historical_data called with limit=30
+[2026-04-14T05:27:11.188124] [manual_1244354] [BACKEND] [BACKEND_START] get_stats called
+[2026-04-14T05:27:11.223052] [manual_1244354] [BACKEND] [BACKEND_SUCCESS] Stats generated: {'avg_consumption': 12.11, 'peak_consumption': 18.16, 'temp_correlation': -0.9018, 'total_records': 730}
+[2026-04-14T05:27:11.235273] [manual_1244354] [BACKEND] [BACKEND_SUCCESS] Returning 30 historical records
+[2026-04-14T05:27:11.600895] SUCCESS: Function get_stats completed.
+ompleted. args={"limit": 30}
+[2026-04-14T05:28:47.110034] [manual_1244354] [BACKEND] [BACKEND_START] predict_energy called for 2026-04-14
+[2026-04-14T05:28:49.640841] [manual_1244354] [BACKEND] ERROR: /usr/local/lib/python3.13/site-packages/sklearn/utils/validation.py:2691: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+[2026-04-14T05:28:49.641005] [manual_1244354] [BACKEND] ERROR:   warnings.warn(
+[2026-04-14T05:28:49.644449] [manual_1244354] [BACKEND] [BACKEND_SUCCESS] Prediction complete: 8.89 kWh
+[2026-04-14T05:28:50.077706] SUCCESS: Function predict_energy completed. args={"year": 2026, "month": 4, "day": 14}
+[2026-04-14T05:30:36.999934] [manual_1244354] [BACKEND] [BACKEND_START] get_historical_data called with limit=30
+[2026-04-14T05:30:37.020786] [manual_1244354] [BACKEND] [BACKEND_SUCCESS] Returning 30 historical records
+[2026-04-14T05:30:37.299182] [manual_1244354] [BACKEND] [BACKEND_START] get_stats called
+[2026-04-14T05:30:37.312422] [manual_1244354] [BACKEND] [BACKEND_SUCCESS] Stats generated: {'avg_consumption': 12.11, 'peak_consumption': 18.16, 'temp_correlation': -0.9018, 'total_records': 730}
+[2026-04-14T05:30:37.424555] SUCCESS: Function get_historical_data completed. args={"limit": 30}
+[2026-04-14T05:30:37.679237] SUCCESS: Function get_stats completed.
+[2026-04-14T05:32:29.816583] [manual_1244682] [BACKEND] [BACKEND_START] get_historical_data called with limit=30
+[2026-04-14T05:32:29.897424] [manual_1244682] [BACKEND] [BACKEND_SUCCESS] Returning 30 historical records
+[2026-04-14T05:32:30.292209] [manual_1244682] [BACKEND] [BACKEND_START] get_stats called
+[2026-04-14T05:32:30.312081] [manual_1244682] [BACKEND] [BACKEND_SUCCESS] Stats generated: {'avg_consumption': 12.11, 'peak_consumption': 18.16, 'temp_correlation': -0.9018, 'total_records': 730}
+[2026-04-14T05:32:30.348861] SUCCESS: Function get_historical_data completed. args={"limit": 30}
+[2026-04-14T05:32:30.620801] SUCCESS: Function get_stats completed.
+[2026-04-14T05:34:52.849762] [manual_1244682] [BACKEND] [BACKEND_START] predict_energy called for 2026-04-14
+[2026-04-14T05:34:54.703607] [manual_1244682] [BACKEND] ERROR: /usr/local/lib/python3.13/site-packages/sklearn/utils/validation.py:2691: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+[2026-04-14T05:34:54.703730] [manual_1244682] [BACKEND] ERROR:   warnings.warn(
+[2026-04-14T05:34:54.706957] [manual_1244682] [BACKEND] [BACKEND_SUCCESS] Prediction complete: 8.89 kWh
+[2026-04-14T05:34:55.139730] SUCCESS: Function predict_energy completed. args={"year": 2026, "month": 4, "day": 14}
+[2026-04-14T05:35:19.524083] [manual_1244682] [BACKEND] [BACKEND_START] get_stats called
+[2026-04-14T05:35:19.597808] [manual_1244682] [BACKEND] [BACKEND_SUCCESS] Stats generated: {'avg_consumption': 12.11, 'peak_consumption': 18.16, 'temp_correlation': -0.9018, 'total_records': 730}
+[2026-04-14T05:35:19.890668] [manual_1244682] [BACKEND] [BACKEND_START] get_historical_data called with limit=30
+[2026-04-14T05:35:19.912025] [manual_1244682] [BACKEND] [BACKEND_SUCCESS] Returning 30 historical records
+[2026-04-14T05:35:20.013366] SUCCESS: Function get_stats completed.
+[2026-04-14T05:35:20.163245] SUCCESS: Function get_historical_data completed. args={"limit": 30}
+[2026-04-14T05:35:30.066425] [manual_1244682] [BACKEND] [BACKEND_START] get_historical_data called with limit=100
+[2026-04-14T05:35:30.087586] [manual_1244682] [BACKEND] [BACKEND_SUCCESS] Returning 100 historical records
+[2026-04-14T05:35:30.385733] SUCCESS: Function get_historical_data completed. args={"limit": 100}
+[2026-04-14T05:35:41.612007] [manual_1244682] [BACKEND] [BACKEND_START] get_stats called
+[2026-04-14T05:35:41.626693] [manual_1244682] [BACKEND] [BACKEND_SUCCESS] Stats generated: {'avg_consumption': 12.11, 'peak_consumption': 18.16, 'temp_correlation': -0.9018, 'total_records': 730}
+[2026-04-14T05:35:41.631419] [manual_1244682] [BACKEND] [BACKEND_START] get_historical_data called with limit=30
+[2026-04-14T05:35:41.718604] [manual_1244682] [BACKEND] [BACKEND_SUCCESS] Returning 30 historical records
+[2026-04-14T05:35:42.038384] SUCCESS: Function get_stats completed.
+[2026-04-14T05:35:42.134350] SUCCESS: Function get_historical_data completed. args={"limit": 30}
+[2026-04-15T05:57:55.731009] [manual_1332604] [BACKEND] [BACKEND_START] get_historical_data called with limit=30
+[2026-04-15T05:57:55.810007] [manual_1332604] [BACKEND] [BACKEND_SUCCESS] Returning 30 historical records
+[2026-04-15T05:57:56.240617] [manual_1332604] [BACKEND] [BACKEND_START] get_stats called
+[2026-04-15T05:57:56.261994] [manual_1332604] [BACKEND] [BACKEND_SUCCESS] Stats generated: {'avg_consumption': 12.11, 'peak_consumption': 18.16, 'temp_correlation': -0.9018, 'total_records': 730}
+[2026-04-15T05:57:56.208269] SUCCESS: Function get_historical_data completed. args={"limit": 30}
+[2026-04-15T05:57:56.599727] SUCCESS: Function get_stats completed.
+[2026-04-15T08:01:17.724531] [manual_1340005] [BACKEND] [BACKEND_START] get_stats called
+[2026-04-15T08:01:17.810191] [manual_1340005] [BACKEND] [BACKEND_SUCCESS] Stats generated: {'avg_consumption': 12.11, 'peak_consumption': 18.16, 'temp_correlation': -0.9018, 'total_records': 730}
+[2026-04-15T08:01:18.103998] [manual_1340005] [BACKEND] [BACKEND_START] get_historical_data called with limit=30
+[2026-04-15T08:01:18.130177] [manual_1340005] [BACKEND] [BACKEND_SUCCESS] Returning 30 historical records
+[2026-04-15T08:01:18.249081] SUCCESS: Function get_stats completed.
+[2026-04-15T08:01:18.566699] SUCCESS: Function get_historical_data completed. args={"limit": 30}
+[2026-04-15T08:02:08.496187] [run_1776104765_wu75] [BACKEND] [BACKEND_START] get_stats called
+[2026-04-15T08:02:08.511326] [run_1776104765_wu75] [BACKEND] [BACKEND_SUCCESS] Stats generated: {'avg_consumption': 12.11, 'peak_consumption': 18.16, 'temp_correlation': -0.9018, 'total_records': 730}
+[2026-04-15T08:02:08.608183] [run_1776104765_wu75] [BACKEND] [BACKEND_START] get_historical_data called with limit=30
+[2026-04-15T08:02:08.689396] [run_1776104765_wu75] [BACKEND] [BACKEND_SUCCESS] Returning 30 historical records
+[2026-04-15T08:02:08.928213] SUCCESS: Function get_stats completed.
+[2026-04-15T08:02:09.029436] SUCCESS: Function get_historical_data completed. args={"limit": 30}
+[2026-04-15T08:03:23.717264] [run_1776240198_gskq] [BACKEND] [BACKEND_START] get_historical_data called with limit=30
+[2026-04-15T08:03:23.735909] [run_1776240198_gskq] [BACKEND] [BACKEND_START] get_stats called
+[2026-04-15T08:03:23.793443] [run_1776240198_gskq] [BACKEND] [BACKEND_SUCCESS] Returning 30 historical records
+[2026-04-15T08:03:23.802760] [run_1776240198_gskq] [BACKEND] [BACKEND_SUCCESS] Stats generated: {'avg_consumption': 12.11, 'peak_consumption': 18.16, 'temp_correlation': -0.9018, 'total_records': 730}
+[2026-04-15T08:03:24.207603] SUCCESS: Function get_historical_data completed. args={"limit": 30}
+[2026-04-15T08:03:39.689903] [manual_1340151] [BACKEND] [BACKEND_START] get_historical_data called with limit=30
+[2026-04-15T08:03:39.712159] [manual_1340151] [BACKEND] [BACKEND_SUCCESS] Returning 30 historical records
+[2026-04-15T08:03:40.047312] [manual_1340151] [BACKEND] [BACKEND_START] get_stats called
+[2026-04-15T08:03:40.091008] [manual_1340151] [BACKEND] [BACKEND_SUCCESS] Stats generated: {'avg_consumption': 12.11, 'peak_consumption': 18.16, 'temp_correlation': -0.9018, 'total_records': 730}
+[2026-04-15T08:03:40.123077] SUCCESS: Function get_historical_data completed. args={"limit": 30}
+[2026-04-15T08:03:40.441255] SUCCESS: Function get_stats completed.
+[2026-04-15T08:09:00.915011] [run_1776240534_0yb7] [BACKEND] [BACKEND_START] get_historical_data called with limit=30
+[2026-04-15T08:09:00.915089] [run_1776240534_0yb7] [BACKEND] [BACKEND_START] get_stats called
+[2026-04-15T08:09:00.928999] [run_1776240534_0yb7] [BACKEND] [BACKEND_SUCCESS] Stats generated: {'avg_consumption': 12.11, 'peak_consumption': 18.16, 'temp_correlation': -0.9018, 'total_records': 730}
+[2026-04-15T08:09:00.989064] [run_1776240534_0yb7] [BACKEND] [BACKEND_SUCCESS] Returning 30 historical records
+[2026-04-15T08:09:01.342163] SUCCESS: Function get_historical_data completed. args={"limit": 30}
+[2026-04-15T08:09:12.004147] [manual_1340483] [BACKEND] [BACKEND_START] get_stats called
+[2026-04-15T08:09:12.020584] [manual_1340483] [BACKEND] [BACKEND_SUCCESS] Stats generated: {'avg_consumption': 12.11, 'peak_consumption': 18.16, 'temp_correlation': -0.9018, 'total_records': 730}
+[2026-04-15T08:09:12.311491] [manual_1340483] [BACKEND] [BACKEND_START] get_historical_data called with limit=30
+[2026-04-15T08:09:12.334927] [manual_1340483] [BACKEND] [BACKEND_SUCCESS] Returning 30 historical records
+[2026-04-15T08:09:12.429907] SUCCESS: Function get_stats completed.
+[2026-04-15T08:09:12.650727] SUCCESS: Function get_historical_data completed. args={"limit": 30}
+[2026-04-15T08:10:46.615773] [run_1776240638_xepr] [BACKEND] [BACKEND_START] get_historical_data called with limit=30
+[2026-04-15T08:10:46.631973] [run_1776240638_xepr] [BACKEND] [BACKEND_START] get_stats called
+[2026-04-15T08:10:46.702057] [run_1776240638_xepr] [BACKEND] [BACKEND_SUCCESS] Returning 30 historical records
+[2026-04-15T08:10:46.707072] [run_1776240638_xepr] [BACKEND] [BACKEND_SUCCESS] Stats generated: {'avg_consumption': 12.11, 'peak_consumption': 18.16, 'temp_correlation': -0.9018, 'total_records': 730}
+[2026-04-15T08:10:47.246483] SUCCESS: Function get_historical_data completed. args={"limit": 30}
+[2026-04-15T08:10:47.361874] SUCCESS: Function get_stats completed.
+[2026-04-15T08:11:07.010877] [manual_1340483] [BACKEND] [BACKEND_START] predict_energy called for 2026-04-15
+[2026-04-15T08:11:09.264532] [manual_1340483] [BACKEND] ERROR: /usr/local/lib/python3.13/site-packages/sklearn/utils/validation.py:2691: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+[2026-04-15T08:11:09.264704] [manual_1340483] [BACKEND] ERROR:   warnings.warn(
+[2026-04-15T08:11:09.268249] [manual_1340483] [BACKEND] [BACKEND_SUCCESS] Prediction complete: 8.43 kWh
+[2026-04-15T08:11:09.775142] SUCCESS: Function predict_energy completed. args={"year": 2026, "month": 4, "day": 15}
+[2026-04-15T08:11:20.525540] [manual_1340483] [BACKEND] [BACKEND_START] get_historical_data called with limit=30
+[2026-04-15T08:11:20.598302] [manual_1340483] [BACKEND] [BACKEND_SUCCESS] Returning 30 historical records
+[2026-04-15T08:11:20.622777] [manual_1340483] [BACKEND] [BACKEND_START] get_stats called
+[2026-04-15T08:11:20.689926] [manual_1340483] [BACKEND] [BACKEND_SUCCESS] Stats generated: {'avg_consumption': 12.11, 'peak_consumption': 18.16, 'temp_correlation': -0.9018, 'total_records': 730}
+[2026-04-15T08:11:20.969742] SUCCESS: Function get_historical_data completed. args={"limit": 30}
+[2026-04-15T08:11:21.045058] SUCCESS: Function get_stats completed.
+[2026-04-15T08:11:28.600977] [manual_1340621] [BACKEND] [BACKEND_START] get_historical_data called with limit=30
+[2026-04-15T08:11:28.620637] [manual_1340621] [BACKEND] [BACKEND_SUCCESS] Returning 30 historical records
+[2026-04-15T08:11:28.626131] [manual_1340621] [BACKEND] [BACKEND_START] get_stats called
+[2026-04-15T08:11:28.689819] [manual_1340621] [BACKEND] [BACKEND_SUCCESS] Stats generated: {'avg_consumption': 12.11, 'peak_consumption': 18.16, 'temp_correlation': -0.9018, 'total_records': 730}
+[2026-04-15T08:11:29.022495] SUCCESS: Function get_historical_data completed. args={"limit": 30}
+[2026-04-15T08:11:51.799225] [manual_1340621] [BACKEND] [BACKEND_START] predict_energy called for 2026-04-15
+[2026-04-15T08:11:55.715979] [manual_1340621] [BACKEND] [BACKEND_START] get_historical_data called with limit=30
+[2026-04-15T08:11:55.802345] [manual_1340621] [BACKEND] [BACKEND_SUCCESS] Returning 30 historical records
+[2026-04-15T08:11:56.102218] [manual_1340621] [BACKEND] ERROR: /usr/local/lib/python3.13/site-packages/sklearn/utils/validation.py:2691: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+[2026-04-15T08:11:56.102375] [manual_1340621] [BACKEND] ERROR:   warnings.warn(
+[2026-04-15T08:11:56.106711] [manual_1340621] [BACKEND] [BACKEND_SUCCESS] Prediction complete: 8.43 kWh
+[2026-04-15T08:11:56.788380] [manual_1340621] [BACKEND] [BACKEND_START] get_stats called
+[2026-04-15T08:11:56.806113] [manual_1340621] [BACKEND] [BACKEND_SUCCESS] Stats generated: {'avg_consumption': 12.11, 'peak_consumption': 18.16, 'temp_correlation': -0.9018, 'total_records': 730}
+[2026-04-15T08:11:56.396286] SUCCESS: Function get_historical_data completed. args={"limit": 30}
+[2026-04-15T08:11:57.218710] SUCCESS: Function predict_energy completed. args={"year": 2026, "month": 4, "day": 15}
+[2026-04-15T11:00:22.202850] [manual_1350749] [BACKEND] [BACKEND_START] get_stats called
+[2026-04-15T11:00:22.227714] [manual_1350749] [BACKEND] [BACKEND_SUCCESS] Stats generated: {'avg_consumption': 12.11, 'peak_consumption': 18.16, 'temp_correlation': -0.9018, 'total_records': 730}
+[2026-04-15T11:00:22.305949] [manual_1350749] [BACKEND] [BACKEND_START] get_historical_data called with limit=30
+[2026-04-15T11:00:22.392841] [manual_1350749] [BACKEND] [BACKEND_SUCCESS] Returning 30 historical records
+[2026-04-15T11:00:22.635818] SUCCESS: Function get_stats completed.
+[2026-04-15T11:00:22.727937] SUCCESS: Function get_historical_data completed. args={"limit": 30}
+[2026-04-15T11:09:32.520973] [manual_1351304] [BACKEND] [BACKEND_START] get_stats called
+[2026-04-15T11:09:32.526760] [manual_1351304] [BACKEND] [BACKEND_START] get_historical_data called with limit=30
+[2026-04-15T11:09:32.602003] [manual_1351304] [BACKEND] [BACKEND_SUCCESS] Stats generated: {'avg_consumption': 12.11, 'peak_consumption': 18.16, 'temp_correlation': -0.9018, 'total_records': 730}
+[2026-04-15T11:09:32.622186] [manual_1351304] [BACKEND] [BACKEND_SUCCESS] Returning 30 historical records
+[2026-04-15T11:09:32.946681] SUCCESS: Function get_stats completed.
+[2026-04-15T11:09:33.037191] SUCCESS: Function get_historical_data completed. args={"limit": 30}
+[2026-04-15T11:09:51.693141] [manual_1351304] [BACKEND] [BACKEND_START] get_historical_data called with limit=100
+[2026-04-15T11:09:51.718359] [manual_1351304] [BACKEND] [BACKEND_SUCCESS] Returning 100 historical records
+[2026-04-15T11:09:51.950542] SUCCESS: Function get_historical_data completed. args={"limit": 100}
+[2026-04-15T11:10:24.191132] [manual_1351304] [BACKEND] [BACKEND_START] get_historical_data called with limit=30
+[2026-04-15T11:10:24.210916] [manual_1351304] [BACKEND] [BACKEND_SUCCESS] Returning 30 historical records
+[2026-04-15T11:10:24.541538] [manual_1351304] [BACKEND] [BACKEND_START] get_stats called
+[2026-04-15T11:10:24.585632] [manual_1351304] [BACKEND] [BACKEND_SUCCESS] Stats generated: {'avg_consumption': 12.11, 'peak_consumption': 18.16, 'temp_correlation': -0.9018, 'total_records': 730}
+[2026-04-15T11:10:24.633572] SUCCESS: Function get_historical_data completed. args={"limit": 30}
+[2026-04-15T11:10:24.929840] SUCCESS: Function get_stats completed.
+[2026-04-15T11:10:49.209771] [manual_1350749] [BACKEND] [BACKEND_START] get_historical_data called with limit=30
+[2026-04-15T11:10:49.224758] [manual_1350749] [BACKEND] [BACKEND_START] get_stats called
+[2026-04-15T11:10:49.231081] [manual_1350749] [BACKEND] [BACKEND_SUCCESS] Returning 30 historical records
+[2026-04-15T11:10:49.291715] [manual_1350749] [BACKEND] [BACKEND_SUCCESS] Stats generated: {'avg_consumption': 12.11, 'peak_consumption': 18.16, 'temp_correlation': -0.9018, 'total_records': 730}
+[2026-04-15T11:10:49.652402] SUCCESS: Function get_historical_data completed. args={"limit": 30}
+[2026-04-15T11:11:10.689877] [manual_1350749] [BACKEND] [BACKEND_START] predict_energy called for 2026-04-08
+[2026-04-15T11:11:13.889172] [manual_1350749] [BACKEND] ERROR: /usr/local/lib/python3.13/site-packages/sklearn/utils/validation.py:2691: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+[2026-04-15T11:11:13.889340] [manual_1350749] [BACKEND] ERROR:   warnings.warn(
+[2026-04-15T11:11:13.894918] [manual_1350749] [BACKEND] [BACKEND_SUCCESS] Prediction complete: 7.83 kWh
+[2026-04-15T11:11:15.401960] [manual_1351304] [BACKEND] [BACKEND_START] predict_energy called for 2026-04-30
+[2026-04-15T11:11:15.022821] SUCCESS: Function predict_energy completed. args={"year": 2026, "month": 4, "day": 8}
+[2026-04-15T11:11:17.628444] [manual_1351304] [BACKEND] ERROR: /usr/local/lib/python3.13/site-packages/sklearn/utils/validation.py:2691: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+[2026-04-15T11:11:17.628627] [manual_1351304] [BACKEND] ERROR:   warnings.warn(
+[2026-04-15T11:11:17.632071] [manual_1351304] [BACKEND] [BACKEND_SUCCESS] Prediction complete: 8.23 kWh
+[2026-04-15T11:11:18.033851] SUCCESS: Function predict_energy completed. args={"year": 2026, "month": 4, "day": 30}
+[2026-04-15T11:11:31.487255] [manual_1350749] [BACKEND] [BACKEND_START] get_stats called
+[2026-04-15T11:11:31.501052] [manual_1350749] [BACKEND] [BACKEND_SUCCESS] Stats generated: {'avg_consumption': 12.11, 'peak_consumption': 18.16, 'temp_correlation': -0.9018, 'total_records': 730}
+[2026-04-15T11:11:31.511058] [manual_1350749] [BACKEND] [BACKEND_START] get_historical_data called with limit=30
+[2026-04-15T11:11:31.585424] [manual_1350749] [BACKEND] [BACKEND_SUCCESS] Returning 30 historical records
+[2026-04-15T11:11:31.940330] SUCCESS: Function get_stats completed.
+[2026-04-15T11:11:33.591995] [manual_1351304] [BACKEND] [BACKEND_START] predict_energy called for 2026-04-15
+[2026-04-15T11:11:36.027933] [manual_1351304] [BACKEND] ERROR: /usr/local/lib/python3.13/site-packages/sklearn/utils/validation.py:2691: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+[2026-04-15T11:11:36.028088] [manual_1351304] [BACKEND] ERROR:   warnings.warn(
+[2026-04-15T11:11:36.031910] [manual_1351304] [BACKEND] [BACKEND_SUCCESS] Prediction complete: 8.43 kWh
+[2026-04-15T11:11:36.480015] SUCCESS: Function predict_energy completed. args={"year": 2026, "month": 4, "day": 15}
+[2026-04-15T11:11:59.025146] [manual_1351304] [BACKEND] [BACKEND_START] get_historical_data called with limit=30
+[2026-04-15T11:11:59.107531] [manual_1351304] [BACKEND] [BACKEND_SUCCESS] Returning 30 historical records
+[2026-04-15T11:11:59.112696] [manual_1351304] [BACKEND] [BACKEND_START] get_stats called
+[2026-04-15T11:11:59.130186] [manual_1351304] [BACKEND] [BACKEND_SUCCESS] Stats generated: {'avg_consumption': 12.11, 'peak_consumption': 18.16, 'temp_correlation': -0.9018, 'total_records': 730}
+[2026-04-15T11:11:59.553037] SUCCESS: Function get_stats completed.
+[2026-04-15T11:12:07.934553] [manual_1350749] [BACKEND] [BACKEND_START] predict_energy called for 2026-04-15
+[2026-04-15T11:12:12.724975] [manual_1350749] [BACKEND] [BACKEND_START] get_historical_data called with limit=30
+[2026-04-15T11:12:12.819691] [manual_1350749] [BACKEND] [BACKEND_SUCCESS] Returning 30 historical records
+[2026-04-15T11:12:12.995462] [manual_1350749] [BACKEND] ERROR: /usr/local/lib/python3.13/site-packages/sklearn/utils/validation.py:2691: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+[2026-04-15T11:12:12.995624] [manual_1350749] [BACKEND] ERROR:   warnings.warn(
+[2026-04-15T11:12:13.006107] [manual_1350749] [BACKEND] [BACKEND_SUCCESS] Prediction complete: 8.43 kWh
+[2026-04-15T11:12:13.528350] [manual_1350749] [BACKEND] [BACKEND_START] get_stats called
+[2026-04-15T11:12:13.602086] [manual_1350749] [BACKEND] [BACKEND_SUCCESS] Stats generated: {'avg_consumption': 12.11, 'peak_consumption': 18.16, 'temp_correlation': -0.9018, 'total_records': 730}
+[2026-04-15T11:12:13.506724] SUCCESS: Function get_historical_data completed. args={"limit": 30}
+[2026-04-15T11:12:14.350124] SUCCESS: Function get_stats completed.
+[2026-04-15T11:12:14.558241] SUCCESS: Function predict_energy completed. args={"year": 2026, "month": 4, "day": 15}
+[2026-04-15T11:12:21.422642] [manual_1350749] [BACKEND] [BACKEND_START] get_historical_data called with limit=30
+[2026-04-15T11:12:21.443385] [manual_1350749] [BACKEND] [BACKEND_SUCCESS] Returning 30 historical records
+[2026-04-15T11:12:21.536213] [manual_1350749] [BACKEND] [BACKEND_START] get_stats called
+[2026-04-15T11:12:21.602448] [manual_1350749] [BACKEND] [BACKEND_SUCCESS] Stats generated: {'avg_consumption': 12.11, 'peak_consumption': 18.16, 'temp_correlation': -0.9018, 'total_records': 730}
+[2026-04-15T11:12:21.996918] SUCCESS: Function get_stats completed.
+[2026-04-15T11:12:45.168334] [manual_1351304] [BACKEND] [BACKEND_START] get_stats called
+[2026-04-15T11:12:45.233832] [manual_1351304] [BACKEND] [BACKEND_SUCCESS] Stats generated: {'avg_consumption': 12.11, 'peak_consumption': 18.16, 'temp_correlation': -0.9018, 'total_records': 730}
+[2026-04-15T11:12:45.707262] [manual_1351304] [BACKEND] [BACKEND_START] get_historical_data called with limit=30
+[2026-04-15T11:12:45.740255] [manual_1351304] [BACKEND] [BACKEND_SUCCESS] Returning 30 historical records
+[2026-04-15T11:12:46.218505] SUCCESS: Function get_stats completed.
+[2026-04-15T11:12:46.272296] SUCCESS: Function get_historical_data completed. args={"limit": 30}
+[2026-04-15T11:13:50.732285] [manual_1351304] [BACKEND] [BACKEND_START] get_historical_data called with limit=30
+[2026-04-15T11:13:50.733026] [manual_1351304] [BACKEND] [BACKEND_START] get_stats called
+[2026-04-15T11:13:50.811823] [manual_1351304] [BACKEND] [BACKEND_SUCCESS] Stats generated: {'avg_consumption': 12.11, 'peak_consumption': 18.16, 'temp_correlation': -0.9018, 'total_records': 730}
+[2026-04-15T11:13:50.826198] [manual_1351304] [BACKEND] [BACKEND_SUCCESS] Returning 30 historical records
+[2026-04-15T11:13:51.143065] SUCCESS: Function get_stats completed.
+[2026-04-15T11:13:51.196878] SUCCESS: Function get_historical_data completed. args={"limit": 30}
+[2026-04-15T11:14:32.780736] [manual_1351304] [BACKEND] [BACKEND_START] get_historical_data called with limit=100
+[2026-04-15T11:14:32.802784] [manual_1351304] [BACKEND] [BACKEND_SUCCESS] Returning 100 historical records
+[2026-04-15T11:14:33.040201] SUCCESS: Function get_historical_data completed. args={"limit": 100}
+[2026-04-15T11:14:47.313667] [manual_1350749] [BACKEND] [BACKEND_START] get_historical_data called with limit=100
+[2026-04-15T11:14:47.334931] [manual_1350749] [BACKEND] [BACKEND_SUCCESS] Returning 100 historical records
+[2026-04-15T11:14:47.569455] SUCCESS: Function get_historical_data completed. args={"limit": 100}
+[2026-04-15T11:15:11.815644] [manual_1350749] [BACKEND] [BACKEND_START] get_stats called
+[2026-04-15T11:15:11.914081] [manual_1350749] [BACKEND] [BACKEND_SUCCESS] Stats generated: {'avg_consumption': 12.11, 'peak_consumption': 18.16, 'temp_correlation': -0.9018, 'total_records': 730}
+[2026-04-15T11:15:12.003010] [manual_1350749] [BACKEND] [BACKEND_START] get_historical_data called with limit=30
+[2026-04-15T11:15:12.095737] [manual_1350749] [BACKEND] [BACKEND_SUCCESS] Returning 30 historical records
+[2026-04-15T11:15:12.920448] [manual_1351304] [BACKEND] [BACKEND_START] get_historical_data called with limit=30
+[2026-04-15T11:15:13.014135] [manual_1351304] [BACKEND] [BACKEND_SUCCESS] Returning 30 historical records
+[2026-04-15T11:15:13.289698] [manual_1351304] [BACKEND] [BACKEND_START] get_stats called
+[2026-04-15T11:15:13.317108] [manual_1351304] [BACKEND] [BACKEND_SUCCESS] Stats generated: {'avg_consumption': 12.11, 'peak_consumption': 18.16, 'temp_correlation': -0.9018, 'total_records': 730}
+[2026-04-15T11:15:13.030280] SUCCESS: Function get_historical_data completed. args={"limit": 30}
+[2026-04-15T11:15:13.132063] SUCCESS: Function get_stats completed.
+[2026-04-15T11:15:13.828940] SUCCESS: Function get_historical_data completed. args={"limit": 30}
+[2026-04-15T11:15:14.029468] SUCCESS: Function get_stats completed.
+[2026-04-15T11:18:24.405141] [run_1776240638_xepr] [BACKEND] [BACKEND_START] get_stats called
+[2026-04-15T11:18:24.424645] [run_1776240638_xepr] [BACKEND] [BACKEND_SUCCESS] Stats generated: {'avg_consumption': 12.11, 'peak_consumption': 18.16, 'temp_correlation': -0.9018, 'total_records': 730}
+[2026-04-15T11:18:24.631112] [run_1776240638_xepr] [BACKEND] [BACKEND_START] get_historical_data called with limit=30
+[2026-04-15T11:18:24.700047] [run_1776240638_xepr] [BACKEND] [BACKEND_SUCCESS] Returning 30 historical records
+[2026-04-15T11:18:24.917486] SUCCESS: Function get_stats completed.
+[2026-04-15T11:18:25.041900] SUCCESS: Function get_historical_data completed. args={"limit": 30}
+[2026-04-15T11:19:28.829669] [run_1776251961_4l7v] [BACKEND] [BACKEND_START] get_historical_data called with limit=30
+[2026-04-15T11:19:28.834327] [run_1776251961_4l7v] [BACKEND] [BACKEND_START] get_stats called
+[2026-04-15T11:19:28.895328] [run_1776251961_4l7v] [BACKEND] [BACKEND_SUCCESS] Stats generated: {'avg_consumption': 12.11, 'peak_consumption': 18.16, 'temp_correlation': -0.9018, 'total_records': 730}
+[2026-04-15T11:19:28.911396] [run_1776251961_4l7v] [BACKEND] [BACKEND_SUCCESS] Returning 30 historical records
+[2026-04-15T11:19:29.301229] SUCCESS: Function get_historical_data completed. args={"limit": 30}
+[2026-04-15T11:19:38.604065] [manual_1351910] [BACKEND] [BACKEND_START] get_historical_data called with limit=30
+[2026-04-15T11:19:38.625901] [manual_1351910] [BACKEND] [BACKEND_SUCCESS] Returning 30 historical records
+[2026-04-15T11:19:39.021241] [manual_1351910] [BACKEND] [BACKEND_START] get_stats called
+[2026-04-15T11:19:39.035812] [manual_1351910] [BACKEND] [BACKEND_SUCCESS] Stats generated: {'avg_consumption': 12.11, 'peak_consumption': 18.16, 'temp_correlation': -0.9018, 'total_records': 730}
+[2026-04-15T11:19:39.043763] SUCCESS: Function get_historical_data completed. args={"limit": 30}
+[2026-04-15T11:19:39.385847] SUCCESS: Function get_stats completed.
+[2026-04-15T11:21:44.727224] [run_1776252099_ksse] [BACKEND] [BACKEND_START] get_stats called
+[2026-04-15T11:21:44.794086] [run_1776252099_ksse] [BACKEND] [BACKEND_SUCCESS] Stats generated: {'avg_consumption': 12.11, 'peak_consumption': 18.16, 'temp_correlation': -0.9018, 'total_records': 730}
+[2026-04-15T11:21:44.912270] [run_1776252099_ksse] [BACKEND] [BACKEND_START] get_historical_data called with limit=30
+[2026-04-15T11:21:45.009069] [run_1776252099_ksse] [BACKEND] [BACKEND_SUCCESS] Returning 30 historical records
+[2026-04-15T11:21:45.249077] SUCCESS: Function get_stats completed.
+[2026-04-15T11:21:45.357972] SUCCESS: Function get_historical_data completed. args={"limit": 30}
+[2026-04-15T11:21:57.489455] [manual_1352048] [BACKEND] [BACKEND_START] get_stats called
+[2026-04-15T11:21:57.492790] [manual_1352048] [BACKEND] [BACKEND_START] get_historical_data called with limit=30
+[2026-04-15T11:21:57.504666] [manual_1352048] [BACKEND] [BACKEND_SUCCESS] Stats generated: {'avg_consumption': 12.11, 'peak_consumption': 18.16, 'temp_correlation': -0.9018, 'total_records': 730}
+[2026-04-15T11:21:57.512914] [manual_1352048] [BACKEND] [BACKEND_SUCCESS] Returning 30 historical records
+[2026-04-15T11:21:57.831265] SUCCESS: Function get_stats completed.
+[2026-04-15T11:21:57.896855] SUCCESS: Function get_historical_data completed. args={"limit": 30}
+[2026-04-15T11:22:29.324317] [manual_1352048] [BACKEND] [BACKEND_START] predict_energy called for 2005-05-04
+[2026-04-15T11:22:31.575216] [manual_1352048] [BACKEND] ERROR: /usr/local/lib/python3.13/site-packages/sklearn/utils/validation.py:2691: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+[2026-04-15T11:22:31.575392] [manual_1352048] [BACKEND] ERROR:   warnings.warn(
+[2026-04-15T11:22:31.580908] [manual_1352048] [BACKEND] [BACKEND_SUCCESS] Prediction complete: 9.83 kWh
+[2026-04-15T11:22:32.015741] SUCCESS: Function predict_energy completed. args={"year": 2005, "month": 5, "day": 4}
+[2026-04-15T11:23:34.135381] [run_1776252209_orjr] [BACKEND] [BACKEND_START] get_stats called
+[2026-04-15T11:23:34.190785] [run_1776252209_orjr] [BACKEND] [BACKEND_START] get_historical_data called with limit=30
+[2026-04-15T11:23:34.200151] [run_1776252209_orjr] [BACKEND] [BACKEND_SUCCESS] Stats generated: {'avg_consumption': 12.11, 'peak_consumption': 18.16, 'temp_correlation': -0.9018, 'total_records': 730}
+[2026-04-15T11:23:34.212245] [run_1776252209_orjr] [BACKEND] [BACKEND_SUCCESS] Returning 30 historical records
+[2026-04-15T11:23:34.538089] SUCCESS: Function get_stats completed.
+[2026-04-15T11:23:34.618455] SUCCESS: Function get_historical_data completed. args={"limit": 30}
+[2026-04-15T11:23:42.803284] [manual_1352154] [BACKEND] [BACKEND_START] get_stats called
+[2026-04-15T11:23:42.817875] [manual_1352154] [BACKEND] [BACKEND_SUCCESS] Stats generated: {'avg_consumption': 12.11, 'peak_consumption': 18.16, 'temp_correlation': -0.9018, 'total_records': 730}
+[2026-04-15T11:23:43.238253] [manual_1352154] [BACKEND] [BACKEND_START] get_historical_data called with limit=30
+[2026-04-15T11:23:43.301013] [manual_1352154] [BACKEND] [BACKEND_SUCCESS] Returning 30 historical records
+[2026-04-15T11:23:43.228797] SUCCESS: Function get_stats completed.
+[2026-04-15T11:23:43.635463] SUCCESS: Function get_historical_data completed. args={"limit": 30}
+[2026-04-15T11:23:45.008510] [manual_1352154] [BACKEND] [BACKEND_START] predict_energy called for 2026-04-15
+[2026-04-15T11:23:47.135624] [manual_1352154] [BACKEND] ERROR: /usr/local/lib/python3.13/site-packages/sklearn/utils/validation.py:2691: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+[2026-04-15T11:23:47.135763] [manual_1352154] [BACKEND] ERROR:   warnings.warn(
+[2026-04-15T11:23:47.139619] [manual_1352154] [BACKEND] [BACKEND_SUCCESS] Prediction complete: 8.43 kWh
+[2026-04-15T11:23:47.588206] SUCCESS: Function predict_energy completed. args={"year": 2026, "month": 4, "day": 15}
+[2026-04-15T11:24:06.388069] [manual_1352180] [BACKEND] [BACKEND_START] get_stats called
+[2026-04-15T11:24:06.401412] [manual_1352180] [BACKEND] [BACKEND_START] get_historical_data called with limit=30
+[2026-04-15T11:24:06.403655] [manual_1352180] [BACKEND] [BACKEND_SUCCESS] Stats generated: {'avg_consumption': 12.11, 'peak_consumption': 18.16, 'temp_correlation': -0.9018, 'total_records': 730}
+[2026-04-15T11:24:06.421900] [manual_1352180] [BACKEND] [BACKEND_SUCCESS] Returning 30 historical records
+[2026-04-15T11:24:06.726468] SUCCESS: Function get_stats completed.
+[2026-04-15T11:24:06.813075] SUCCESS: Function get_historical_data completed. args={"limit": 30}
+[2026-04-15T11:24:47.397151] [run_1776252282_9yyd] [BACKEND] [BACKEND_START] get_stats called
+[2026-04-15T11:24:47.412871] [run_1776252282_9yyd] [BACKEND] [BACKEND_START] get_historical_data called with limit=30
+[2026-04-15T11:24:47.496814] [run_1776252282_9yyd] [BACKEND] [BACKEND_SUCCESS] Stats generated: {'avg_consumption': 12.11, 'peak_consumption': 18.16, 'temp_correlation': -0.9018, 'total_records': 730}
+[2026-04-15T11:24:47.598402] [run_1776252282_9yyd] [BACKEND] [BACKEND_SUCCESS] Returning 30 historical records
+[2026-04-15T11:24:48.440013] SUCCESS: Function get_stats completed.
+[2026-04-15T11:24:48.601672] SUCCESS: Function get_historical_data completed. args={"limit": 30}
+[2026-04-15T11:24:49.318629] [manual_1352180] [BACKEND] [BACKEND_START] predict_energy called for 2026-04-15
+[2026-04-15T11:24:51.389264] [manual_1352180] [BACKEND] ERROR: /usr/local/lib/python3.13/site-packages/sklearn/utils/validation.py:2691: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+[2026-04-15T11:24:51.389421] [manual_1352180] [BACKEND] ERROR:   warnings.warn(
+[2026-04-15T11:24:51.393966] [manual_1352180] [BACKEND] [BACKEND_SUCCESS] Prediction complete: 8.43 kWh
+[2026-04-15T11:24:51.833418] SUCCESS: Function predict_energy completed. args={"year": 2026, "month": 4, "day": 15}
+[2026-04-15T11:24:56.022947] [manual_1352227] [BACKEND] [BACKEND_START] get_historical_data called with limit=30
+[2026-04-15T11:24:56.095793] [manual_1352227] [BACKEND] [BACKEND_SUCCESS] Returning 30 historical records
+[2026-04-15T11:24:56.443787] [manual_1352227] [BACKEND] [BACKEND_START] get_stats called
+[2026-04-15T11:24:56.458347] [manual_1352227] [BACKEND] [BACKEND_SUCCESS] Stats generated: {'avg_consumption': 12.11, 'peak_consumption': 18.16, 'temp_correlation': -0.9018, 'total_records': 730}
+[2026-04-15T11:24:56.510021] SUCCESS: Function get_historical_data completed. args={"limit": 30}
+[2026-04-15T11:24:56.826951] SUCCESS: Function get_stats completed.
+[2026-04-15T11:25:00.536323] [manual_1352227] [BACKEND] [BACKEND_START] predict_energy called for 2026-04-16
+[2026-04-15T11:25:02.528240] [manual_1352227] [BACKEND] ERROR: /usr/local/lib/python3.13/site-packages/sklearn/utils/validation.py:2691: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+[2026-04-15T11:25:02.528394] [manual_1352227] [BACKEND] ERROR:   warnings.warn(
+[2026-04-15T11:25:02.531895] [manual_1352227] [BACKEND] [BACKEND_SUCCESS] Prediction complete: 8.16 kWh
+[2026-04-15T11:25:02.969795] SUCCESS: Function predict_energy completed. args={"year": 2026, "month": 4, "day": 16}
+[2026-04-15T11:25:10.810401] [manual_1352227] [BACKEND] [BACKEND_START] predict_energy called for 2026-04-23
+[2026-04-15T11:25:12.663042] [manual_1352227] [BACKEND] ERROR: /usr/local/lib/python3.13/site-packages/sklearn/utils/validation.py:2691: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+[2026-04-15T11:25:12.663176] [manual_1352227] [BACKEND] ERROR:   warnings.warn(
+[2026-04-15T11:25:12.667303] [manual_1352227] [BACKEND] [BACKEND_SUCCESS] Prediction complete: 7.56 kWh
+[2026-04-15T11:25:13.089835] SUCCESS: Function predict_energy completed. args={"year": 2026, "month": 4, "day": 23}
+[2026-04-15T11:25:23.125214] [manual_1352227] [BACKEND] [BACKEND_START] get_historical_data called with limit=100
+[2026-04-15T11:25:23.149195] [manual_1352227] [BACKEND] [BACKEND_SUCCESS] Returning 100 historical records
+[2026-04-15T11:25:23.493956] SUCCESS: Function get_historical_data completed. args={"limit": 100}
+[2026-04-15T11:25:28.622899] [manual_1352227] [BACKEND] [BACKEND_START] get_stats called
+[2026-04-15T11:25:28.689059] [manual_1352227] [BACKEND] [BACKEND_SUCCESS] Stats generated: {'avg_consumption': 12.11, 'peak_consumption': 18.16, 'temp_correlation': -0.9018, 'total_records': 730}
+[2026-04-15T11:25:28.834755] [manual_1352227] [BACKEND] [BACKEND_START] get_historical_data called with limit=30
+[2026-04-15T11:25:28.904592] [manual_1352227] [BACKEND] [BACKEND_SUCCESS] Returning 30 historical records
+[2026-04-15T11:25:29.026524] SUCCESS: Function get_stats completed.
+[2026-04-15T11:25:29.207482] SUCCESS: Function get_historical_data completed. args={"limit": 30}
+[2026-04-15T11:27:01.386700] [manual_1352352] [BACKEND] [BACKEND_START] get_historical_data called with limit=30
+[2026-04-15T11:27:01.493949] [manual_1352352] [BACKEND] [BACKEND_SUCCESS] Returning 30 historical records
+[2026-04-15T11:27:01.587799] [manual_1352352] [BACKEND] [BACKEND_START] get_stats called
+[2026-04-15T11:27:01.684779] [manual_1352352] [BACKEND] [BACKEND_SUCCESS] Stats generated: {'avg_consumption': 12.11, 'peak_consumption': 18.16, 'temp_correlation': -0.9018, 'total_records': 730}
+[2026-04-15T11:27:02.399831] SUCCESS: Function get_historical_data completed. args={"limit": 30}
+[2026-04-15T11:27:18.988999] [run_1776252433_24ma] [BACKEND] [BACKEND_START] get_stats called
+[2026-04-15T11:27:19.003742] [run_1776252433_24ma] [BACKEND] [BACKEND_SUCCESS] Stats generated: {'avg_consumption': 12.11, 'peak_consumption': 18.16, 'temp_correlation': -0.9018, 'total_records': 730}
+[2026-04-15T11:27:19.031067] [run_1776252433_24ma] [BACKEND] [BACKEND_START] get_historical_data called with limit=30
+[2026-04-15T11:27:19.106438] [run_1776252433_24ma] [BACKEND] [BACKEND_SUCCESS] Returning 30 historical records
+[2026-04-15T11:27:19.546965] SUCCESS: Function get_stats completed.
+[2026-04-15T11:27:19.641808] SUCCESS: Function get_historical_data completed. args={"limit": 30}
+[2026-04-15T11:27:46.013838] [manual_1352397] [BACKEND] [BACKEND_START] get_historical_data called with limit=30
+[2026-04-15T11:27:46.014088] [manual_1352397] [BACKEND] [BACKEND_START] get_stats called
+[2026-04-15T11:27:46.028660] [manual_1352397] [BACKEND] [BACKEND_SUCCESS] Stats generated: {'avg_consumption': 12.11, 'peak_consumption': 18.16, 'temp_correlation': -0.9018, 'total_records': 730}
+[2026-04-15T11:27:46.089280] [manual_1352397] [BACKEND] [BACKEND_SUCCESS] Returning 30 historical records
+[2026-04-15T11:27:46.425744] SUCCESS: Function get_stats completed.
+ompleted. args={"limit": 30}
+[2026-04-15T11:33:09.587332] [run_1776252780_gz8f] [BACKEND] [BACKEND_START] get_stats called
+[2026-04-15T11:33:09.602845] [run_1776252780_gz8f] [BACKEND] [BACKEND_SUCCESS] Stats generated: {'avg_consumption': 12.11, 'peak_consumption': 18.16, 'temp_correlation': -0.9018, 'total_records': 730}
+[2026-04-15T11:33:09.720818] [run_1776252780_gz8f] [BACKEND] [BACKEND_START] get_historical_data called with limit=30
+[2026-04-15T11:33:09.792941] [run_1776252780_gz8f] [BACKEND] [BACKEND_SUCCESS] Returning 30 historical records
+[2026-04-15T11:33:10.012088] SUCCESS: Function get_stats completed.
+[2026-04-15T11:33:10.107490] SUCCESS: Function get_historical_data completed. args={"limit": 30}
+[2026-04-15T11:33:20.602131] [manual_1352732] [BACKEND] [BACKEND_START] get_historical_data called with limit=30
+[2026-04-15T11:33:20.621357] [manual_1352732] [BACKEND] [BACKEND_START] get_stats called
+[2026-04-15T11:33:20.622645] [manual_1352732] [BACKEND] [BACKEND_SUCCESS] Returning 30 historical records
+[2026-04-15T11:33:20.687794] [manual_1352732] [BACKEND] [BACKEND_SUCCESS] Stats generated: {'avg_consumption': 12.11, 'peak_consumption': 18.16, 'temp_correlation': -0.9018, 'total_records': 730}
+[2026-04-15T11:33:21.000282] SUCCESS: Function get_stats completed.
+[2026-04-15T11:35:21.427440] [run_1776252917_ww0d] [BACKEND] [BACKEND_START] get_historical_data called with limit=30
+[2026-04-15T11:35:21.497562] [run_1776252917_ww0d] [BACKEND] [BACKEND_SUCCESS] Returning 30 historical records
+[2026-04-15T11:35:21.919585] [run_1776252917_ww0d] [BACKEND] [BACKEND_START] get_stats called
+[2026-04-15T11:35:21.936956] [run_1776252917_ww0d] [BACKEND] [BACKEND_SUCCESS] Stats generated: {'avg_consumption': 12.11, 'peak_consumption': 18.16, 'temp_correlation': -0.9018, 'total_records': 730}
+[2026-04-15T11:35:21.908010] SUCCESS: Function get_historical_data completed. args={"limit": 30}
+[2026-04-15T11:35:22.249289] SUCCESS: Function get_stats completed.
+[2026-04-15T11:36:24.702095] [manual_1352916] [BACKEND] [BACKEND_START] get_stats called
+[2026-04-15T11:36:24.716728] [manual_1352916] [BACKEND] [BACKEND_SUCCESS] Stats generated: {'avg_consumption': 12.11, 'peak_consumption': 18.16, 'temp_correlation': -0.9018, 'total_records': 730}
+[2026-04-15T11:36:24.791592] [manual_1352916] [BACKEND] [BACKEND_START] get_historical_data called with limit=30
+[2026-04-15T11:36:24.810871] [manual_1352916] [BACKEND] [BACKEND_SUCCESS] Returning 30 historical records
+[2026-04-15T11:36:25.141824] SUCCESS: Function get_historical_data completed. args={"limit": 30}
+[2026-04-15T11:54:04.609865] [manual_1352916] [BACKEND] [BACKEND_START] get_historical_data called with limit=30
+[2026-04-15T11:54:04.636150] [manual_1352916] [BACKEND] [BACKEND_SUCCESS] Returning 30 historical records
+[2026-04-15T11:54:04.722438] [manual_1352916] [BACKEND] [BACKEND_START] get_stats called
+[2026-04-15T11:54:04.736065] [manual_1352916] [BACKEND] [BACKEND_SUCCESS] Stats generated: {'avg_consumption': 12.11, 'peak_consumption': 18.16, 'temp_correlation': -0.9018, 'total_records': 730}
+[2026-04-15T11:54:05.032071] SUCCESS: Function get_historical_data completed. args={"limit": 30}
+[2026-04-15T11:54:05.125034] SUCCESS: Function get_stats completed.
+[2026-04-15T11:56:22.105265] [run_1776254172_mcyy] [BACKEND] [BACKEND_START] get_historical_data called with limit=30
+[2026-04-15T11:56:22.130402] [run_1776254172_mcyy] [BACKEND] [BACKEND_SUCCESS] Returning 30 historical records
+[2026-04-15T11:56:22.588633] [run_1776254172_mcyy] [BACKEND] [BACKEND_START] get_stats called
+[2026-04-15T11:56:22.607072] [run_1776254172_mcyy] [BACKEND] [BACKEND_SUCCESS] Stats generated: {'avg_consumption': 12.11, 'peak_consumption': 18.16, 'temp_correlation': -0.9018, 'total_records': 730}
+[2026-04-15T11:56:22.532219] SUCCESS: Function get_historical_data completed. args={"limit": 30}
+[2026-04-15T11:56:22.945776] SUCCESS: Function get_stats completed.
+[2026-04-15T11:56:29.291335] [manual_1354120] [BACKEND] [BACKEND_START] get_historical_data called with limit=30
+[2026-04-15T11:56:29.311259] [manual_1354120] [BACKEND] [BACKEND_SUCCESS] Returning 30 historical records
+[2026-04-15T11:56:29.728037] [manual_1354120] [BACKEND] [BACKEND_START] get_stats called
+[2026-04-15T11:56:29.743847] [manual_1354120] [BACKEND] [BACKEND_SUCCESS] Stats generated: {'avg_consumption': 12.11, 'peak_consumption': 18.16, 'temp_correlation': -0.9018, 'total_records': 730}
+[2026-04-15T11:56:29.718223] SUCCESS: Function get_historical_data completed. args={"limit": 30}
+[2026-04-15T11:56:30.095958] SUCCESS: Function get_stats completed.
+[2026-04-15T11:57:39.011237] [manual_1354191] [BACKEND] [BACKEND_START] get_historical_data called with limit=30
+[2026-04-15T11:57:39.105247] [manual_1354191] [BACKEND] [BACKEND_SUCCESS] Returning 30 historical records
+[2026-04-15T11:57:39.109342] [manual_1354191] [BACKEND] [BACKEND_START] get_stats called
+[2026-04-15T11:57:39.192727] [manual_1354191] [BACKEND] [BACKEND_SUCCESS] Stats generated: {'avg_consumption': 12.11, 'peak_consumption': 18.16, 'temp_correlation': -0.9018, 'total_records': 730}
+[2026-04-15T11:57:39.904167] SUCCESS: Function get_historical_data completed. args={"limit": 30}
+[2026-04-15T11:57:50.098586] [run_1776254264_40x6] [BACKEND] [BACKEND_START] get_stats called
+[2026-04-15T11:57:50.113370] [run_1776254264_40x6] [BACKEND] [BACKEND_SUCCESS] Stats generated: {'avg_consumption': 12.11, 'peak_consumption': 18.16, 'temp_correlation': -0.9018, 'total_records': 730}
+[2026-04-15T11:57:50.493650] [run_1776254264_40x6] [BACKEND] [BACKEND_START] get_historical_data called with limit=30
+[2026-04-15T11:57:50.516663] [run_1776254264_40x6] [BACKEND] [BACKEND_SUCCESS] Returning 30 historical records
+[2026-04-15T11:57:50.510594] SUCCESS: Function get_stats completed.
+[2026-04-15T11:57:50.816424] SUCCESS: Function get_historical_data completed. args={"limit": 30}
+[2026-04-15T11:57:55.395364] [manual_1354208] [BACKEND] [BACKEND_START] get_historical_data called with limit=30
+[2026-04-15T11:57:55.414732] [manual_1354208] [BACKEND] [BACKEND_SUCCESS] Returning 30 historical records
+[2026-04-15T11:57:55.804618] [manual_1354208] [BACKEND] [BACKEND_START] get_stats called
+[2026-04-15T11:57:55.821859] [manual_1354208] [BACKEND] [BACKEND_SUCCESS] Stats generated: {'avg_consumption': 12.11, 'peak_consumption': 18.16, 'temp_correlation': -0.9018, 'total_records': 730}
+[2026-04-15T11:57:55.824608] SUCCESS: Function get_historical_data completed. args={"limit": 30}
+[2026-04-15T11:57:56.177983] SUCCESS: Function get_stats completed.
+[2026-04-15T11:59:36.230009] [manual_1354208] [BACKEND] [BACKEND_START] predict_energy called for 2026-04-07
+[2026-04-15T11:59:38.281838] [manual_1354208] [BACKEND] ERROR: /usr/local/lib/python3.13/site-packages/sklearn/utils/validation.py:2691: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+[2026-04-15T11:59:38.281990] [manual_1354208] [BACKEND] ERROR:   warnings.warn(
+[2026-04-15T11:59:38.285241] [manual_1354208] [BACKEND] [BACKEND_SUCCESS] Prediction complete: 7.46 kWh
+[2026-04-15T11:59:38.726526] SUCCESS: Function predict_energy completed. args={"year": 2026, "month": 4, "day": 7}
+[2026-04-15T11:59:48.631383] [manual_1354208] [BACKEND] [BACKEND_START] get_historical_data called with limit=30
+[2026-04-15T11:59:48.700817] [manual_1354208] [BACKEND] [BACKEND_SUCCESS] Returning 30 historical records
+[2026-04-15T11:59:48.712322] [manual_1354208] [BACKEND] [BACKEND_START] get_stats called
+[2026-04-15T11:59:48.729154] [manual_1354208] [BACKEND] [BACKEND_SUCCESS] Stats generated: {'avg_consumption': 12.11, 'peak_consumption': 18.16, 'temp_correlation': -0.9018, 'total_records': 730}
+[2026-04-15T11:59:49.028010] SUCCESS: Function get_historical_data completed. args={"limit": 30}
+[2026-04-15T11:59:49.122547] SUCCESS: Function get_stats completed.
+[2026-04-15T12:02:05.510810] [manual_1354208] [BACKEND] [BACKEND_START] get_historical_data called with limit=100
+[2026-04-15T12:02:05.543169] [manual_1354208] [BACKEND] [BACKEND_SUCCESS] Returning 100 historical records
+[2026-04-15T12:02:05.778790] SUCCESS: Function get_historical_data completed. args={"limit": 100}
+[2026-04-15T12:02:12.228323] [run_1776254520_klvy] [BACKEND] [BACKEND_START] get_historical_data called with limit=30
+[2026-04-15T12:02:12.301649] [run_1776254520_klvy] [BACKEND] [BACKEND_SUCCESS] Returning 30 historical records
+[2026-04-15T12:02:12.616389] [run_1776254520_klvy] [BACKEND] [BACKEND_START] get_stats called
+[2026-04-15T12:02:12.631982] [run_1776254520_klvy] [BACKEND] [BACKEND_SUCCESS] Stats generated: {'avg_consumption': 12.11, 'peak_consumption': 18.16, 'temp_correlation': -0.9018, 'total_records': 730}
+[2026-04-15T12:02:12.710883] SUCCESS: Function get_historical_data completed. args={"limit": 30}
+[2026-04-15T12:02:12.930548] SUCCESS: Function get_stats completed.
+[2026-04-15T12:02:24.219379] [manual_1354208] [BACKEND] [BACKEND_START] get_stats called
+[2026-04-15T12:02:24.235055] [manual_1354208] [BACKEND] [BACKEND_SUCCESS] Stats generated: {'avg_consumption': 12.11, 'peak_consumption': 18.16, 'temp_correlation': -0.9018, 'total_records': 730}
+[2026-04-15T12:02:24.636215] [manual_1354208] [BACKEND] [BACKEND_START] get_historical_data called with limit=30
+[2026-04-15T12:02:24.700218] [manual_1354208] [BACKEND] [BACKEND_SUCCESS] Returning 30 historical records
+[2026-04-15T12:02:24.625465] SUCCESS: Function get_stats completed.
+[2026-04-15T12:02:25.084284] SUCCESS: Function get_historical_data completed. args={"limit": 30}
+[2026-04-15T12:02:35.431206] [manual_1354488] [BACKEND] [BACKEND_START] get_historical_data called with limit=30
+[2026-04-15T12:02:35.510961] [manual_1354488] [BACKEND] [BACKEND_SUCCESS] Returning 30 historical records
+[2026-04-15T12:02:35.617758] [manual_1354488] [BACKEND] [BACKEND_START] get_stats called
+[2026-04-15T12:02:35.688671] [manual_1354488] [BACKEND] [BACKEND_SUCCESS] Stats generated: {'avg_consumption': 12.11, 'peak_consumption': 18.16, 'temp_correlation': -0.9018, 'total_records': 730}
+[2026-04-15T12:02:35.936818] SUCCESS: Function get_historical_data completed. args={"limit": 30}
+[2026-04-15T12:02:35.996559] SUCCESS: Function get_stats completed.
+[2026-04-15T12:06:45.811576] [run_1776254801_yakl] [BACKEND] [BACKEND_START] get_historical_data called with limit=30
+[2026-04-15T12:06:45.888651] [run_1776254801_yakl] [BACKEND] [BACKEND_SUCCESS] Returning 30 historical records
+[2026-04-15T12:06:45.928851] [run_1776254801_yakl] [BACKEND] [BACKEND_START] get_stats called
+[2026-04-15T12:06:45.992379] [run_1776254801_yakl] [BACKEND] [BACKEND_SUCCESS] Stats generated: {'avg_consumption': 12.11, 'peak_consumption': 18.16, 'temp_correlation': -0.9018, 'total_records': 730}
+[2026-04-15T12:06:46.248637] SUCCESS: Function get_historical_data completed. args={"limit": 30}
+[2026-04-15T12:06:46.374887] SUCCESS: Function get_stats completed.
+[2026-04-15T12:08:32.408205] [run_1776254906_c9ix] [BACKEND] [BACKEND_START] get_stats called
+[2026-04-15T12:08:32.423339] [run_1776254906_c9ix] [BACKEND] [BACKEND_SUCCESS] Stats generated: {'avg_consumption': 12.11, 'peak_consumption': 18.16, 'temp_correlation': -0.9018, 'total_records': 730}
+[2026-04-15T12:08:32.533293] [run_1776254906_c9ix] [BACKEND] [BACKEND_START] get_historical_data called with limit=30
+[2026-04-15T12:08:32.602843] [run_1776254906_c9ix] [BACKEND] [BACKEND_SUCCESS] Returning 30 historical records
+[2026-04-15T12:08:32.804174] SUCCESS: Function get_stats completed.
+[2026-04-15T12:08:32.912439] SUCCESS: Function get_historical_data completed. args={"limit": 30}
+[2026-04-15T12:09:45.812533] [manual_1354917] [BACKEND] [BACKEND_START] get_historical_data called with limit=30
+[2026-04-15T12:09:45.887940] [manual_1354917] [BACKEND] [BACKEND_SUCCESS] Returning 30 historical records
+[2026-04-15T12:09:46.288306] [manual_1354917] [BACKEND] [BACKEND_START] get_stats called
+[2026-04-15T12:09:46.307764] [manual_1354917] [BACKEND] [BACKEND_SUCCESS] Stats generated: {'avg_consumption': 12.11, 'peak_consumption': 18.16, 'temp_correlation': -0.9018, 'total_records': 730}
+[2026-04-15T12:09:46.245034] SUCCESS: Function get_historical_data completed. args={"limit": 30}
+[2026-04-15T12:09:46.740572] SUCCESS: Function get_stats completed.
+[2026-04-15T12:12:24.607375] [run_1776255138_siab] [BACKEND] [BACKEND_START] get_historical_data called with limit=30
+[2026-04-15T12:12:24.616654] [run_1776255138_siab] [BACKEND] [BACKEND_START] get_stats called
+[2026-04-15T12:12:24.627297] [run_1776255138_siab] [BACKEND] [BACKEND_SUCCESS] Returning 30 historical records
+[2026-04-15T12:12:24.631757] [run_1776255138_siab] [BACKEND] [BACKEND_SUCCESS] Stats generated: {'avg_consumption': 12.11, 'peak_consumption': 18.16, 'temp_correlation': -0.9018, 'total_records': 730}
+[2026-04-15T12:12:25.038317] SUCCESS: Function get_historical_data completed. args={"limit": 30}
+[2026-04-15T12:12:47.330398] [manual_1355099] [BACKEND] [BACKEND_START] get_historical_data called with limit=30
+[2026-04-15T12:12:47.388948] [manual_1355099] [BACKEND] [BACKEND_START] get_stats called
+[2026-04-15T12:12:47.398207] [manual_1355099] [BACKEND] [BACKEND_SUCCESS] Returning 30 historical records
+[2026-04-15T12:12:47.406284] [manual_1355099] [BACKEND] [BACKEND_SUCCESS] Stats generated: {'avg_consumption': 12.11, 'peak_consumption': 18.16, 'temp_correlation': -0.9018, 'total_records': 730}
+[2026-04-15T12:12:47.732225] SUCCESS: Function get_historical_data completed. args={"limit": 30}
+[2026-04-15T12:12:47.794120] SUCCESS: Function get_stats completed.
+[2026-04-15T12:13:44.136256] [manual_1355099] [BACKEND] [BACKEND_START] predict_energy called for 2026-04-15
+[2026-04-15T12:13:46.372799] [manual_1355099] [BACKEND] ERROR: /usr/local/lib/python3.13/site-packages/sklearn/utils/validation.py:2691: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+[2026-04-15T12:13:46.372938] [manual_1355099] [BACKEND] ERROR:   warnings.warn(
+[2026-04-15T12:13:46.377164] [manual_1355099] [BACKEND] [BACKEND_SUCCESS] Prediction complete: 8.43 kWh
+[2026-04-15T12:13:46.814969] SUCCESS: Function predict_energy completed. args={"year": 2026, "month": 4, "day": 15}
+[2026-04-15T12:13:53.527076] [manual_1355099] [BACKEND] [BACKEND_START] get_stats called
+[2026-04-15T12:13:53.595288] [manual_1355099] [BACKEND] [BACKEND_SUCCESS] Stats generated: {'avg_consumption': 12.11, 'peak_consumption': 18.16, 'temp_correlation': -0.9018, 'total_records': 730}
+[2026-04-15T12:13:53.703233] [manual_1355099] [BACKEND] [BACKEND_START] get_historical_data called with limit=30
+[2026-04-15T12:13:53.727399] [manual_1355099] [BACKEND] [BACKEND_SUCCESS] Returning 30 historical records
+[2026-04-15T12:13:53.952555] SUCCESS: Function get_stats completed.
+[2026-04-15T12:13:54.051222] SUCCESS: Function get_historical_data completed. args={"limit": 30}
+[2026-04-15T12:16:04.148561] [manual_1355099] [BACKEND] [BACKEND_START] get_historical_data called with limit=100
+[2026-04-15T12:16:04.167337] [manual_1355099] [BACKEND] [BACKEND_SUCCESS] Returning 100 historical records
+[2026-04-15T12:16:04.378743] SUCCESS: Function get_historical_data completed. args={"limit": 100}
+[2026-04-15T12:16:09.802484] [manual_1355099] [BACKEND] [BACKEND_START] get_stats called
+[2026-04-15T12:16:09.816984] [manual_1355099] [BACKEND] [BACKEND_SUCCESS] Stats generated: {'avg_consumption': 12.11, 'peak_consumption': 18.16, 'temp_correlation': -0.9018, 'total_records': 730}
+[2026-04-15T12:16:09.818110] [manual_1355099] [BACKEND] [BACKEND_START] get_historical_data called with limit=30
+[2026-04-15T12:16:09.887788] [manual_1355099] [BACKEND] [BACKEND_SUCCESS] Returning 30 historical records
+[2026-04-15T12:16:10.225656] SUCCESS: Function get_historical_data completed. args={"limit": 30}
+[2026-04-15T12:18:15.903352] [run_1776255489_g114] [BACKEND] [BACKEND_START] get_stats called
+[2026-04-15T12:18:15.907371] [run_1776255489_g114] [BACKEND] [BACKEND_START] get_historical_data called with limit=30
+[2026-04-15T12:18:15.920418] [run_1776255489_g114] [BACKEND] [BACKEND_SUCCESS] Stats generated: {'avg_consumption': 12.11, 'peak_consumption': 18.16, 'temp_correlation': -0.9018, 'total_records': 730}
+[2026-04-15T12:18:15.926777] [run_1776255489_g114] [BACKEND] [BACKEND_SUCCESS] Returning 30 historical records
+[2026-04-15T12:18:16.304073] SUCCESS: Function get_stats completed.
+[2026-04-15T12:18:16.980057] SUCCESS: Function get_historical_data completed. args={"limit": 30}
+[2026-04-15T12:19:07.029593] [manual_1355479] [BACKEND] [BACKEND_START] get_historical_data called with limit=30
+[2026-04-15T12:19:07.104652] [manual_1355479] [BACKEND] [BACKEND_SUCCESS] Returning 30 historical records
+[2026-04-15T12:19:07.206500] [manual_1355479] [BACKEND] [BACKEND_START] get_stats called
+[2026-04-15T12:19:07.225159] [manual_1355479] [BACKEND] [BACKEND_SUCCESS] Stats generated: {'avg_consumption': 12.11, 'peak_consumption': 18.16, 'temp_correlation': -0.9018, 'total_records': 730}
+[2026-04-15T12:19:07.560853] SUCCESS: Function get_historical_data completed. args={"limit": 30}
+[2026-04-15T12:19:07.653555] SUCCESS: Function get_stats completed.
+[2026-04-15T12:19:26.105354] [manual_1355499] [BACKEND] [BACKEND_START] get_historical_data called with limit=30
+[2026-04-15T12:19:26.185211] [manual_1355499] [BACKEND] [BACKEND_SUCCESS] Returning 30 historical records
+[2026-04-15T12:19:26.318289] [manual_1355499] [BACKEND] [BACKEND_START] get_stats called
+[2026-04-15T12:19:26.335989] [manual_1355499] [BACKEND] [BACKEND_SUCCESS] Stats generated: {'avg_consumption': 12.11, 'peak_consumption': 18.16, 'temp_correlation': -0.9018, 'total_records': 730}
+[2026-04-15T12:19:26.596169] SUCCESS: Function get_historical_data completed. args={"limit": 30}
+[2026-04-15T12:19:26.728267] SUCCESS: Function get_stats completed.
+[2026-04-15T12:20:26.197567] [manual_1355559] [BACKEND] [BACKEND_START] get_stats called
+[2026-04-15T12:20:26.212024] [manual_1355559] [BACKEND] [BACKEND_SUCCESS] Stats generated: {'avg_consumption': 12.11, 'peak_consumption': 18.16, 'temp_correlation': -0.9018, 'total_records': 730}
+[2026-04-15T12:20:26.224198] [manual_1355559] [BACKEND] [BACKEND_START] get_historical_data called with limit=30
+[2026-04-15T12:20:26.293001] [manual_1355559] [BACKEND] [BACKEND_SUCCESS] Returning 30 historical records
+[2026-04-15T12:20:26.630271] SUCCESS: Function get_historical_data completed. args={"limit": 30}
+[2026-04-15T12:20:39.629377] [manual_1355559] [BACKEND] [BACKEND_START] predict_energy called for 2026-04-15
+[2026-04-15T12:20:42.362423] [manual_1355559] [BACKEND] ERROR: /usr/local/lib/python3.13/site-packages/sklearn/utils/validation.py:2691: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+[2026-04-15T12:20:42.362862] [manual_1355559] [BACKEND] ERROR:   warnings.warn(
+[2026-04-15T12:20:42.368282] [manual_1355559] [BACKEND] [BACKEND_SUCCESS] Prediction complete: 8.43 kWh
+[2026-04-15T12:20:42.871136] SUCCESS: Function predict_energy completed. args={"year": 2026, "month": 4, "day": 15}
+[2026-04-15T12:20:50.830514] [manual_1355559] [BACKEND] [BACKEND_START] get_historical_data called with limit=30
+[2026-04-15T12:20:50.841996] [manual_1355559] [BACKEND] [BACKEND_START] get_stats called
+[2026-04-15T12:20:50.896906] [manual_1355559] [BACKEND] [BACKEND_SUCCESS] Returning 30 historical records
+[2026-04-15T12:20:50.900115] [manual_1355559] [BACKEND] [BACKEND_SUCCESS] Stats generated: {'avg_consumption': 12.11, 'peak_consumption': 18.16, 'temp_correlation': -0.9018, 'total_records': 730}
+[2026-04-15T12:20:51.390423] SUCCESS: Function get_historical_data completed. args={"limit": 30}
+[2026-04-15T12:22:35.808434] [manual_1355559] [BACKEND] [BACKEND_START] predict_energy called for 2026-04-23
+[2026-04-15T12:22:37.837987] [manual_1355559] [BACKEND] ERROR: /usr/local/lib/python3.13/site-packages/sklearn/utils/validation.py:2691: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+[2026-04-15T12:22:37.838105] [manual_1355559] [BACKEND] ERROR:   warnings.warn(
+[2026-04-15T12:22:37.841688] [manual_1355559] [BACKEND] [BACKEND_SUCCESS] Prediction complete: 7.56 kWh
+[2026-04-15T12:22:38.239340] SUCCESS: Function predict_energy completed. args={"year": 2026, "month": 4, "day": 23}
+[2026-04-15T12:22:43.523009] [manual_1355559] [BACKEND] [BACKEND_START] get_stats called
+[2026-04-15T12:22:43.592772] [manual_1355559] [BACKEND] [BACKEND_SUCCESS] Stats generated: {'avg_consumption': 12.11, 'peak_consumption': 18.16, 'temp_correlation': -0.9018, 'total_records': 730}
+[2026-04-15T12:22:43.817687] [manual_1355559] [BACKEND] [BACKEND_START] get_historical_data called with limit=30
+[2026-04-15T12:22:43.892973] [manual_1355559] [BACKEND] [BACKEND_SUCCESS] Returning 30 historical records
+[2026-04-15T12:22:44.343792] SUCCESS: Function get_historical_data completed. args={"limit": 30}
+[2026-04-15T12:39:22.229346] [manual_1355559] [BACKEND] [BACKEND_START] get_historical_data called with limit=100
+[2026-04-15T12:39:22.299715] [manual_1355559] [BACKEND] [BACKEND_SUCCESS] Returning 100 historical records
+[2026-04-15T12:39:22.905994] [manual_1355559] [BACKEND] [BACKEND_START] predict_energy called for 2026-04-15
+[2026-04-15T12:39:22.638920] SUCCESS: Function get_historical_data completed. args={"limit": 100}
+[2026-04-15T12:39:25.343882] [manual_1355559] [BACKEND] ERROR: /usr/local/lib/python3.13/site-packages/sklearn/utils/validation.py:2691: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+[2026-04-15T12:39:25.343990] [manual_1355559] [BACKEND] ERROR:   warnings.warn(
+[2026-04-15T12:39:25.347423] [manual_1355559] [BACKEND] [BACKEND_SUCCESS] Prediction complete: 8.43 kWh
+[2026-04-15T12:39:25.775981] SUCCESS: Function predict_energy completed. args={"year": 2026, "month": 4, "day": 15}
+[2026-04-16T01:55:28.394660] [manual_1404457] [BACKEND] [BACKEND_START] get_historical_data called with limit=30
+[2026-04-16T01:55:28.396901] [manual_1404457] [BACKEND] [BACKEND_START] get_stats called
+[2026-04-16T01:55:28.420055] [manual_1404457] [BACKEND] [BACKEND_SUCCESS] Stats generated: {'avg_consumption': 12.11, 'peak_consumption': 18.16, 'temp_correlation': -0.9018, 'total_records': 730}
+[2026-04-16T01:55:28.427015] [manual_1404457] [BACKEND] [BACKEND_SUCCESS] Returning 30 historical records
+[2026-04-16T01:55:28.789900] SUCCESS: Function get_stats completed.
+ompleted. args={"limit": 30}
+[2026-04-16T17:03:46.001199] [manual_1458951] [BACKEND] [BACKEND_START] get_stats called
+[2026-04-16T17:03:46.097197] [manual_1458951] [BACKEND] [BACKEND_SUCCESS] Stats generated: {'avg_consumption': 12.11, 'peak_consumption': 18.16, 'temp_correlation': -0.9018, 'total_records': 730}
+[2026-04-16T17:03:46.209429] [manual_1458951] [BACKEND] [BACKEND_START] get_historical_data called with limit=30
+[2026-04-16T17:03:46.309535] [manual_1458951] [BACKEND] [BACKEND_SUCCESS] Returning 30 historical records
+[2026-04-16T17:03:47.010995] SUCCESS: Function get_stats completed.
+[2026-04-16T17:03:47.403754] SUCCESS: Function get_historical_data completed. args={"limit": 30}
+[2026-04-16T17:03:49.504246] [manual_1458953] [BACKEND] [BACKEND_START] get_stats called
+[2026-04-16T17:03:49.518931] [manual_1458953] [BACKEND] [BACKEND_SUCCESS] Stats generated: {'avg_consumption': 12.11, 'peak_consumption': 18.16, 'temp_correlation': -0.9018, 'total_records': 730}
+[2026-04-16T17:03:50.111923] [manual_1458953] [BACKEND] [BACKEND_START] get_historical_data called with limit=30
+[2026-04-16T17:03:50.139098] [manual_1458953] [BACKEND] [BACKEND_SUCCESS] Returning 30 historical records
+[2026-04-16T17:03:50.031443] SUCCESS: Function get_stats completed.
+[2026-04-16T17:03:50.442004] SUCCESS: Function get_historical_data completed. args={"limit": 30}
+[2026-04-16T17:04:01.500245] [manual_1458951] [BACKEND] [BACKEND_START] predict_energy called for 2026-04-17
+[2026-04-16T17:04:03.625372] [manual_1458951] [BACKEND] ERROR: /usr/local/lib/python3.13/site-packages/sklearn/utils/validation.py:2691: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+[2026-04-16T17:04:03.625675] [manual_1458951] [BACKEND] ERROR:   warnings.warn(
+[2026-04-16T17:04:03.629379] [manual_1458951] [BACKEND] [BACKEND_SUCCESS] Prediction complete: 7.91 kWh
+[2026-04-16T17:04:04.071574] SUCCESS: Function predict_energy completed. args={"year": 2026, "month": 4, "day": 17}
+[2026-04-17T05:05:09.804108] [manual_1502238] [BACKEND] [BACKEND_START] get_stats called
+[2026-04-17T05:05:09.820516] [manual_1502238] [BACKEND] [BACKEND_START] get_historical_data called with limit=30
+[2026-04-17T05:05:09.825045] [manual_1502238] [BACKEND] [BACKEND_SUCCESS] Stats generated: {'avg_consumption': 12.11, 'peak_consumption': 18.16, 'temp_correlation': -0.9018, 'total_records': 730}
+[2026-04-17T05:05:09.891613] [manual_1502238] [BACKEND] [BACKEND_SUCCESS] Returning 30 historical records
+[2026-04-17T05:05:10.241064] SUCCESS: Function get_stats completed.
+[2026-04-17T05:05:47.973517] [manual_1502238] [BACKEND] [BACKEND_START] predict_energy called for 2026-04-25
+[2026-04-17T05:05:50.471196] [manual_1502238] [BACKEND] ERROR: /usr/local/lib/python3.13/site-packages/sklearn/utils/validation.py:2691: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+[2026-04-17T05:05:50.471317] [manual_1502238] [BACKEND] ERROR:   warnings.warn(
+[2026-04-17T05:05:50.474889] [manual_1502238] [BACKEND] [BACKEND_SUCCESS] Prediction complete: 7.49 kWh
+[2026-04-17T05:05:50.910406] SUCCESS: Function predict_energy completed. args={"year": 2026, "month": 4, "day": 25}
+[2026-04-17T07:43:43.306831] [manual_1511751] [BACKEND] [BACKEND_START] get_historical_data called with limit=30
+[2026-04-17T07:43:43.328014] [manual_1511751] [BACKEND] [BACKEND_SUCCESS] Returning 30 historical records
+[2026-04-17T07:43:43.604414] [manual_1511751] [BACKEND] [BACKEND_START] get_stats called
+[2026-04-17T07:43:43.623980] [manual_1511751] [BACKEND] [BACKEND_SUCCESS] Stats generated: {'avg_consumption': 12.11, 'peak_consumption': 18.16, 'temp_correlation': -0.9018, 'total_records': 730}
+[2026-04-17T07:43:43.730164] SUCCESS: Function get_historical_data completed. args={"limit": 30}
+[2026-04-17T07:43:43.924447] SUCCESS: Function get_stats completed.
+[2026-04-17T12:43:37.700819] [manual_1529747] [BACKEND] [BACKEND_START] get_stats called
+[2026-04-17T12:43:37.720920] [manual_1529747] [BACKEND] [BACKEND_START] get_historical_data called with limit=30
+[2026-04-17T12:43:37.721387] [manual_1529747] [BACKEND] [BACKEND_SUCCESS] Stats generated: {'avg_consumption': 12.11, 'peak_consumption': 18.16, 'temp_correlation': -0.9018, 'total_records': 730}
+[2026-04-17T12:43:37.796819] [manual_1529747] [BACKEND] [BACKEND_SUCCESS] Returning 30 historical records
+[2026-04-17T12:43:38.046846] SUCCESS: Function get_stats completed.
+[2026-04-17T12:43:38.131072] SUCCESS: Function get_historical_data completed. args={"limit": 30}
+[2026-04-17T12:43:45.566488] [manual_1529747] [BACKEND] [BACKEND_START] predict_energy called for 2026-04-17
+[2026-04-17T12:43:47.861508] [manual_1529747] [BACKEND] ERROR: /usr/local/lib/python3.13/site-packages/sklearn/utils/validation.py:2691: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+[2026-04-17T12:43:47.861681] [manual_1529747] [BACKEND] ERROR:   warnings.warn(
+[2026-04-17T12:43:47.865877] [manual_1529747] [BACKEND] [BACKEND_SUCCESS] Prediction complete: 7.91 kWh
+[2026-04-17T12:43:48.281934] SUCCESS: Function predict_energy completed. args={"year": 2026, "month": 4, "day": 17}
+[2026-04-19T05:12:59.303701] [manual_1675507] [BACKEND] [BACKEND_START] get_historical_data called with limit=30
+[2026-04-19T05:12:59.303823] [manual_1675507] [BACKEND] [BACKEND_START] get_stats called
+[2026-04-19T05:12:59.333268] [manual_1675507] [BACKEND] [BACKEND_SUCCESS] Stats generated: {'avg_consumption': 12.11, 'peak_consumption': 18.16, 'temp_correlation': -0.9018, 'total_records': 730}
+[2026-04-19T05:12:59.337616] [manual_1675507] [BACKEND] [BACKEND_SUCCESS] Returning 30 historical records
+[2026-04-19T05:12:59.718374] SUCCESS: Function get_stats completed.
+[2026-04-19T05:13:41.954792] [manual_1675507] [BACKEND] [BACKEND_START] predict_energy called for 2026-04-19
+[2026-04-19T05:13:44.189366] [manual_1675507] [BACKEND] ERROR: /usr/local/lib/python3.13/site-packages/sklearn/utils/validation.py:2691: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+[2026-04-19T05:13:44.189515] [manual_1675507] [BACKEND] ERROR:   warnings.warn(
+[2026-04-19T05:13:44.193178] [manual_1675507] [BACKEND] [BACKEND_SUCCESS] Prediction complete: 8.02 kWh
+[2026-04-19T05:13:44.637230] SUCCESS: Function predict_energy completed. args={"year": 2026, "month": 4, "day": 19}
+[2026-04-19T05:14:54.400105] [manual_1675628] [BACKEND] [BACKEND_START] get_stats called
+[2026-04-19T05:14:54.402487] [manual_1675628] [BACKEND] [BACKEND_START] get_historical_data called with limit=30
+[2026-04-19T05:14:54.413890] [manual_1675628] [BACKEND] [BACKEND_SUCCESS] Stats generated: {'avg_consumption': 12.11, 'peak_consumption': 18.16, 'temp_correlation': -0.9018, 'total_records': 730}
+[2026-04-19T05:14:54.423121] [manual_1675628] [BACKEND] [BACKEND_SUCCESS] Returning 30 historical records
+[2026-04-19T05:14:54.810204] SUCCESS: Function get_historical_data completed. args={"limit": 30}
+[2026-04-19T05:14:58.128635] [manual_1675628] [BACKEND] [BACKEND_START] get_historical_data called with limit=100
+[2026-04-19T05:14:58.149965] [manual_1675628] [BACKEND] [BACKEND_SUCCESS] Returning 100 historical records
+[2026-04-19T05:14:58.431404] SUCCESS: Function get_historical_data completed. args={"limit": 100}
+[2026-04-19T05:15:05.724458] [manual_1675628] [BACKEND] [BACKEND_START] get_stats called
+[2026-04-19T05:15:05.787062] [manual_1675628] [BACKEND] [BACKEND_SUCCESS] Stats generated: {'avg_consumption': 12.11, 'peak_consumption': 18.16, 'temp_correlation': -0.9018, 'total_records': 730}
+[2026-04-19T05:15:06.226603] [manual_1675628] [BACKEND] [BACKEND_START] get_historical_data called with limit=30
+[2026-04-19T05:15:06.292626] [manual_1675628] [BACKEND] [BACKEND_SUCCESS] Returning 30 historical records
+[2026-04-19T05:15:06.132963] SUCCESS: Function get_stats completed.
+[2026-04-19T05:15:06.616022] SUCCESS: Function get_historical_data completed. args={"limit": 30}
+[2026-04-19T05:15:17.000054] [manual_1675651] [BACKEND] [BACKEND_START] get_historical_data called with limit=30
+[2026-04-19T05:15:17.013938] [manual_1675651] [BACKEND] [BACKEND_START] get_stats called
+[2026-04-19T05:15:17.020667] [manual_1675651] [BACKEND] [BACKEND_SUCCESS] Returning 30 historical records
+[2026-04-19T05:15:17.031496] [manual_1675651] [BACKEND] [BACKEND_SUCCESS] Stats generated: {'avg_consumption': 12.11, 'peak_consumption': 18.16, 'temp_correlation': -0.9018, 'total_records': 730}
+[2026-04-19T05:15:17.432598] SUCCESS: Function get_stats completed.
+[2026-04-19T05:49:52.433320] [manual_1677720] [BACKEND] [BACKEND_START] get_historical_data called with limit=30
+[2026-04-19T05:49:52.505963] [manual_1677720] [BACKEND] [BACKEND_SUCCESS] Returning 30 historical records
+[2026-04-19T05:49:52.609777] [manual_1677720] [BACKEND] [BACKEND_START] get_stats called
+[2026-04-19T05:49:52.634738] [manual_1677720] [BACKEND] [BACKEND_SUCCESS] Stats generated: {'avg_consumption': 12.11, 'peak_consumption': 18.16, 'temp_correlation': -0.9018, 'total_records': 730}
+[2026-04-19T05:49:52.938608] SUCCESS: Function get_historical_data completed. args={"limit": 30}
+[2026-04-19T05:49:53.035212] SUCCESS: Function get_stats completed.
+[2026-04-19T10:42:00.792914] [manual_1695251] [BACKEND] [BACKEND_START] get_stats called
+[2026-04-19T10:42:00.815900] [manual_1695251] [BACKEND] [BACKEND_SUCCESS] Stats generated: {'avg_consumption': 12.11, 'peak_consumption': 18.16, 'temp_correlation': -0.9018, 'total_records': 730}
+[2026-04-19T10:42:01.023359] [manual_1695251] [BACKEND] [BACKEND_START] get_historical_data called with limit=30
+[2026-04-19T10:42:01.095263] [manual_1695251] [BACKEND] [BACKEND_SUCCESS] Returning 30 historical records
+[2026-04-19T10:42:01.234593] SUCCESS: Function get_stats completed.
+[2026-04-19T10:42:01.398991] SUCCESS: Function get_historical_data completed. args={"limit": 30}
+[2026-04-19T10:52:01.002457] [manual_1695853] [BACKEND] [BACKEND_START] get_historical_data called with limit=30
+[2026-04-19T10:52:01.042308] [manual_1695853] [BACKEND] [BACKEND_SUCCESS] Returning 30 historical records
+[2026-04-19T10:52:01.092993] [manual_1695853] [BACKEND] [BACKEND_START] get_stats called
+[2026-04-19T10:52:01.111307] [manual_1695853] [BACKEND] [BACKEND_SUCCESS] Stats generated: {'avg_consumption': 12.11, 'peak_consumption': 18.16, 'temp_correlation': -0.9018, 'total_records': 730}
+[2026-04-19T10:52:01.495269] SUCCESS: Function get_historical_data completed. args={"limit": 30}
+[2026-04-19T10:52:08.714757] [manual_1695861] [BACKEND] [BACKEND_START] get_stats called
+[2026-04-19T10:52:08.737674] [manual_1695861] [BACKEND] [BACKEND_SUCCESS] Stats generated: {'avg_consumption': 12.11, 'peak_consumption': 18.16, 'temp_correlation': -0.9018, 'total_records': 730}
+[2026-04-19T10:52:09.291385] [manual_1695861] [BACKEND] [BACKEND_START] get_historical_data called with limit=30
+[2026-04-19T10:52:09.328342] [manual_1695861] [BACKEND] [BACKEND_SUCCESS] Returning 30 historical records
+[2026-04-19T10:52:10.672979] SUCCESS: Function get_stats completed.
+[2026-04-19T11:01:19.612951] [run_1776255489_g114] [BACKEND] [BACKEND_START] get_stats called
+[2026-04-19T11:01:19.613232] [run_1776255489_g114] [BACKEND] [BACKEND_START] get_historical_data called with limit=30
+[2026-04-19T11:01:19.629310] [run_1776255489_g114] [BACKEND] [BACKEND_SUCCESS] Stats generated: {'avg_consumption': 12.11, 'peak_consumption': 18.16, 'temp_correlation': -0.9018, 'total_records': 730}
+[2026-04-19T11:01:19.638189] [run_1776255489_g114] [BACKEND] [BACKEND_SUCCESS] Returning 30 historical records
+[2026-04-19T11:01:19.936262] SUCCESS: Function get_stats completed.
+[2026-04-19T11:24:20.501854] [manual_1697789] [BACKEND] [BACKEND_START] get_historical_data called with limit=30
+[2026-04-19T11:24:20.523822] [manual_1697789] [BACKEND] [BACKEND_SUCCESS] Returning 30 historical records
+[2026-04-19T11:24:20.524230] [manual_1697789] [BACKEND] [BACKEND_START] get_stats called
+[2026-04-19T11:24:20.589630] [manual_1697789] [BACKEND] [BACKEND_SUCCESS] Stats generated: {'avg_consumption': 12.11, 'peak_consumption': 18.16, 'temp_correlation': -0.9018, 'total_records': 730}
+[2026-04-19T11:24:20.910863] SUCCESS: Function get_historical_data completed. args={"limit": 30}
+[2026-04-19T11:25:35.913328] [manual_1697789] [BACKEND] [BACKEND_START] get_historical_data called with limit=100
+[2026-04-19T11:25:35.941225] [manual_1697789] [BACKEND] [BACKEND_SUCCESS] Returning 100 historical records
+[2026-04-19T11:25:36.242162] SUCCESS: Function get_historical_data completed. args={"limit": 100}
+[2026-04-19T11:26:13.293482] [manual_1697789] [BACKEND] [BACKEND_START] get_historical_data called with limit=30
+[2026-04-19T11:26:13.319202] [manual_1697789] [BACKEND] [BACKEND_SUCCESS] Returning 30 historical records
+[2026-04-19T11:26:13.419045] [manual_1697789] [BACKEND] [BACKEND_START] get_stats called
+[2026-04-19T11:26:13.432922] [manual_1697789] [BACKEND] [BACKEND_SUCCESS] Stats generated: {'avg_consumption': 12.11, 'peak_consumption': 18.16, 'temp_correlation': -0.9018, 'total_records': 730}
+[2026-04-19T11:26:13.728620] SUCCESS: Function get_historical_data completed. args={"limit": 30}
+[2026-04-19T11:26:17.366673] [manual_1697789] [BACKEND] [BACKEND_START] get_historical_data called with limit=100
+[2026-04-19T11:26:17.393117] [manual_1697789] [BACKEND] [BACKEND_SUCCESS] Returning 100 historical records
+[2026-04-19T11:26:17.707579] SUCCESS: Function get_historical_data completed. args={"limit": 100}
+[2026-04-19T11:26:33.825811] [manual_1697789] [BACKEND] [BACKEND_START] add_manual_reading called for 2026-04-19
+[2026-04-19T11:26:33.836873] [manual_1697789] [BACKEND] [BACKEND_SUCCESS] Manual reading added with ID 2
+[2026-04-19T11:26:34.129526] SUCCESS: Function add_manual_reading completed. args={"date": "2026-04-19", "energy_sum": 100, "temperature_max": 38}
+[2026-04-19T11:26:36.404623] [manual_1697789] [BACKEND] [BACKEND_START] add_manual_reading called for 2026-04-19
+[2026-04-19T11:26:36.414741] [manual_1697789] [BACKEND] [BACKEND_SUCCESS] Manual reading added with ID 3
+[2026-04-19T11:26:37.020184] [manual_1697789] [BACKEND] [BACKEND_START] get_historical_data called with limit=100
+[2026-04-19T11:26:36.733674] SUCCESS: Function add_manual_reading completed. args={"date": "2026-04-19", "energy_sum": 100, "temperature_max": 38}
+[2026-04-19T11:26:37.289544] SUCCESS: Function get_historical_data completed. args={"limit": 100}
+[2026-04-19T11:26:38.472581] [manual_1697789] [BACKEND] [BACKEND_START] get_historical_data called with limit=100
+[2026-04-19T11:26:38.496821] [manual_1697789] [BACKEND] [BACKEND_SUCCESS] Returning 100 historical records
+[2026-04-19T11:26:38.795973] SUCCESS: Function get_historical_data completed. args={"limit": 100}
+[2026-04-19T11:27:19.438302] [manual_1697789] [BACKEND] [BACKEND_START] predict_energy called for 2026-04-19
+[2026-04-19T11:27:21.411155] [manual_1697789] [BACKEND] ERROR: /usr/local/lib/python3.13/site-packages/sklearn/utils/validation.py:2691: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+[2026-04-19T11:27:21.411262] [manual_1697789] [BACKEND] ERROR:   warnings.warn(
+[2026-04-19T11:27:21.414361] [manual_1697789] [BACKEND] [BACKEND_SUCCESS] Prediction complete: 8.02 kWh
+[2026-04-19T11:27:21.807050] SUCCESS: Function predict_energy completed. args={"year": 2026, "month": 4, "day": 19}
+[2026-04-19T11:27:30.728726] [manual_1697789] [BACKEND] [BACKEND_START] get_stats called
+[2026-04-19T11:27:30.794765] [manual_1697789] [BACKEND] [BACKEND_SUCCESS] Stats generated: {'avg_consumption': 12.11, 'peak_consumption': 18.16, 'temp_correlation': -0.9018, 'total_records': 732}
+[2026-04-19T11:27:30.820145] [manual_1697789] [BACKEND] [BACKEND_START] get_historical_data called with limit=30
+[2026-04-19T11:27:30.888746] [manual_1697789] [BACKEND] [BACKEND_SUCCESS] Returning 30 historical records
+[2026-04-19T11:27:31.136819] SUCCESS: Function get_stats completed.
+[2026-04-19T11:27:31.243255] SUCCESS: Function get_historical_data completed. args={"limit": 30}
+[2026-04-19T11:27:37.231866] [manual_1697789] [BACKEND] [BACKEND_START] get_historical_data called with limit=100
+[2026-04-19T11:27:37.253116] [manual_1697789] [BACKEND] [BACKEND_SUCCESS] Returning 100 historical records
+[2026-04-19T11:27:37.590343] SUCCESS: Function get_historical_data completed. args={"limit": 100}
+[2026-04-19T11:27:48.002712] [manual_1697789] [BACKEND] [BACKEND_START] add_manual_reading called for 2026-04-19
+[2026-04-19T11:27:48.010583] [manual_1697789] [BACKEND] [BACKEND_SUCCESS] Manual reading added with ID 4
+[2026-04-19T11:27:48.216874] SUCCESS: Function add_manual_reading completed. args={"date": "2026-04-19", "energy_sum": 24, "temperature_max": 20}
+[2026-04-19T11:27:50.424357] [manual_1697789] [BACKEND] [BACKEND_START] add_manual_reading called for 2026-04-19
+[2026-04-19T11:27:50.431565] [manual_1697789] [BACKEND] [BACKEND_SUCCESS] Manual reading added with ID 5
+[2026-04-19T11:27:50.912018] [manual_1697789] [BACKEND] [BACKEND_START] get_historical_data called with limit=100
+[2026-04-19T11:27:50.937332] [manual_1697789] [BACKEND] [BACKEND_SUCCESS] Returning 100 historical records
+[2026-04-19T11:27:50.813702] SUCCESS: Function add_manual_reading completed. args={"date": "2026-04-19", "energy_sum": 24, "temperature_max": 20}
+[2026-04-19T11:27:51.289572] SUCCESS: Function get_historical_data completed. args={"limit": 100}
+[2026-04-19T11:27:52.591199] [manual_1697789] [BACKEND] [BACKEND_START] get_historical_data called with limit=100
+[2026-04-19T11:27:52.612791] [manual_1697789] [BACKEND] [BACKEND_SUCCESS] Returning 100 historical records
+[2026-04-19T11:27:52.917023] SUCCESS: Function get_historical_data completed. args={"limit": 100}
+[2026-04-19T11:28:09.411358] [manual_1697789] [BACKEND] [BACKEND_START] get_historical_data called with limit=30
+[2026-04-19T11:28:09.430441] [manual_1697789] [BACKEND] [BACKEND_SUCCESS] Returning 30 historical records
+[2026-04-19T11:28:09.494555] [manual_1697789] [BACKEND] [BACKEND_START] get_stats called
+[2026-04-19T11:28:09.508130] [manual_1697789] [BACKEND] [BACKEND_SUCCESS] Stats generated: {'avg_consumption': 12.11, 'peak_consumption': 18.16, 'temp_correlation': -0.9018, 'total_records': 734}
+[2026-04-19T11:28:09.808299] SUCCESS: Function get_historical_data completed. args={"limit": 30}
+[2026-04-19T11:32:52.002312] [manual_1698306] [BACKEND] [BACKEND_START] get_historical_data called with limit=30
+[2026-04-19T11:32:52.022661] [manual_1698306] [BACKEND] [BACKEND_SUCCESS] Returning 30 historical records
+[2026-04-19T11:32:52.028499] [manual_1698306] [BACKEND] [BACKEND_START] get_stats called
+[2026-04-19T11:32:52.092359] [manual_1698306] [BACKEND] [BACKEND_SUCCESS] Stats generated: {'avg_consumption': 12.11, 'peak_consumption': 18.16, 'temp_correlation': -0.9018, 'total_records': 734}
+[2026-04-19T11:32:52.414828] SUCCESS: Function get_stats completed.
+[2026-04-19T11:33:09.590024] [manual_1698323] [BACKEND] [BACKEND_START] get_stats called
+[2026-04-19T11:33:09.603290] [manual_1698323] [BACKEND] [BACKEND_SUCCESS] Stats generated: {'avg_consumption': 12.11, 'peak_consumption': 18.16, 'temp_correlation': -0.9018, 'total_records': 734}
+[2026-04-19T11:33:10.003606] [manual_1698323] [BACKEND] [BACKEND_START] get_historical_data called with limit=30
+[2026-04-19T11:33:10.027038] [manual_1698323] [BACKEND] [BACKEND_SUCCESS] Returning 30 historical records
+[2026-04-19T11:33:09.926214] SUCCESS: Function get_stats completed.
+[2026-04-19T11:33:10.327453] SUCCESS: Function get_historical_data completed. args={"limit": 30}
+[2026-04-19T11:40:59.218152] [manual_1698788] [BACKEND] [BACKEND_START] get_stats called
+[2026-04-19T11:40:59.227715] [manual_1698788] [BACKEND] [BACKEND_START] get_historical_data called with limit=30
+[2026-04-19T11:40:59.244866] [manual_1698788] [BACKEND] [BACKEND_SUCCESS] Stats generated: {'avg_consumption': 12.11, 'peak_consumption': 18.16, 'temp_correlation': -0.9018, 'total_records': 734}
+[2026-04-19T11:40:59.257888] [manual_1698788] [BACKEND] [BACKEND_SUCCESS] Returning 30 historical records
+[2026-04-19T11:40:59.639483] SUCCESS: Function get_historical_data completed. args={"limit": 30}
+[2026-04-19T11:41:16.332003] [manual_1698788] [BACKEND] [BACKEND_START] get_stats called
+[2026-04-19T11:41:16.397001] [manual_1698788] [BACKEND] [BACKEND_SUCCESS] Stats generated: {'avg_consumption': 12.11, 'peak_consumption': 18.16, 'temp_correlation': -0.9018, 'total_records': 734}
+[2026-04-19T11:41:16.404108] [manual_1698788] [BACKEND] [BACKEND_START] get_historical_data called with limit=30
+[2026-04-19T11:41:16.427816] [manual_1698788] [BACKEND] [BACKEND_SUCCESS] Returning 30 historical records
+[2026-04-19T11:41:16.818961] SUCCESS: Function get_stats completed.
+[2026-04-19T11:41:23.231613] [manual_1698788] [BACKEND] [BACKEND_START] predict_energy called for 2026-04-19
+[2026-04-19T11:41:25.203420] [manual_1698788] [BACKEND] ERROR: /usr/local/lib/python3.13/site-packages/sklearn/utils/validation.py:2691: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+[2026-04-19T11:41:25.203546] [manual_1698788] [BACKEND] ERROR:   warnings.warn(
+[2026-04-19T11:41:25.206960] [manual_1698788] [BACKEND] [BACKEND_SUCCESS] Prediction complete: 8.02 kWh
+[2026-04-19T11:41:25.634267] SUCCESS: Function predict_energy completed. args={"year": 2026, "month": 4, "day": 19}
+[2026-04-19T11:42:16.023570] [manual_1698868] [BACKEND] [BACKEND_START] get_historical_data called with limit=30
+[2026-04-19T11:42:16.100650] [manual_1698868] [BACKEND] [BACKEND_SUCCESS] Returning 30 historical records
+[2026-04-19T11:42:16.387193] [manual_1698868] [BACKEND] [BACKEND_START] get_stats called
+[2026-04-19T11:42:16.403910] [manual_1698868] [BACKEND] [BACKEND_SUCCESS] Stats generated: {'avg_consumption': 12.11, 'peak_consumption': 18.16, 'temp_correlation': -0.9018, 'total_records': 734}
+[2026-04-19T11:42:16.510634] SUCCESS: Function get_historical_data completed. args={"limit": 30}
+[2026-04-19T11:42:16.633274] SUCCESS: Function get_stats completed.
+[2026-04-19T11:42:27.109413] [manual_1698868] [BACKEND] [BACKEND_START] predict_energy called for 2026-04-19
+[2026-04-19T11:42:29.223179] [manual_1698868] [BACKEND] ERROR: /usr/local/lib/python3.13/site-packages/sklearn/utils/validation.py:2691: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+[2026-04-19T11:42:29.223299] [manual_1698868] [BACKEND] ERROR:   warnings.warn(
+[2026-04-19T11:42:29.226893] [manual_1698868] [BACKEND] [BACKEND_SUCCESS] Prediction complete: 8.02 kWh
+[2026-04-19T11:42:29.642933] SUCCESS: Function predict_energy completed. args={"year": 2026, "month": 4, "day": 19}
+[2026-04-19T11:42:35.999053] [manual_1698788] [BACKEND] [BACKEND_START] get_historical_data called with limit=30
+[2026-04-19T11:42:36.087948] [manual_1698788] [BACKEND] [BACKEND_SUCCESS] Returning 30 historical records
+[2026-04-19T11:42:36.386530] [manual_1698788] [BACKEND] [BACKEND_START] get_stats called
+[2026-04-19T11:42:36.404294] [manual_1698788] [BACKEND] [BACKEND_SUCCESS] Stats generated: {'avg_consumption': 12.11, 'peak_consumption': 18.16, 'temp_correlation': -0.9018, 'total_records': 734}
+[2026-04-19T11:42:36.416352] [manual_1698868] [BACKEND] [BACKEND_START] get_historical_data called with limit=100
+[2026-04-19T11:42:36.506696] [manual_1698868] [BACKEND] [BACKEND_SUCCESS] Returning 100 historical records
+[2026-04-19T11:42:36.598535] SUCCESS: Function get_historical_data completed. args={"limit": 30}
+[2026-04-19T11:42:36.933128] SUCCESS: Function get_historical_data completed. args={"limit": 100}
+[2026-04-19T11:42:42.831971] [manual_1698788] [BACKEND] [BACKEND_START] get_historical_data called with limit=100
+[2026-04-19T11:42:42.851941] [manual_1698788] [BACKEND] [BACKEND_SUCCESS] Returning 100 historical records
+[2026-04-19T11:42:43.120147] SUCCESS: Function get_historical_data completed. args={"limit": 100}
+[2026-04-19T11:42:58.529897] [manual_1698788] [BACKEND] [BACKEND_START] get_historical_data called with limit=30
+[2026-04-19T11:42:58.531629] [manual_1698788] [BACKEND] [BACKEND_START] get_stats called
+[2026-04-19T11:42:58.590725] [manual_1698788] [BACKEND] [BACKEND_SUCCESS] Stats generated: {'avg_consumption': 12.11, 'peak_consumption': 18.16, 'temp_correlation': -0.9018, 'total_records': 734}
+[2026-04-19T11:42:58.603199] [manual_1698788] [BACKEND] [BACKEND_SUCCESS] Returning 30 historical records
+[2026-04-19T11:42:58.919697] SUCCESS: Function get_historical_data completed. args={"limit": 30}
+[2026-04-19T11:43:36.461077] [manual_1698788] [BACKEND] [BACKEND_START] get_historical_data called with limit=100
+[2026-04-19T11:43:36.491760] [manual_1698788] [BACKEND] [BACKEND_SUCCESS] Returning 100 historical records
+[2026-04-19T11:43:36.727871] SUCCESS: Function get_historical_data completed. args={"limit": 100}
+[2026-04-19T11:43:53.803563] [manual_1698788] [BACKEND] [BACKEND_START] add_manual_reading called for 2026-04-19
+[2026-04-19T11:43:53.813636] [manual_1698788] [BACKEND] [BACKEND_SUCCESS] Manual reading added with ID 6
+[2026-04-19T11:43:54.401007] SUCCESS: Function add_manual_reading completed. args={"date": "2026-04-19", "energy_sum": 12.5, "temperature_max": 18.2}
+[2026-04-19T11:43:55.375147] [manual_1698788] [BACKEND] [BACKEND_START] add_manual_reading called for 2026-04-19
+[2026-04-19T11:43:55.382683] [manual_1698788] [BACKEND] [BACKEND_SUCCESS] Manual reading added with ID 7
+[2026-04-19T11:43:55.586053] SUCCESS: Function add_manual_reading completed. args={"date": "2026-04-19", "energy_sum": 12.5, "temperature_max": 18.2}
+[2026-04-19T11:43:56.791314] [manual_1698788] [BACKEND] [BACKEND_START] get_historical_data called with limit=100
+[2026-04-19T11:43:56.819819] [manual_1698788] [BACKEND] [BACKEND_SUCCESS] Returning 100 historical records
+[2026-04-19T11:43:57.301051] SUCCESS: Function get_historical_data completed. args={"limit": 100}
+[2026-04-19T11:43:58.321603] [manual_1698788] [BACKEND] [BACKEND_START] get_historical_data called with limit=100
+[2026-04-19T11:43:58.344453] [manual_1698788] [BACKEND] [BACKEND_SUCCESS] Returning 100 historical records
+[2026-04-19T11:43:58.626206] SUCCESS: Function get_historical_data completed. args={"limit": 100}
+[2026-04-19T11:44:22.299905] [run_1776255489_g114] [BACKEND] [BACKEND_START] get_stats called
+[2026-04-19T11:44:22.316729] [run_1776255489_g114] [BACKEND] [BACKEND_START] get_historical_data called with limit=30
+[2026-04-19T11:44:22.323140] [run_1776255489_g114] [BACKEND] [BACKEND_SUCCESS] Stats generated: {'avg_consumption': 12.11, 'peak_consumption': 18.16, 'temp_correlation': -0.9018, 'total_records': 736}
+[2026-04-19T11:44:22.339773] [run_1776255489_g114] [BACKEND] [BACKEND_SUCCESS] Returning 30 historical records
+[2026-04-19T11:44:22.739672] SUCCESS: Function get_stats completed.
+[2026-04-19T11:45:47.389899] [run_1776599143_iwg3] [BACKEND] [BACKEND_START] get_stats called
+[2026-04-19T11:45:47.394076] [run_1776599143_iwg3] [BACKEND] [BACKEND_START] get_historical_data called with limit=30
+[2026-04-19T11:45:47.425689] [run_1776599143_iwg3] [BACKEND] [BACKEND_SUCCESS] Stats generated: {'avg_consumption': 12.11, 'peak_consumption': 18.16, 'temp_correlation': -0.9018, 'total_records': 736}
+[2026-04-19T11:45:47.437113] [run_1776599143_iwg3] [BACKEND] [BACKEND_SUCCESS] Returning 30 historical records (including 6 manual)
+[2026-04-19T11:45:47.832287] SUCCESS: Function get_stats completed.
+[2026-04-19T11:46:18.501676] [manual_1698868] [BACKEND] [BACKEND_START] get_historical_data called with limit=30
+[2026-04-19T11:46:18.529660] [manual_1698868] [BACKEND] [BACKEND_SUCCESS] Returning 30 historical records (including 6 manual)
+[2026-04-19T11:46:18.900668] [manual_1698868] [BACKEND] [BACKEND_START] get_stats called
+[2026-04-19T11:46:18.924295] [manual_1698868] [BACKEND] [BACKEND_SUCCESS] Stats generated: {'avg_consumption': 12.11, 'peak_consumption': 18.16, 'temp_correlation': -0.9018, 'total_records': 736}
+[2026-04-19T11:46:18.939094] SUCCESS: Function get_historical_data completed. args={"limit": 30}
+[2026-04-19T11:46:19.239989] SUCCESS: Function get_stats completed.
+[2026-04-19T11:46:29.513320] [manual_1699123] [BACKEND] [BACKEND_START] get_historical_data called with limit=30
+[2026-04-19T11:46:29.540156] [manual_1699123] [BACKEND] [BACKEND_SUCCESS] Returning 30 historical records (including 6 manual)
+[2026-04-19T11:46:29.832302] [manual_1699123] [BACKEND] [BACKEND_START] get_stats called
+[2026-04-19T11:46:29.899005] [manual_1699123] [BACKEND] [BACKEND_SUCCESS] Stats generated: {'avg_consumption': 12.11, 'peak_consumption': 18.16, 'temp_correlation': -0.9018, 'total_records': 736}
+[2026-04-19T11:46:30.029580] SUCCESS: Function get_historical_data completed. args={"limit": 30}
+[2026-04-19T11:46:30.245911] SUCCESS: Function get_stats completed.
+[2026-04-19T11:46:31.565887] [manual_1699123] [BACKEND] [BACKEND_START] get_historical_data called with limit=100
+[2026-04-19T11:46:31.593692] [manual_1699123] [BACKEND] [BACKEND_SUCCESS] Returning 100 historical records (including 6 manual)
+[2026-04-19T11:46:31.814123] SUCCESS: Function get_historical_data completed. args={"limit": 100}
+[2026-04-19T11:46:41.210618] [manual_1699123] [BACKEND] [BACKEND_START] add_manual_reading called for 2026-04-19
+[2026-04-19T11:46:41.219232] [manual_1699123] [BACKEND] [BACKEND_SUCCESS] Manual reading added with ID 8
+[2026-04-19T11:46:41.489873] [manual_1699123] [BACKEND] [BACKEND_START] get_historical_data called with limit=100
+[2026-04-19T11:46:41.511482] [manual_1699123] [BACKEND] [BACKEND_SUCCESS] Returning 100 historical records (including 7 manual)
+[2026-04-19T11:46:41.636625] SUCCESS: Function add_manual_reading completed. args={"date": "2026-04-19", "energy_sum": 12.5, "temperature_max": 18.2}
+[2026-04-19T11:46:41.829225] SUCCESS: Function get_historical_data completed. args={"limit": 100}
+[2026-04-19T11:48:16.497253] [manual_1699230] [BACKEND] [BACKEND_START] get_stats called
+[2026-04-19T11:48:16.518386] [manual_1699230] [BACKEND] [BACKEND_SUCCESS] Stats generated: {'avg_consumption': 12.11, 'peak_consumption': 18.16, 'temp_correlation': -0.9018, 'total_records': 730}
+[2026-04-19T11:48:16.594863] [manual_1699230] [BACKEND] [BACKEND_START] get_historical_data called with limit=30
+[2026-04-19T11:48:16.618872] [manual_1699230] [BACKEND] [BACKEND_SUCCESS] Returning 30 historical records (including 0 manual)
+[2026-04-19T11:48:16.930646] SUCCESS: Function get_stats completed.
+[2026-04-19T11:48:17.100910] SUCCESS: Function get_historical_data completed. args={"limit": 30}
+[2026-04-19T11:48:18.313394] [manual_1699230] [BACKEND] [BACKEND_START] get_historical_data called with limit=100
+[2026-04-19T11:48:18.335978] [manual_1699230] [BACKEND] [BACKEND_SUCCESS] Returning 100 historical records (including 0 manual)
+[2026-04-19T11:48:18.560967] SUCCESS: Function get_historical_data completed. args={"limit": 100}
+[2026-04-19T11:48:28.106126] [manual_1699230] [BACKEND] [BACKEND_START] add_manual_reading called for 2026-04-19
+[2026-04-19T11:48:28.114234] [manual_1699230] [BACKEND] [BACKEND_START] get_historical_data called with limit=100
+[2026-04-19T11:48:28.114346] [manual_1699230] [BACKEND] [BACKEND_SUCCESS] Manual reading added with ID 1
+[2026-04-19T11:48:28.189862] [manual_1699230] [BACKEND] [BACKEND_SUCCESS] Returning 100 historical records (including 1 manual)
+[2026-04-19T11:48:28.531814] SUCCESS: Function add_manual_reading completed. args={"date": "2026-04-19", "energy_sum": 12.5, "temperature_max": 18.2}
+[2026-04-19T11:48:28.597331] SUCCESS: Function get_historical_data completed. args={"limit": 100}
+[2026-04-19T11:49:06.218466] [manual_1698868] [BACKEND] [BACKEND_START] get_historical_data called with limit=100
+[2026-04-19T11:49:06.239330] [manual_1698868] [BACKEND] [BACKEND_SUCCESS] Returning 100 historical records (including 1 manual)
+[2026-04-19T11:49:06.455638] SUCCESS: Function get_historical_data completed. args={"limit": 100}
+[2026-04-19T11:49:13.605970] [manual_1699285] [BACKEND] [BACKEND_START] get_stats called
+[2026-04-19T11:49:13.624765] [manual_1699285] [BACKEND] [BACKEND_SUCCESS] Stats generated: {'avg_consumption': 12.11, 'peak_consumption': 18.16, 'temp_correlation': -0.9018, 'total_records': 731}
+[2026-04-19T11:49:13.713082] [manual_1699285] [BACKEND] [BACKEND_START] get_historical_data called with limit=30
+[2026-04-19T11:49:13.735236] [manual_1699285] [BACKEND] [BACKEND_SUCCESS] Returning 30 historical records (including 1 manual)
+[2026-04-19T11:49:14.019775] SUCCESS: Function get_stats completed.
+[2026-04-19T11:49:15.506189] [manual_1699285] [BACKEND] [BACKEND_START] get_historical_data called with limit=100
+[2026-04-19T11:49:15.533809] [manual_1699285] [BACKEND] [BACKEND_SUCCESS] Returning 100 historical records (including 1 manual)
+[2026-04-19T11:49:15.805740] SUCCESS: Function get_historical_data completed. args={"limit": 100}
+[2026-04-19T11:49:27.018660] [manual_1699285] [BACKEND] [BACKEND_START] add_manual_reading called for 2026-04-19
+[2026-04-19T11:49:27.027252] [manual_1699285] [BACKEND] [BACKEND_SUCCESS] Manual reading added with ID 2
+[2026-04-19T11:49:27.269419] SUCCESS: Function add_manual_reading completed. args={"date": "2026-04-19", "energy_sum": 200, "temperature_max": 38}
+[2026-04-19T11:49:29.828612] [manual_1699285] [BACKEND] [BACKEND_START] add_manual_reading called for 2026-04-19
+[2026-04-19T11:49:29.890543] [manual_1699285] [BACKEND] [BACKEND_SUCCESS] Manual reading added with ID 3
+[2026-04-19T11:49:30.214081] [manual_1699285] [BACKEND] [BACKEND_START] get_historical_data called with limit=100
+[2026-04-19T11:49:30.286756] [manual_1699285] [BACKEND] [BACKEND_SUCCESS] Returning 100 historical records (including 3 manual)
+[2026-04-19T11:49:30.235312] SUCCESS: Function add_manual_reading completed. args={"date": "2026-04-19", "energy_sum": 200, "temperature_max": 38}
+[2026-04-19T11:49:30.614731] SUCCESS: Function get_historical_data completed. args={"limit": 100}
+[2026-04-19T11:49:32.094222] [manual_1699285] [BACKEND] [BACKEND_START] get_historical_data called with limit=100
+[2026-04-19T11:49:32.117079] [manual_1699285] [BACKEND] [BACKEND_SUCCESS] Returning 100 historical records (including 3 manual)
+[2026-04-19T11:49:32.436002] SUCCESS: Function get_historical_data completed. args={"limit": 100}
+[2026-04-19T11:50:54.811989] [run_1776599449_2rjw] [BACKEND] [BACKEND_START] get_stats called
+[2026-04-19T11:50:54.831703] [run_1776599449_2rjw] [BACKEND] [BACKEND_SUCCESS] Stats generated: {'avg_consumption': 12.11, 'peak_consumption': 18.16, 'temp_correlation': -0.9018, 'total_records': 733}
+[2026-04-19T11:50:54.904730] [run_1776599449_2rjw] [BACKEND] [BACKEND_START] get_historical_data called with limit=30
+[2026-04-19T11:50:54.930695] [run_1776599449_2rjw] [BACKEND] [BACKEND_SUCCESS] Returning 30 historical records (including 3 manual)
+[2026-04-19T11:50:55.228034] SUCCESS: Function get_stats completed.
+[2026-04-19T11:50:55.310336] SUCCESS: Function get_historical_data completed. args={"limit": 30}
+[2026-04-19T11:51:30.099044] [manual_1699422] [BACKEND] [BACKEND_START] get_historical_data called with limit=30
+[2026-04-19T11:51:30.194155] [manual_1699422] [BACKEND] [BACKEND_SUCCESS] Returning 30 historical records (including 3 manual)
+[2026-04-19T11:51:30.288152] [manual_1699422] [BACKEND] [BACKEND_START] get_stats called
+[2026-04-19T11:51:30.308383] [manual_1699422] [BACKEND] [BACKEND_SUCCESS] Stats generated: {'avg_consumption': 12.11, 'peak_consumption': 18.16, 'temp_correlation': -0.9018, 'total_records': 733}
+[2026-04-19T11:51:31.197403] SUCCESS: Function get_historical_data completed. args={"limit": 30}
+[2026-04-19T11:51:31.225202] SUCCESS: Function get_stats completed.
+[2026-04-19T11:51:32.024982] [manual_1699422] [BACKEND] [BACKEND_START] get_historical_data called with limit=100
+[2026-04-19T11:51:32.048739] [manual_1699422] [BACKEND] [BACKEND_SUCCESS] Returning 100 historical records (including 3 manual)
+[2026-04-19T11:51:32.265592] SUCCESS: Function get_historical_data completed. args={"limit": 100}
